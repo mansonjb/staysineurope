@@ -1061,7 +1061,7 @@ const hotelsIt: Hotel[] = [
     style: "Grande dame della Rive Gauche",
     bestFor: "Soggiorno iconico",
     blurb:
-      "L'unico hotel palace della Rive Gauche, un monumento del 1910 restaurato su Boulevard Raspail con un celebre bar e una brasserie. Sei nel cuore di Saint-Germain, a piedi dal Museo d'Orsay e dal Quartiere Latino.",
+      "L'unico hotel palace della Rive Gauche su Boulevard Raspail, riaperto nel 2018 dopo un restauro di quattro anni dell'edificio originale del 1910. Il suo storico bar e la brasserie si trovano nel cuore di Saint-Germain, a due passi dal Museo d'Orsay e dal Quartiere Latino.",
     image: px(262048),
     imageAlt: "Suite d'albergo maestosa ed elegante con lampadario e letto grande",
   },
@@ -1075,7 +1075,7 @@ const hotelsIt: Hotel[] = [
     style: "Rooftop nel Marais",
     bestFor: "Amanti del design",
     blurb:
-      "Un caldo hotel di design italiano ai margini del Marais con un rooftop bar sopra la città. Sei a due passi dal Pompidou e dai bar del Marais, sulla metro tra le attrazioni della Rive Droite.",
+      "Un team di designer italiani ha arredato questo hotel ai margini settentrionali del Marais, e il rooftop bar guarda sui tetti verso il Sacre-Coeur. Il Centre Pompidou e i bar del quartiere sono a due passi, con una fermata della metro vicina per il resto della Rive Droite.",
     image: px(1267438),
     imageAlt: "Camera d'albergo minimalista dai toni scuri con luci soffuse",
   },
@@ -1089,7 +1089,7 @@ const hotelsIt: Hotel[] = [
     style: "Classico del Quartiere Latino",
     bestFor: "Prima visita",
     blurb:
-      "Un piccolo hotel classico di fronte al Pantheon nel Quartiere Latino, a breve distanza a piedi dai Giardini del Lussemburgo e da Notre-Dame. Alcune camere hanno balconi affacciati dritti sulla cupola.",
+      "Le camere di questo piccolo hotel nel Quartiere Latino guardano dritte sulla cupola del Pantheon, e alcune hanno un proprio balcone per godersi la vista. Notre-Dame e i Giardini del Lussemburgo sono entrambi a meno di quindici minuti a piedi.",
     image: px(279746),
     imageAlt: "Camera d'albergo tradizionale con mobili in legno",
   },
@@ -1103,7 +1103,7 @@ const hotelsIt: Hotel[] = [
     style: "Ostello di design",
     bestFor: "Budget",
     blurb:
-      "Un grande ostello di design sopra il Canale Saint-Martin con un rooftop bar e vista sulla città, con camere private oltre ai dormitori. È uno dei letti centrali dal miglior rapporto qualità-prezzo in una città cara, in metro per ogni dove.",
+      "Questo ostello di design si affaccia sul Canale Saint-Martin con un rooftop bar che cattura lo skyline della città, e unisce letti in dormitorio a camere private. Le tariffe partono ben al di sotto degli hotel della Rive Droite, con una fermata della metro vicina per il resto di Parigi.",
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },

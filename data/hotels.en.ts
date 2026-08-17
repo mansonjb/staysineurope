@@ -1061,7 +1061,7 @@ const hotelsEn: Hotel[] = [
     style: "Left Bank grande dame",
     bestFor: "Landmark stay",
     blurb:
-      "The only palace hotel on the Left Bank, a restored 1910 landmark on Boulevard Raspail with a famous bar and brasserie. You are in the heart of Saint-Germain, walkable to the Musee d'Orsay and the Latin Quarter.",
+      "Boulevard Raspail's only Left Bank palace hotel, reopened in 2018 after a four-year restoration of the original 1910 building. Its historic bar and brasserie sit inside Saint-Germain itself, an easy walk from the Musee d'Orsay and the Latin Quarter.",
     image: px(262048),
     imageAlt: "Grand elegant hotel suite with a chandelier and large bed",
   },
@@ -1075,7 +1075,7 @@ const hotelsEn: Hotel[] = [
     style: "Marais rooftop",
     bestFor: "Design lovers",
     blurb:
-      "A warm Italian-designed hotel on the edge of the Marais with a rooftop bar over the city. You are steps from the Pompidou and the Marais bars, on the metro between the Right Bank sights.",
+      "An Italian design team fitted out this hotel on the Marais' northern edge, and the rooftop bar looks out over the rooftops toward Sacre-Coeur. The Pompidou Centre and the quarter's bars are a short stroll away, with a metro stop close by for the rest of the Right Bank.",
     image: px(1267438),
     imageAlt: "Minimalist design hotel room in dark tones with low lighting",
   },
@@ -1089,7 +1089,7 @@ const hotelsEn: Hotel[] = [
     style: "Latin Quarter classic",
     bestFor: "First visit",
     blurb:
-      "A small classic hotel facing the Pantheon in the Latin Quarter, a short walk from the Luxembourg Gardens and Notre-Dame. Some rooms have balconies looking straight at the dome.",
+      "Rooms at this small Latin Quarter hotel look straight across at the Pantheon's dome, and a handful come with their own balcony for the view. Notre-Dame and the Luxembourg Gardens are both under fifteen minutes on foot.",
     image: px(279746),
     imageAlt: "Traditional hotel bedroom with wooden furniture",
   },
@@ -1103,7 +1103,7 @@ const hotelsEn: Hotel[] = [
     style: "Design hostel",
     bestFor: "Budget",
     blurb:
-      "A big design hostel above the Canal Saint-Martin with a rooftop bar and city views, with private rooms as well as dorms. It is one of the better-value central beds in an expensive city, on the metro to everything.",
+      "This design hostel sits above the Canal Saint-Martin with a rooftop bar that catches the city skyline, and it mixes dorm beds with private rooms. Rates start well below the Right Bank hotels, with a metro stop close by for the rest of Paris.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },

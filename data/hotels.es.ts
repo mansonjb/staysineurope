@@ -1061,7 +1061,7 @@ const hotelsEs: Hotel[] = [
     style: "Gran dama de la Orilla Izquierda",
     bestFor: "Estancia en un monumento",
     blurb:
-      "El único palace de la Orilla Izquierda, un monumento de 1910 restaurado en el Boulevard Raspail, con un bar y una brasserie famosos. Estás en el corazón de Saint-Germain, a pie del Museo de Orsay y del Barrio Latino.",
+      "El único hotel palace de la orilla izquierda en el Boulevard Raspail, reabierto en 2018 tras cuatro años de restauración del edificio original de 1910. Su histórico bar y su brasserie están en pleno Saint-Germain, a un cómodo paseo del Museo de Orsay y del Barrio Latino.",
     image: px(262048),
     imageAlt: "Suite de hotel grandiosa y elegante con una lámpara de araña y una cama grande",
   },
@@ -1075,7 +1075,7 @@ const hotelsEs: Hotel[] = [
     style: "Azotea en el Marais",
     bestFor: "Amantes del diseño",
     blurb:
-      "Un cálido hotel de diseño italiano en el borde del Marais, con un bar en la azotea sobre la ciudad. Estás a unos pasos del Pompidou y de los bares del Marais, en el metro entre los monumentos de la Orilla Derecha.",
+      "Un equipo de diseño italiano decoró este hotel en el borde norte del Marais, y el bar de la azotea mira por encima de los tejados hacia el Sacré-Cœur. El Centro Pompidou y los bares del barrio quedan a un corto paseo, con una parada de metro cerca para el resto de la orilla derecha.",
     image: px(1267438),
     imageAlt: "Habitación de hotel de diseño minimalista en tonos oscuros con iluminación tenue",
   },
@@ -1089,7 +1089,7 @@ const hotelsEs: Hotel[] = [
     style: "Clásico del Barrio Latino",
     bestFor: "Primera visita",
     blurb:
-      "Un pequeño hotel clásico frente al Panteón, en el Barrio Latino, a una corta caminata de los Jardines de Luxemburgo y de Notre-Dame. Algunas habitaciones tienen balcones que dan directamente a la cúpula.",
+      "Las habitaciones de este pequeño hotel del Barrio Latino miran directamente a la cúpula del Panteón, y unas cuantas tienen balcón propio para disfrutar de la vista. Notre-Dame y el Jardín de Luxemburgo quedan a menos de quince minutos a pie.",
     image: px(279746),
     imageAlt: "Habitación de hotel tradicional con mobiliario de madera",
   },
@@ -1103,7 +1103,7 @@ const hotelsEs: Hotel[] = [
     style: "Albergue de diseño",
     bestFor: "Presupuesto ajustado",
     blurb:
-      "Un gran albergue de diseño sobre el Canal Saint-Martin, con un bar en la azotea y vistas a la ciudad, con habitaciones privadas además de dormitorios compartidos. Es una de las camas céntricas con mejor relación calidad-precio de una ciudad cara, en el metro para llegar a todo.",
+      "Este albergue de diseño se alza sobre el Canal Saint-Martin con un bar en la azotea que capta el perfil de la ciudad, y combina camas de dormitorio compartido con habitaciones privadas. Los precios empiezan muy por debajo de los hoteles de la orilla derecha, con una parada de metro cerca para llegar al resto de París.",
     image: px(271624),
     imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
   },

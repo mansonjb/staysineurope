@@ -1061,7 +1061,7 @@ const hotelsDe: Hotel[] = [
     style: "Grande Dame des linken Ufers",
     bestFor: "Aufenthalt am Wahrzeichen",
     blurb:
-      "Das einzige Palasthotel am linken Ufer, ein restauriertes Wahrzeichen von 1910 am Boulevard Raspail mit einer berühmten Bar und Brasserie. Sie sind im Herzen von Saint-Germain, zu Fuß erreichbar zum Musee d'Orsay und zum Quartier Latin.",
+      "Das einzige Palasthotel des Boulevard Raspail am linken Ufer, 2018 nach vierjähriger Restaurierung des Originalbaus von 1910 wiedereröffnet. Seine historische Bar und Brasserie liegen mitten in Saint-Germain, ein bequemer Fußweg vom Musee d'Orsay und vom Quartier Latin entfernt.",
     image: px(262048),
     imageAlt: "Prächtige, elegante Hotelsuite mit Kronleuchter und großem Bett",
   },
@@ -1075,7 +1075,7 @@ const hotelsDe: Hotel[] = [
     style: "Marais-Dachterrasse",
     bestFor: "Designliebhaber",
     blurb:
-      "Ein warmes, italienisch gestaltetes Hotel am Rand des Marais mit einer Dachbar über der Stadt. Sie sind wenige Schritte vom Centre Pompidou und den Marais-Bars, an der Metro zwischen den Sehenswürdigkeiten des rechten Ufers.",
+      "Ein italienisches Designteam hat dieses Hotel am nördlichen Rand des Marais eingerichtet, und die Dachbar blickt über die Dächer bis zu Sacre-Coeur. Das Centre Pompidou und die Bars des Viertels liegen einen kurzen Spaziergang entfernt, mit einer Metrostation in der Nähe für den Rest des rechten Ufers.",
     image: px(1267438),
     imageAlt: "Minimalistisches Designhotelzimmer in dunklen Tönen mit gedämpftem Licht",
   },
@@ -1089,7 +1089,7 @@ const hotelsDe: Hotel[] = [
     style: "Klassiker im Quartier Latin",
     bestFor: "Erster Besuch",
     blurb:
-      "Ein kleines klassisches Hotel gegenüber dem Pantheon im Quartier Latin, ein kurzer Fußweg vom Jardin du Luxembourg und von Notre-Dame. Einige Zimmer haben Balkone mit direktem Blick auf die Kuppel.",
+      "Die Zimmer dieses kleinen Hotels im Quartier Latin blicken direkt auf die Kuppel des Pantheon, und einige verfügen über einen eigenen Balkon mit dieser Aussicht. Notre-Dame und der Jardin du Luxembourg sind beide in weniger als fünfzehn Gehminuten erreichbar.",
     image: px(279746),
     imageAlt: "Traditionelles Hotelschlafzimmer mit Holzmöbeln",
   },
@@ -1103,7 +1103,7 @@ const hotelsDe: Hotel[] = [
     style: "Design-Hostel",
     bestFor: "Budget",
     blurb:
-      "Ein großes Design-Hostel über dem Canal Saint-Martin mit einer Dachbar und Stadtblick, mit Privatzimmern ebenso wie Schlafsälen. Es ist eines der preiswerteren zentralen Betten in einer teuren Stadt, an der Metro zu allem.",
+      "Dieses Design-Hostel liegt über dem Canal Saint-Martin mit einer Dachbar, die die Skyline der Stadt einfängt, und verbindet Schlafsaalbetten mit Privatzimmern. Die Preise beginnen deutlich unter denen der Hotels am rechten Ufer, mit einer Metrostation in der Nähe für den Rest von Paris.",
     image: px(271624),
     imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
   },

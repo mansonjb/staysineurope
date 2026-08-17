@@ -117,7 +117,7 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
         <Script id="stay22-lma-config" strategy="afterInteractive">
           {`window.Stay22 = window.Stay22 || {};
 window.Stay22.params = Object.assign({}, window.Stay22.params, {
-  lmaID: '6a48d53e72afe45e1b3300b0',
+  lmaID: '6a8357a926a3329c29e2ca6a',
   ignoreElements: ['#faq', '#faq *', 'summary', 'details'],
 });`}
         </Script>

@@ -1061,7 +1061,7 @@ const hotelsFr: Hotel[] = [
     style: "Grande dame de la rive gauche",
     bestFor: "Séjour dans un monument",
     blurb:
-      "Le seul palace de la rive gauche, un monument de 1910 restauré sur le boulevard Raspail, avec un bar et une brasserie célèbres. Vous êtes au cœur de Saint-Germain, à pied du musée d'Orsay et du Quartier latin.",
+      "Le seul palace de la rive gauche sur le boulevard Raspail, rouvert en 2018 après quatre ans de restauration du bâtiment d'origine, construit en 1910. Son bar et sa brasserie historiques se trouvent au cœur même de Saint-Germain, à quelques pas du musée d'Orsay et du Quartier latin.",
     image: px(262048),
     imageAlt: "Suite d'hôtel grandiose et élégante avec un lustre et un grand lit",
   },
@@ -1075,7 +1075,7 @@ const hotelsFr: Hotel[] = [
     style: "Rooftop dans le Marais",
     bestFor: "Amateurs de design",
     blurb:
-      "Un hôtel chaleureux au design italien en lisière du Marais, avec un bar sur le toit dominant la ville. Vous êtes à deux pas du Pompidou et des bars du Marais, sur le métro entre les sites de la rive droite.",
+      "Une équipe de designers italiens a aménagé cet hôtel en lisière nord du Marais, et le bar sur le toit domine les toits parisiens jusqu'au Sacré-Cœur. Le Centre Pompidou et les bars du quartier sont à quelques minutes à pied, avec une station de métro à proximité pour le reste de la rive droite.",
     image: px(1267438),
     imageAlt: "Chambre d'hôtel design minimaliste aux tons sombres et à l'éclairage tamisé",
   },
@@ -1089,7 +1089,7 @@ const hotelsFr: Hotel[] = [
     style: "Classique du Quartier latin",
     bestFor: "Première visite",
     blurb:
-      "Un petit hôtel classique face au Panthéon, dans le Quartier latin, à courte distance à pied du jardin du Luxembourg et de Notre-Dame. Certaines chambres ont des balcons donnant droit sur le dôme.",
+      "Les chambres de ce petit hôtel du Quartier latin font face au dôme du Panthéon, et quelques-unes disposent de leur propre balcon pour profiter de la vue. Notre-Dame et le jardin du Luxembourg sont tous deux à moins de quinze minutes à pied.",
     image: px(279746),
     imageAlt: "Chambre d'hôtel traditionnelle avec du mobilier en bois",
   },
@@ -1103,7 +1103,7 @@ const hotelsFr: Hotel[] = [
     style: "Auberge design",
     bestFor: "Petit budget",
     blurb:
-      "Une grande auberge design au-dessus du canal Saint-Martin, avec un bar sur le toit et des vues sur la ville, proposant chambres privées comme dortoirs. C'est l'un des lits centraux au meilleur rapport qualité-prix d'une ville chère, sur le métro pour aller partout.",
+      "Cette auberge design surplombe le canal Saint-Martin avec un bar sur le toit qui capte la ligne d'horizon de la ville, et mélange lits en dortoir et chambres privées. Les tarifs démarrent bien en dessous des hôtels de la rive droite, avec une station de métro à proximité pour le reste de Paris.",
     image: px(271624),
     imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
   },

@@ -1059,7 +1059,7 @@ const hotelsPt: Hotel[] = [
     style: "Grande dama da Margem Esquerda",
     bestFor: "Estadia num marco",
     blurb:
-      "O único hotel-palácio da Margem Esquerda, um marco de 1910 restaurado no Boulevard Raspail, com um bar e uma brasserie famosos. Fica no coração de Saint-Germain, a pé do Museu d'Orsay e do Bairro Latino.",
+      "O único hotel-palácio da Margem Esquerda no Boulevard Raspail, reaberto em 2018 após uma restauração de quatro anos do edifício original de 1910. O seu bar histórico e a brasserie ficam dentro da própria Saint-Germain, a curta caminhada do Museu d'Orsay e do Bairro Latino.",
     image: px(262048),
     imageAlt: "Suíte de hotel grandiosa e elegante com um lustre e uma cama grande",
   },
@@ -1073,7 +1073,7 @@ const hotelsPt: Hotel[] = [
     style: "Rooftop no Marais",
     bestFor: "Amantes de design",
     blurb:
-      "Um hotel acolhedor de design italiano na berma do Marais, com um bar no rooftop sobre a cidade. Fica a dois passos do Pompidou e dos bares do Marais, no metro entre os monumentos da Margem Direita.",
+      "Uma equipa de design italiana decorou este hotel na berma norte do Marais, e o bar no rooftop olha por cima dos telhados em direção ao Sacré-Coeur. O Centro Pompidou e os bares do bairro ficam a curto passeio, com uma estação de metro perto para o resto da Margem Direita.",
     image: px(1267438),
     imageAlt: "Quarto de hotel de design minimalista em tons escuros com luz baixa",
   },
@@ -1087,7 +1087,7 @@ const hotelsPt: Hotel[] = [
     style: "Clássico do Bairro Latino",
     bestFor: "Primeira visita",
     blurb:
-      "Um pequeno hotel clássico virado para o Pantheon no Bairro Latino, a curta caminhada do Jardim do Luxemburgo e de Notre-Dame. Alguns quartos têm varandas que dão diretamente para a cúpula.",
+      "Os quartos deste pequeno hotel no Bairro Latino olham diretamente para a cúpula do Panteão, e alguns têm varanda própria para a vista. Notre-Dame e o Jardim do Luxemburgo ficam ambos a menos de quinze minutos a pé.",
     image: px(279746),
     imageAlt: "Quarto de hotel tradicional com mobiliário de madeira",
   },
@@ -1101,7 +1101,7 @@ const hotelsPt: Hotel[] = [
     style: "Hostel de design",
     bestFor: "Orçamento apertado",
     blurb:
-      "Um grande hostel de design por cima do Canal Saint-Martin, com um bar no rooftop e vistas da cidade, com quartos privados além dos dormitórios. É uma das camas centrais com melhor relação qualidade-preço numa cidade cara, no metro para tudo.",
+      "Este hostel de design fica por cima do Canal Saint-Martin, com um bar no rooftop que capta o horizonte da cidade, e combina camas em dormitório com quartos privados. Os preços começam bem abaixo dos hotéis da Margem Direita, com uma estação de metro perto para o resto de Paris.",
     image: px(271624),
     imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
   },

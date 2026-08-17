@@ -8,7 +8,7 @@ export const SITE_URL =
 export const STAY22_AID = process.env.NEXT_PUBLIC_STAY22_AID ?? "";
 // Stay22 "Let Me Allez" campaign id: auto-monetizes outbound booking links.
 export const STAY22_LMA_ID =
-  process.env.NEXT_PUBLIC_STAY22_LMA_ID ?? "6a48d53e72afe45e1b3300b0";
+  process.env.NEXT_PUBLIC_STAY22_LMA_ID ?? "6a8357a926a3329c29e2ca6a";
 export const PLAUSIBLE_DOMAIN = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN ?? "";
 // Google Analytics 4 measurement id. Empty string disables the tag.
 // Blanked for the new site: set NEXT_PUBLIC_GA_ID once a dedicated GA property
