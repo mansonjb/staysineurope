@@ -268,6 +268,13 @@ const fr: typeof en = {
       "{hood} est la base vie nocturne. {vibe} Soyez prévenu : {con}",
     faqCheapQ: "Quel est le quartier le moins cher et correct à {city} ?",
     faqCheapA: "{hood} a le meilleur rapport prix-emplacement. {vibe}",
+    faqCentralQ: "Vaut-il mieux loger dans le centre de {city} ?",
+    faqCentralAWalk:
+      "Pour la plupart des séjours, oui. {city} a un centre compact et piéton : y loger met les sites principaux à quelques minutes à pied et vous évite tout trajet. Les quartiers ci-dessous sont tous centraux ou à quelques minutes ; choisissez sur l'ambiance et le prix, pas sur la distance.",
+    faqCentralASpread:
+      "{city} est étendue, donc « central » compte moins que de choisir le quartier qui colle à votre programme. Loger près des sites et quartiers qui vous intéressent vraiment fait gagner plus de temps que viser le centre exact.",
+    faqFamilyQ: "Où loger en famille à {city} ?",
+    faqFamilyA: "{hood} est la base la plus simple en famille : {vibe}",
   },
   bud: {
     metaTitle: "{city} pas cher : le même voyage pour {price} EUR par jour",

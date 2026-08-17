@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCityData, publishedLocales, relatedCities } from "@/data";
+import { getCityExtras } from "@/data/extras";
 import { getHotels } from "@/data/hotels";
 import { cityVars } from "@/lib/style";
 import {
@@ -66,6 +68,8 @@ export function makeWtsPage(locale: Locale) {
     const nightlife = neighborhoods.find((n) =>
       n.bestFor.includes("nightlife")
     );
+    const family = neighborhoods.find((n) => n.bestFor.includes("family"));
+    const extras = getCityExtras(city.slug, locale);
 
     const answer = [
       firstTimer
@@ -87,6 +91,12 @@ export function makeWtsPage(locale: Locale) {
 
     const faqs: Faq[] = [
       { q: fmt(t.wts.faqBestQ, { city: city.name }), a: answer },
+      {
+        q: fmt(t.wts.faqCentralQ, { city: city.name }),
+        a: city.centerWalkable
+          ? fmt(t.wts.faqCentralAWalk, { city: city.name })
+          : fmt(t.wts.faqCentralASpread, { city: city.name }),
+      },
       ...(nightlife
         ? [
             {
@@ -106,6 +116,17 @@ export function makeWtsPage(locale: Locale) {
             {
               q: fmt(t.wts.faqCheapQ, { city: city.name }),
               a: fmt(t.wts.faqCheapA, { hood: budget.name, vibe: budget.vibe }),
+            },
+          ]
+        : []),
+      ...(family
+        ? [
+            {
+              q: fmt(t.wts.faqFamilyQ, { city: city.name }),
+              a: fmt(t.wts.faqFamilyA, {
+                hood: family.name,
+                vibe: family.vibe,
+              }),
             },
           ]
         : []),
@@ -148,6 +169,27 @@ export function makeWtsPage(locale: Locale) {
             </h1>
           </div>
         </section>
+
+        {extras?.image ? (
+          <div className="relative aspect-[16/9] w-full overflow-hidden border-b-2 border-ink sm:aspect-[3/1]">
+            <Image
+              src={extras.image}
+              alt={extras.imageAlt}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover"
+            />
+            <div
+              className="absolute inset-0 opacity-20"
+              style={{
+                backgroundImage:
+                  "linear-gradient(150deg, var(--city), var(--city-to) 85%)",
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-ink/30 to-transparent" />
+          </div>
+        ) : null}
 
         <TripToolbar
           items={[

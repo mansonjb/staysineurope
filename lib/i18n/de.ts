@@ -262,6 +262,13 @@ const de: typeof en = {
     faqNightA: "{hood} ist die Basis fürs Nachtleben. {vibe} Ehrliche Warnung: {con}",
     faqCheapQ: "Welches gute Viertel in {city} ist am günstigsten?",
     faqCheapA: "{hood} hat das beste Verhältnis von Preis zu Lage. {vibe}",
+    faqCentralQ: "Wohnt man besser im Zentrum von {city}?",
+    faqCentralAWalk:
+      "Für die meisten Reisen ja. {city} hat ein kompaktes, fußläufiges Zentrum: Wer hier wohnt, hat die wichtigsten Sehenswürdigkeiten in wenigen Gehminuten und spart sich jede Anfahrt. Die Viertel unten liegen alle zentral oder ein paar Minuten entfernt; entscheide nach Atmosphäre und Preis, nicht nach Entfernung.",
+    faqCentralASpread:
+      "{city} ist weitläufig, deshalb zählt «zentral» weniger als das Viertel, das zu deinem Programm passt. Nahe an den Orten und Vierteln zu wohnen, die dich wirklich interessieren, spart mehr Zeit als die exakte Mitte.",
+    faqFamilyQ: "Wo wohnt man mit Familie in {city}?",
+    faqFamilyA: "{hood} ist die einfachste Basis für Familien: {vibe}",
   },
   bud: {
     metaTitle: "{city} günstig: dieselbe Reise für {price} EUR am Tag",

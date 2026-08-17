@@ -143,7 +143,7 @@ const bruges: CityData = {
       lat: 51.2050,
       lng: 3.2185,
       bestFor: ["family", "budget", "first-time"],
-      vibe: "'t Zand is the big open square on the western edge of the old town, between the train station and the medieval core, beside the Concertgebouw. It is frankly modern and short on old-Bruges charm, but the wide plaza, the Saturday market and the flat walk from the platforms make it the practical pick, especially with a suitcase or kids in tow. The belfry is still a level ten-minute walk away.",
+      vibe: "The big open square on the western edge of the old town sits between the train station and the medieval core, beside the Concertgebouw. It is frankly modern and short on old-Bruges charm, but the wide plaza, the Saturday market and the flat walk from the platforms make it the practical pick, especially with a suitcase or kids in tow. The belfry is still a level ten-minute walk away.",
       pros: [
         "The closest central base to the station: easy with bags or children",
         "Roomier, better-value hotels than the tight medieval lanes",

@@ -262,6 +262,13 @@ const it: typeof en = {
     faqNightA: "{hood} è la base per la vita notturna. {vibe} Avviso onesto: {con}",
     faqCheapQ: "Qual è la zona buona più economica dove dormire a {city}?",
     faqCheapA: "{hood} ha il miglior rapporto prezzo-posizione. {vibe}",
+    faqCentralQ: "È meglio alloggiare nel centro di {city}?",
+    faqCentralAWalk:
+      "Per la maggior parte dei viaggi, sì. {city} ha un centro compatto e pedonale: alloggiarci mette le attrazioni principali a pochi minuti a piedi e ti evita spostamenti. Le zone qui sotto sono tutte centrali o a pochi minuti; scegli in base all'atmosfera e al prezzo, non alla distanza.",
+    faqCentralASpread:
+      "{city} è estesa, quindi «centrale» conta meno che scegliere la zona adatta ai tuoi programmi. Alloggiare vicino ai luoghi e ai quartieri che ti interessano davvero fa risparmiare più tempo che puntare al centro esatto.",
+    faqFamilyQ: "Dove alloggiare in famiglia a {city}?",
+    faqFamilyA: "{hood} è la base più comoda per le famiglie: {vibe}",
   },
   bud: {
     metaTitle: "{city} low cost: lo stesso viaggio con {price} EUR al giorno",

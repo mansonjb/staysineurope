@@ -263,6 +263,13 @@ const en = {
     faqNightA: "{hood} is the area to book for going out. {vibe} One caveat: {con}",
     faqCheapQ: "Where is the cheapest good area to stay in {city}?",
     faqCheapA: "{hood} gives you the best location for the price. {vibe}",
+    faqCentralQ: "Is it better to stay in the center of {city}?",
+    faqCentralAWalk:
+      "For most trips, yes. {city} has a compact, walkable center, so staying inside it puts the main sights a short walk from your door and saves you any transit. The areas below are all central or a few minutes out, so choose on atmosphere and price, not distance.",
+    faqCentralASpread:
+      "{city} is spread out, so 'central' matters less than picking the area that fits your plans. Staying near the sights and neighborhoods you actually care about saves more time than aiming for the exact middle.",
+    faqFamilyQ: "Where should families stay in {city}?",
+    faqFamilyA: "{hood} is the easiest base for families: {vibe}",
   },
   bud: {
     metaTitle: "{city} on a budget: the same trip for {price} EUR a day",
