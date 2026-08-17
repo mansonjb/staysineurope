@@ -299,8 +299,28 @@ const bundlesByLocale: Record<Locale, CityData[]> = {
   es: [lisbonEs, pragueEs, sevilleEs, portoEs, budapestEs, viennaEs, granadaEs, romeEs, amsterdamEs, florenceEs, brugesEs, barcelonaEs, berlinEs, madridEs, krakowEs, copenhagenEs, athensEs, edinburghEs, parisEs, veniceEs, dublinEs, stockholmEs, niceEs, dubrovnikEs, reykjavikEs, munichEs, tallinnEs, osloEs, helsinkiEs, naplesEs, splitEs, rigaEs, brusselsEs, vilniusEs, bratislavaEs, ljubljanaEs, zurichEs, warsawEs, bucharestEs, valenciaEs, vallettaEs, gdanskEs, bolognaEs, sofiaEs, belgradeEs, luxembourgEs],
 };
 
+// Launch scope: only these cities are published. Expand deliberately, one at a
+// time, behind a quality gate. Every listing, the sitemap, the city pages and
+// all internal links funnel through cityBundles/cities/getCityData, so this one
+// set governs the entire surface. Keeping it small is the anti-"scaled content"
+// rule that killed Perfect City Break (see CLAUDE.md).
+export const LAUNCH_CITIES = new Set<string>([
+  "bruges",
+  "riga",
+  "porto",
+  "dublin",
+  "granada",
+  "oslo",
+  "dubrovnik",
+  "amsterdam",
+  "barcelona",
+  "prague",
+  "copenhagen",
+  "vienna",
+]);
+
 export function cityBundles(locale: Locale = "en"): CityData[] {
-  return bundlesByLocale[locale];
+  return bundlesByLocale[locale].filter((b) => LAUNCH_CITIES.has(b.city.slug));
 }
 
 // The locales a city is actually published in (its slug present in that
@@ -350,14 +370,14 @@ export function relatedCities(
 }
 
 export function cities(locale: Locale = "en"): City[] {
-  return bundlesByLocale[locale].map((b) => b.city);
+  return cityBundles(locale).map((b) => b.city);
 }
 
 export function getCityData(
   slug: string,
   locale: Locale = "en"
 ): CityData | undefined {
-  return bundlesByLocale[locale].find((b) => b.city.slug === slug);
+  return cityBundles(locale).find((b) => b.city.slug === slug);
 }
 
 export function getCity(slug: string, locale: Locale = "en"): City | undefined {

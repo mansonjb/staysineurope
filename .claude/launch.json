@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "citytrip-dev",
+      "name": "staysineurope-dev",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--", "--port", "3023"],
-      "port": 3023
+      "runtimeArgs": ["run", "dev", "--", "--port", "3080"],
+      "port": 3080
     }
   ]
 }

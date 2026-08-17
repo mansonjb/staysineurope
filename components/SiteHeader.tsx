@@ -11,7 +11,7 @@ export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
         <Link href={localePath(locale, "/")} className="flex items-baseline gap-2">
           <span className="font-display text-xl font-bold tracking-tight">
-            Perfect<span className="text-coral">City</span>Break
+            Stays in <span className="text-coral">Europe</span>
           </span>
           <span className="label-mono hidden text-ink/60 sm:inline">.com</span>
         </Link>
@@ -21,9 +21,6 @@ export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
             className="label-mono text-ink/80 hover:text-ink"
           >
             {t.destinations}
-          </Link>
-          <Link href="/guides" className="label-mono hidden text-ink/80 hover:text-ink sm:inline">
-            {t.guides}
           </Link>
           <Link
             href="/about"

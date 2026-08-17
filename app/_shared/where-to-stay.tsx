@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getCityData, publishedLocales } from "@/data";
+import { getCityData, publishedLocales, relatedCities } from "@/data";
 import { getHotels } from "@/data/hotels";
 import { cityVars } from "@/lib/style";
 import {
@@ -35,7 +35,9 @@ export function makeWtsMetadata(locale: Locale) {
     if (!data) return {};
     const { city } = data;
     const t = STR[locale].wts;
-    const path = `/${city.slug}/where-to-stay`;
+    // This template is now the city's ROOT page (/[city]); the standalone
+    // /where-to-stay route was removed in the Stays in Europe model.
+    const path = `/${city.slug}`;
     return {
       title: fmt(t.metaTitle, { city: city.name }),
       description: fmt(t.metaDesc, { city: city.name }),
@@ -55,7 +57,7 @@ export function makeWtsPage(locale: Locale) {
     const { city, neighborhoods } = data;
     const t = STR[locale];
     const lp = (p: string) => localePath(locale, p);
-    const path = `/${city.slug}/where-to-stay`;
+    const path = `/${city.slug}`;
 
     const firstTimer = neighborhoods.find((n) =>
       n.bestFor.includes("first-time")
@@ -120,8 +122,8 @@ export function makeWtsPage(locale: Locale) {
             }),
             faqSchema(faqs),
             breadcrumbSchema([
-              { name: city.name, path: lp(`/${city.slug}`) },
-              { name: t.toolbar.whereToStay, path: lp(path) },
+              { name: city.country, path: lp(`/destinations/${city.countrySlug}`) },
+              { name: city.name, path: lp(path) },
             ]),
           ]}
         />
@@ -131,8 +133,8 @@ export function makeWtsPage(locale: Locale) {
             <Breadcrumbs
               locale={locale}
               items={[
-                { name: city.name, path: `/${city.slug}` },
-                { name: t.toolbar.whereToStay, path },
+                { name: city.country, path: `/destinations/${city.countrySlug}` },
+                { name: city.name, path },
               ]}
             />
             <div className="mt-8">
@@ -236,19 +238,23 @@ export function makeWtsPage(locale: Locale) {
             </section>
           ))}
 
-          <p className="text-ink/80">
-            {t.wts.pickedNext}{" "}
-            <Link
-              href={lp(`/${city.slug}/${city.idealDays}-days`)}
-              className="underline underline-offset-2"
-            >
-              {fmt(t.wts.pickedLink, {
-                city: city.name,
-                days: city.idealDays,
-              })}
-            </Link>
-            .
-          </p>
+          <section className="border-t-2 border-ink/10 pt-10">
+            <h2 className="font-display mb-4 text-2xl font-semibold tracking-tight">
+              {t.hub.pairsWell}
+            </h2>
+            <ul className="grid gap-3 sm:grid-cols-2">
+              {relatedCities(city.slug, locale, 6).map((rc) => (
+                <li key={rc.slug}>
+                  <Link
+                    href={lp(`/${rc.slug}`)}
+                    className="block rounded-xl border-2 border-ink/15 bg-paper px-4 py-3 font-semibold transition-all hover:-translate-y-0.5 hover:hard-shadow"
+                  >
+                    {rc.name} →
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
 
           <FaqSection faqs={faqs} locale={locale} />
         </div>

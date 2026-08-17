@@ -1,11 +1,7 @@
-import {
-  cityStaticParams,
-  makeCityHubMetadata,
-  makeCityHubPage,
-} from "@/app/_shared/city-hub";
+import { makeWtsMetadata, makeWtsPage } from "@/app/_shared/where-to-stay";
 
 export const revalidate = 86400;
 export const dynamicParams = true;
-export const generateStaticParams = cityStaticParams;
-export const generateMetadata = makeCityHubMetadata("fr");
-export default makeCityHubPage("fr");
+export const generateStaticParams = () => [];
+export const generateMetadata = makeWtsMetadata("fr");
+export default makeWtsPage("fr");
