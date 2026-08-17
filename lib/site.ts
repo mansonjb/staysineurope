@@ -10,10 +10,9 @@ export const STAY22_AID = process.env.NEXT_PUBLIC_STAY22_AID ?? "";
 export const STAY22_LMA_ID =
   process.env.NEXT_PUBLIC_STAY22_LMA_ID ?? "6a8357a926a3329c29e2ca6a";
 export const PLAUSIBLE_DOMAIN = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN ?? "";
-// Google Analytics 4 measurement id. Empty string disables the tag.
-// Blanked for the new site: set NEXT_PUBLIC_GA_ID once a dedicated GA property
-// exists, so we never send hits to Stays in Europe's property.
-export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID ?? "";
+// Google Analytics 4 measurement id: Stays in Europe's own GA4 property.
+// Override per environment with NEXT_PUBLIC_GA_ID; empty string disables the tag.
+export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-EWQB210HL7";
 // Microsoft Clarity project id. Empty string disables the tag.
 export const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID ?? "";
 
