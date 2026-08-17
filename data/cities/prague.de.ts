@@ -47,9 +47,9 @@ const pragueDe: CityData = {
     },
     budgetLevel: "low",
     budgetPerDay: { budget: 55, mid: 110, high: 220 },
-    tagline: "Gotische Skyline, Weltklasse-Bier, Kleinstadtpreise.",
+    tagline: "Auf welchem Moldau-Ufer Sie schlafen, entscheidet immer noch über die Reise.",
     heroIntro:
-      "Prag packt eine Burg, eine mittelalterliche Brücke und eine vollständig erhaltene Altstadt in ein Zentrum, das Sie zu Fuß in einer halben Stunde durchqueren. Es ist eine der günstigsten klassischen Hauptstädte Europas, und allein die Bierkultur rechtfertigt die Reise. Drei Tage decken das Wesentliche ohne Hektik ab; der Trick besteht darin, die großen Sehenswürdigkeiten um die Wellen der Reisegruppen herum zu timen.",
+      "Prag vereint eine Burg, eine mittelalterliche Brücke und eine vollständig erhaltene Altstadt in einem Zentrum, das Sie zu Fuß in einer halben Stunde durchqueren, und bleibt dabei eine der günstigsten klassischen Hauptstädte Europas zum Übernachten. Welche Flussseite und welches Viertel dahinter Sie wählen, prägt die Reise noch immer: postkartenreife Gassen mit Andrang, Ruhe auf der Burgseite oder eine günstigere lokale Basis eine Tramfahrt entfernt. Dieser Leitfaden vergleicht fünf buchenswerte Viertel, damit Sie die großen Sehenswürdigkeiten um die Wellen der Reisegruppen herum timen können, statt gegen sie anzukämpfen.",
     accent: { from: "#8B7CF6", to: "#E85D75", ink: "#3B2E7E" },
     neighborhoodSlugs: [
       "stare-mesto",
@@ -69,16 +69,16 @@ const pragueDe: CityData = {
       lat: 50.0875,
       lng: 14.421,
       bestFor: ["first-time", "romantic"],
-      vibe: "Der mittelalterliche Kern rund um den Altstädter Ring, ganz Kopfsteinpflaster, Türme und Gassen, die in Innenhöfen enden. Tagsüber ist es der meistbesuchte Quadratkilometer des Landes; nach 22 Uhr verschwinden die Reisegruppen, und es wird schnell ruhig. Alles, was Erstbesucher wollen, liegt in zehn Gehminuten Entfernung.",
+      vibe: "Kopfsteinpflaster, Türme und Gassen, die in Innenhöfen enden, füllen den mittelalterlichen Kern rund um den Altstädter Ring und machen ihn tagsüber zum meistbesuchten Quadratkilometer des ganzen Landes. Nach 22 Uhr verschwinden die Reisegruppen schnell, und die Straßen werden richtig ruhig. Buchen Sie hier, wenn es eine kurze Reise ist und Sie alles, was Erstbesucher wollen, in zehn Gehminuten erreichen möchten, Touristenpreise inklusive.",
       pros: [
-        "Karlsbrücke, Altstädter Ring und Josefov alle in kurzer Gehweite",
-        "Größte Auswahl an Hotels und Apartments der Stadt",
-        "Für einen 2-Tage-Trip sind keinerlei Verkehrsmittel nötig",
+        "Karlsbrücke, Altstädter Ring und Josefov sind alle in kurzer Gehweite",
+        "Die größte Auswahl an Hotels und Apartments der Stadt",
+        "Für einen zweitägigen Besuch brauchen Sie keine öffentlichen Verkehrsmittel",
       ],
       cons: [
-        "Die Restaurants an den Hauptplätzen sind überteuerte Touristenfallen",
-        "Straßenlärm und Junggesellenabschiede in den Wochenendnächten",
-        "Sie zahlen einen Lageaufschlag von 20 bis 30 Prozent gegenüber Vinohrady",
+        "Die Restaurants am Hauptplatz sind auf Touristen kalkuliert, nicht auf Einheimische",
+        "An Wochenendnächten bringen Straßenlärm und Junggesellenabschiede Unruhe",
+        "Zimmer kosten 20 bis 30 Prozent mehr als der gleiche Standard in Vinohrady",
       ],
     },
     {
@@ -88,15 +88,15 @@ const pragueDe: CityData = {
       lat: 50.0878,
       lng: 14.4046,
       bestFor: ["romantic", "first-time", "family"],
-      vibe: "Das Barockviertel unterhalb der Burg, am Westufer der Moldau. Rote Dächer, Botschaftsgärten und Gassen, die sich am späten Nachmittag komplett leeren, sobald die Tagesausflügler abziehen. Wer hier wohnt, wacht auf der Burgseite auf, und das ist ein echter Zeitvorteil.",
+      vibe: "Rote Dächer, Botschaftsgärten und barocke Gassen füllen dieses Viertel unterhalb der Burg am Westufer der Moldau, das sich am späten Nachmittag vollständig leert, sobald die Tagesausflügler über den Fluss zurückkehren. Wer hier schläft, wacht auf der Burgseite auf, was sich bei den großen Sehenswürdigkeiten in einen echten Zeitvorteil verwandelt. Buchen Sie hier, wenn Ihnen eine frühe, leere Karlsbrücke und ruhige Abende wichtiger sind als die Nähe zu den Restaurants der Altstadt.",
       pros: [
-        "Prager Burg, Petrin-Hügel und Lennon-Mauer direkt vor der Tür",
-        "Die Abende sind ruhig und wirklich stimmungsvoll",
-        "Karlsbrücke vor dem Frühstück, ganz ohne Andrang",
+        "Prager Burg, Petrin-Hügel und Lennon-Mauer liegen direkt vor der Tür",
+        "Die Abende werden ruhig und wirklich stimmungsvoll",
+        "Die Karlsbrücke vor dem Frühstück bedeutet: keinerlei Andrang",
       ],
       cons: [
-        "Weniger Supermärkte und günstige Lokale als am Ostufer",
-        "Steile Straßen und Kopfsteinpflaster sind mit Gepäck oder Kinderwagen mühsam",
+        "Weniger Supermärkte und günstige Essensoptionen als am Ostufer",
+        "Steile Kopfsteinpflasterstraßen sind mit Gepäck oder Kinderwagen mühsam",
       ],
     },
     {
@@ -106,14 +106,14 @@ const pragueDe: CityData = {
       lat: 50.0755,
       lng: 14.4443,
       bestFor: ["local", "budget", "family", "romantic"],
-      vibe: "Ein Wohnraster aus Jugendstil-Wohnblöcken, grünen Plätzen und der höchsten Cafédichte Prags. Hier leben tatsächlich die Einheimischen, die die Wahl haben, und die Restaurantszene spiegelt das wider. Die Altstadt ist 10 Minuten mit der Metro oder 25 Minuten zu Fuß entfernt.",
+      vibe: "Jugendstil-Wohnblöcke säumen hier ein Wohnraster aus grünen Plätzen mit der höchsten Cafédichte ganz Prags. Hier lassen sich die Einheimischen nieder, die wählen können, wo sie leben, und die Restaurantszene zeigt es. Buchen Sie hier, wenn Sie die Sehenswürdigkeiten der Altstadt in 10 Metro-Minuten Entfernung wollen, ohne für die Übernachtung Altstadtpreise zu zahlen.",
       pros: [
         "Das beste Essen und der beste Specialty Coffee der Stadt zu lokalen Preisen",
-        "Der Biergarten Riegrovy Sady und zwei große Parks",
-        "Spürbar günstigere Unterkünfte als im Zentrum",
+        "Der Biergarten Riegrovy Sady plus zwei große Parks",
+        "Unterkünfte spürbar günstiger als im Zentrum",
       ],
       cons: [
-        "Sie pendeln zu jeder großen Sehenswürdigkeit, auch wenn der Weg kurz ist",
+        "Jede wichtige Sehenswürdigkeit erfordert einen Weg, auch wenn er kurz ist",
         "Nachts ruhig, falls Sie Nachtleben direkt vor der Tür suchen",
       ],
     },
@@ -124,7 +124,7 @@ const pragueDe: CityData = {
       lat: 50.0833,
       lng: 14.4515,
       bestFor: ["nightlife", "budget", "local"],
-      vibe: "Prags raues Kneipenviertel, das bekanntlich mehr Kneipen pro Kopf beansprucht als jeder andere Ort in Europa. Es ist ungeschliffener als das benachbarte Vinohrady, mit billigem Bier, Kellerbars und dem futuristischen Fernsehturm, der über allem aufragt. Es gentrifiziert Block für Block, bleibt aber die günstigste halbwegs zentrale Basis.",
+      vibe: "Mehr Kneipen pro Kopf als irgendwo sonst in Europa prägen den Ruf dieses schroffen Viertels, ungeschliffener als das benachbarte Vinohrady und überragt vom futuristischen Fernsehturm. Billiges Bier und Kellerbars dominieren nach wie vor, auch wenn es Block für Block gentrifiziert. Buchen Sie hier, wenn Ihnen die günstigste halbwegs zentrale Basis wichtiger ist als Schliff und ein etwas längerer Weg zu den Sehenswürdigkeiten nichts ausmacht.",
       pros: [
         "Die niedrigsten Zimmer- und Bierpreise in Zentrumsnähe",
         "Echte Kneipenkultur, fast ohne Touristenaufschlag",
@@ -133,7 +133,7 @@ const pragueDe: CityData = {
       cons: [
         "Manche Blocks wirken vernachlässigt und stark mit Graffiti übersät",
         "20 bis 30 Minuten zu Fuß oder mit der Tram zu den wichtigsten Sehenswürdigkeiten",
-        "Barlärm an den Hauptstraßen am Wochenende",
+        "An Wochenendnächten bringt Barlärm Unruhe in die Hauptstraßen",
       ],
     },
     {
@@ -143,11 +143,11 @@ const pragueDe: CityData = {
       lat: 50.0925,
       lng: 14.4505,
       bestFor: ["local", "family", "budget"],
-      vibe: "Ein flaches Viertel am Fluss, nach dem Hochwasser von 2002 zu Prags poliertestem modernen Quartier umgebaut. Breite Boulevards, sanierte Blöcke aus dem 19. Jahrhundert und eine starke Brunch- und Craft-Beer-Szene, die sich an Anwohner richtet, nicht an Touristen. Zwei Metrostationen von der Altstadt entfernt.",
+      vibe: "Nach der Flut von 2002 wiederaufgebaut, ist dieses flache Flussufer-Viertel heute Prags poliertestes modernes Quartier mit breiten Boulevards und sanierten Blöcken aus dem 19. Jahrhundert. Die Brunch- und Craft-Beer-Szene hier richtet sich klar an Anwohner statt an Besucher, und die Altstadt liegt nur zwei Metrostationen entfernt. Buchen Sie hier, wenn Ihnen flache, kinderwagenfreundliche Straßen und ein modernes Gefühl wichtiger sind als mittelalterliche Architektur.",
       pros: [
         "Flache, kinderwagenfreundliche Straßen und Uferwege",
         "Ausgezeichnete moderne tschechische Restaurants zu fairen Preisen",
-        "Schnelle Verbindung ins Zentrum mit der Metrolinie B",
+        "Eine schnelle Verbindung ins Zentrum mit der Metrolinie B",
       ],
       cons: [
         "Keine großen Sehenswürdigkeiten im Viertel selbst",

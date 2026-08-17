@@ -47,9 +47,9 @@ const pragueFr: CityData = {
     },
     budgetLevel: "low",
     budgetPerDay: { budget: 55, mid: 110, high: 220 },
-    tagline: "Skyline gothique, bière de classe mondiale, prix de petite ville.",
+    tagline: "La rive de la Vltava où vous dormez façonne encore tout le voyage.",
     heroIntro:
-      "Prague concentre un château, un pont médiéval et une vieille ville intacte dans un centre que l'on traverse à pied en une demi-heure. C'est l'une des capitales classiques les moins chères d'Europe, et la culture de la bière justifie à elle seule le voyage. Trois jours couvrent l'essentiel sans courir ; l'astuce consiste à caler les grands sites entre les vagues de groupes.",
+      "Prague loge un château, un pont médiéval et une vieille ville intacte dans un centre que l'on traverse à pied en une demi-heure, et reste l'une des capitales classiques les moins chères d'Europe pour dormir. Le choix de la rive, puis du quartier derrière, façonne toujours le séjour : ruelles de carte postale et foule, calme côté château, ou base locale moins chère à quelques stations de tram. Ce guide passe en revue cinq quartiers qui valent la réservation, pour caler les grands sites autour des vagues de groupes plutôt que contre elles.",
     accent: { from: "#8B7CF6", to: "#E85D75", ink: "#3B2E7E" },
     neighborhoodSlugs: [
       "stare-mesto",
@@ -69,16 +69,16 @@ const pragueFr: CityData = {
       lat: 50.0875,
       lng: 14.421,
       bestFor: ["first-time", "romantic"],
-      vibe: "Le cœur médiéval autour de la place de la Vieille Ville : pavés, flèches et ruelles qui finissent en cours intérieures. De jour, c'est le kilomètre carré le plus fréquenté du pays ; après 22h, les groupes disparaissent et le calme tombe vite. Tout ce qu'un premier séjour demande se trouve à dix minutes à pied.",
+      vibe: "Pavés, flèches et ruelles qui finissent en cours intérieures remplissent le cœur médiéval autour de la place de la Vieille Ville, le kilomètre carré le plus fréquenté du pays en journée. Après 22h, les groupes de touristes se dispersent vite et les rues retrouvent un vrai calme. Réservez ici pour un court séjour, si vous voulez tout ce qu'un premier voyage à Prague demande à dix minutes à pied, prix touristiques compris.",
       pros: [
         "Le Pont Charles, la place de la Vieille Ville et Josefov à quelques minutes à pied",
         "Le plus grand choix d'hôtels et d'appartements de la ville",
-        "Aucun transport nécessaire pour un séjour de 2 jours",
+        "Aucun transport en commun nécessaire pour une visite de deux jours",
       ],
       cons: [
-        "Les restaurants des places principales sont des pièges à touristes hors de prix",
-        "Bruit de rue et groupes d'enterrements de vie de garçon les soirs de week-end",
-        "Vous payez une prime d'emplacement de 20 à 30 pour cent par rapport à Vinohrady",
+        "Les restaurants de la place principale sont calibrés pour les touristes, pas pour les habitants",
+        "Les nuits de week-end apportent bruit de rue et groupes d'enterrements de vie de garçon",
+        "Les chambres coûtent 20 à 30 pour cent de plus qu'un standard équivalent à Vinohrady",
       ],
     },
     {
@@ -88,15 +88,15 @@ const pragueFr: CityData = {
       lat: 50.0878,
       lng: 14.4046,
       bestFor: ["romantic", "first-time", "family"],
-      vibe: "Le quartier baroque au pied du château, sur la rive ouest de la Vltava. Toits rouges, jardins d'ambassades et ruelles qui se vident complètement une fois les excursionnistes partis en fin d'après-midi. Loger ici, c'est se réveiller du côté du château, un vrai avantage de timing.",
+      vibe: "Toits rouges, jardins d'ambassades et ruelles baroques remplissent ce quartier au pied du château, sur la rive ouest de la Vltava, qui se vide complètement une fois les excursionnistes repartis de l'autre côté du fleuve en fin d'après-midi. Dormir ici, c'est se réveiller côté château, un vrai avantage de timing pour les grands sites. Réservez ici si un Pont Charles vide au petit matin et des soirées calmes comptent plus que la proximité des restaurants de la vieille ville.",
       pros: [
         "Le Château de Prague, la colline de Petrin et le mur Lennon au pas de votre porte",
         "Des soirées calmes et vraiment atmosphériques",
-        "Le Pont Charles avant le petit-déjeuner, sans la foule",
+        "Le Pont Charles avant le petit-déjeuner, sans la moindre foule",
       ],
       cons: [
         "Moins de supermarchés et d'adresses bon marché que sur la rive est",
-        "Rues en pente et pavés éprouvants avec des valises ou une poussette",
+        "Les rues pavées en pente sont éprouvantes avec des valises ou une poussette",
       ],
     },
     {
@@ -106,15 +106,15 @@ const pragueFr: CityData = {
       lat: 50.0755,
       lng: 14.4443,
       bestFor: ["local", "budget", "family", "romantic"],
-      vibe: "Un quadrillage résidentiel d'immeubles Art nouveau, de places arborées et la meilleure densité de cafés de Prague. C'est ici que vivent les Pragois qui ont le choix, et la scène des restaurants le montre. La vieille ville est à 10 minutes en métro ou 25 minutes à pied.",
+      vibe: "Des immeubles Art nouveau bordent ici un quadrillage résidentiel de places arborées, avec la meilleure concentration de cafés de tout Prague. C'est le quartier où s'installent les Pragois qui ont le choix, et la scène des restaurants s'en ressent. Réservez ici pour avoir les sites de la vieille ville à 10 minutes de métro, sans payer les prix de la vieille ville pour dormir.",
       pros: [
-        "La meilleure cuisine et le meilleur café de spécialité de la ville, aux prix locaux",
+        "La meilleure cuisine et le meilleur café de spécialité de la ville, à prix locaux",
         "Le biergarten de Riegrovy Sady et deux grands parcs",
         "Un hébergement nettement moins cher que le centre",
       ],
       cons: [
-        "Vous faites le trajet pour chaque grand site, même si le trajet est court",
-        "Calme le soir si vous cherchez une vie nocturne au pied de l'hôtel",
+        "Chaque grand site demande un trajet, même court",
+        "Calme le soir si vous cherchez une vie nocturne au pied de l'immeuble",
       ],
     },
     {
@@ -124,7 +124,7 @@ const pragueFr: CityData = {
       lat: 50.0833,
       lng: 14.4515,
       bestFor: ["nightlife", "budget", "local"],
-      vibe: "Le quartier des bars au caractère brut de Prague, qui revendique plus de pubs par habitant que n'importe où en Europe. Plus rugueux que Vinohrady voisin, avec de la bière pas chère, des bars de quartier et la tour de télévision futuriste qui domine tout. Il s'embourgeoise pâté par pâté mais reste la base quasi centrale la moins chère.",
+      vibe: "Plus de pubs par habitant que partout ailleurs en Europe font la réputation de ce quartier au caractère brut, plus rugueux que Vinohrady voisin et surveillé par la tour de télévision futuriste. Bière pas chère et bars de quartier dominent encore, même si l'embourgeoisement gagne pâté par pâté. Réservez ici si la base la moins chère près du centre compte plus que le raffinement, et qu'une marche un peu plus longue jusqu'aux sites ne vous dérange pas.",
       pros: [
         "Les prix de chambre et de bière les plus bas près du centre",
         "Une vraie culture de pub, presque sans surcote touristique",
@@ -143,15 +143,15 @@ const pragueFr: CityData = {
       lat: 50.0925,
       lng: 14.4505,
       bestFor: ["local", "family", "budget"],
-      vibe: "Un quartier plat en bord de rivière, reconstruit après la crue de 2002 en secteur moderne le plus soigné de Prague. Larges boulevards, immeubles du XIXe siècle rénovés et une solide scène brunch et bière artisanale pensée pour les habitants, pas pour les touristes. À deux stations de métro de la vieille ville.",
+      vibe: "Reconstruit après la crue de 2002, ce quartier plat en bord de rivière est aujourd'hui le secteur moderne le plus soigné de Prague, avec de larges boulevards et des immeubles du XIXe siècle rénovés. La scène brunch et bière artisanale vise clairement les habitants plutôt que les visiteurs, et la vieille ville n'est qu'à deux stations de métro. Réservez ici si des rues plates et adaptées aux poussettes, et une ambiance moderne, comptent plus que d'être immergé dans l'architecture médiévale.",
       pros: [
         "Rues plates adaptées aux poussettes et chemins en bord de rivière",
         "D'excellents restaurants tchèques modernes à prix honnêtes",
-        "Liaison rapide vers le centre par la ligne B du métro",
+        "Une liaison rapide vers le centre par la ligne B du métro",
       ],
       cons: [
         "Aucun grand site dans le quartier lui-même",
-        "Vie nocturne discrète ; les bars ferment tôt pour Prague",
+        "Vie nocturne discrète, les bars ferment tôt pour les standards de Prague",
       ],
     },
   ],

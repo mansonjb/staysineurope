@@ -29,7 +29,7 @@ const fr: typeof en = {
   header: { destinations: "Destinations", guides: "Guides", method: "Méthode" },
   footer: {
     tagline:
-      "Le bon nombre de jours, le bon quartier, le bon mois. Des guides city break construits sur des données structurées et de vrais horaires, pas du remplissage.",
+      "Le bon quartier fait ou défait un city break. Nous comparons les quartiers des meilleures villes d'Europe et indiquons l'hôtel qui vaut la réservation dans chacun.",
     cities: "Villes",
     site: "Site",
     allDestinations: "Toutes les destinations",
@@ -237,13 +237,13 @@ const fr: typeof en = {
       "La pluie dure rarement toute la journée, les plans tiennent bien.",
   },
   wts: {
-    metaTitle: "Où dormir à {city} : les meilleurs quartiers comparés",
+    metaTitle: "Où dormir à {city} : le bon quartier, secteur par secteur",
     metaDesc:
-      "Les meilleurs quartiers où dormir à {city} pour une première visite, la vie nocturne, la famille ou un petit budget. Avantages et inconvénients honnêtes, plus une carte d'hôtels en direct par quartier.",
+      "Quel quartier de {city} correspond à votre voyage, et l'hôtel qui vaut vraiment la réservation dans chacun. Avantages et inconvénients honnêtes, un tableau de décision et des cartes en direct par secteur.",
     h1: "Où dormir à",
-    shortlistTitle: "La shortlist",
+    shortlistTitle: "Droit au but",
     shortlistIntro:
-      "Si vous voulez juste la réponse : quatre adresses vérifiées à {city}, du coup de folie au petit budget, chacune dans un quartier comparé ci-dessous.",
+      "Peu de temps ? Quatre hôtels à {city} qu'on réserverait vraiment, du coup de folie au petit budget, chacun situé dans l'un des quartiers détaillés plus bas.",
     boardTitle: "Le tableau de décision",
     boardNeighborhood: "Quartier",
     boardBookIf: "Réservez si vous voulez",
@@ -251,23 +251,23 @@ const fr: typeof en = {
     boardHotels: "Hôtels",
     bookFor: "Réservez-le pour",
     knowBefore: "À savoir avant",
-    pickedNext: "Quartier choisi ? Verrouillez le plan ensuite :",
-    pickedLink: "{city} en {days} jours, heure par heure",
+    pickedNext: "Quartier choisi ?",
+    pickedLink: "Découvrir d'autres villes européennes",
     answerFirst:
       "Pour un premier city break à {city}, dormez à {hood} : {pro}.",
-    answerFallback: "Restez central à {city}.",
+    answerFallback: "Restez près du centre de {city}, on peut difficilement se tromper.",
     answerBudget:
-      "Avec un budget plus serré, {hood} vous donne plus d'espace pour moins cher.",
+      "Vous surveillez le budget ? {hood} échange un peu d'animation contre plus d'espace pour chaque euro.",
     answerWalkable:
-      "Le centre se parcourt à pied : chacun des {n} quartiers ci-dessous vous laisse à portée des sites majeurs ; ce qui change, c'est l'ambiance que vous retrouvez le soir.",
+      "Le centre est assez petit pour se parcourir à pied, donc chaque quartier ci-dessous vous laisse à portée des sites principaux ; ce qui change vraiment, c'est l'ambiance de la rue où vous rentrez le soir.",
     answerSpread:
-      "Les distances comptent ici : choisissez le quartier selon le programme que vous avez vraiment.",
+      "Les distances comptent ici, alors choisissez le quartier qui correspond à la façon dont vous comptez vraiment passer vos journées.",
     faqBestQ: "Quel est le meilleur quartier où dormir à {city} ?",
     faqNightQ: "Où dormir à {city} pour la vie nocturne ?",
     faqNightA:
-      "{hood} est la base vie nocturne. {vibe} Soyez prévenu : {con}",
-    faqCheapQ: "Quel est le quartier le moins cher et correct à {city} ?",
-    faqCheapA: "{hood} a le meilleur rapport prix-emplacement. {vibe}",
+      "{hood} est le quartier à réserver pour sortir. {vibe} Un bémol : {con}",
+    faqCheapQ: "Quel est le quartier correct le moins cher où dormir à {city} ?",
+    faqCheapA: "{hood} vous offre le meilleur emplacement pour le prix. {vibe}",
     faqCentralQ: "Vaut-il mieux loger dans le centre de {city} ?",
     faqCentralAWalk:
       "Pour la plupart des séjours, oui. {city} a un centre compact et piéton : y loger met les sites principaux à quelques minutes à pied et vous évite tout trajet. Les quartiers ci-dessous sont tous centraux ou à quelques minutes ; choisissez sur l'ambiance et le prix, pas sur la distance.",
@@ -303,9 +303,9 @@ const fr: typeof en = {
     faqCheapAreaQ: "Quel est le quartier le moins cher où dormir à {city} ?",
   },
   home: {
-    metaTitle: "Stays in Europe : des itinéraires city break qui répondent à la question",
+    metaTitle: "Stays in Europe : où dormir dans les meilleures villes d'Europe",
     metaDesc:
-      "Le bon nombre de jours, le bon quartier, le bon mois. Des itinéraires city break jour par jour construits sur de vraies données, pas du remplissage.",
+      "Quel quartier réserver dans les meilleures villes d'Europe, et l'hôtel qui vaut vraiment la réservation dans chacun. Avantages et inconvénients honnêtes, cartes en direct et sélections franches, quartier par quartier.",
     stamp: "Des city breaks bien préparés",
     heroParts: [
       { pre: "Le bon nombre de ", word: "jours", post: "." },
@@ -357,17 +357,17 @@ const fr: typeof en = {
     methodLink: "Lire la méthodologie complète",
   },
   dest: {
-    metaTitle: "Destinations city break : chaque ville, comparée honnêtement",
+    metaTitle: "Où dormir en Europe : villes et quartiers comparés",
     metaDesc:
-      "Toutes les destinations Stays in Europe avec le nombre de jours qu'il faut vraiment à chacune, les meilleurs mois et des budgets honnêtes. L'Europe d'abord, le monde ensuite.",
+      "Toutes les villes que nous couvrons, avec le meilleur quartier où dormir et un hôtel qui vaut vraiment la réservation dans chacune. Une sélection restreinte, qui s'agrandit. L'Europe d'abord.",
     kicker: "Tableau des départs",
-    h1: "Choisissez votre prochain city break",
+    h1: "Où dormir en Europe",
     intro:
-      "Trois villes pilotes aujourd'hui, de nouvelles chaque mois. Chaque destination a droit au traitement complet : itinéraires par durée, quartiers comparés, et une page pour chaque mois de l'année.",
-    cityBreaksIn: "City breaks : {country}",
-    countryMetaTitle: "City break en {country} : où aller et pour combien de temps",
+      "Une liste courte et délibérément restreinte de villes européennes, à laquelle s'ajoutent prudemment de nouvelles destinations au fil du temps. Chacune reçoit le même traitement : les quartiers comparés côte à côte, le meilleur secteur indiqué selon votre type de voyage, et un hôtel qui vaut vraiment la réservation dans chacun.",
+    cityBreaksIn: "Où dormir en {country}",
+    countryMetaTitle: "Où dormir en {country} : meilleures villes et quartiers",
     countryMetaDesc:
-      "Tous les city breaks {country} sur Stays in Europe : durée idéale, meilleurs mois et budgets honnêtes pour chaque ville.",
+      "Toutes les villes de {country} présentes sur Stays in Europe : le meilleur quartier où dormir et un hôtel qui vaut la réservation dans chacune.",
   },
 };
 

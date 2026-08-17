@@ -29,7 +29,7 @@ const de: typeof en = {
   header: { destinations: "Reiseziele", guides: "Guides", method: "Methode" },
   footer: {
     tagline:
-      "Die richtige Anzahl an Tagen, das richtige Viertel, der richtige Monat. Citytrip-Guides auf Basis strukturierter Daten und echter Öffnungszeiten, ohne Füllmaterial.",
+      "Das richtige Viertel entscheidet über einen Citytrip. Wir vergleichen die Viertel der besten Städte Europas und nennen das Hotel, das sich in jedem lohnt.",
     cities: "Städte",
     site: "Seite",
     allDestinations: "Alle Reiseziele",
@@ -233,13 +233,13 @@ const de: typeof en = {
     rainLittle: "Regen hält selten den ganzen Tag an, die Pläne halten also gut.",
   },
   wts: {
-    metaTitle: "Wo übernachten in {city}: die besten Viertel im Vergleich",
+    metaTitle: "Wo übernachten in {city}: das richtige Viertel, Viertel für Viertel",
     metaDesc:
-      "Die besten Viertel in {city} für Erstbesucher, Nachtleben, Familien und kleine Budgets. Ehrliche Vor- und Nachteile plus aktuelle Hotelkarten pro Viertel.",
+      "Welches Viertel in {city} zu Ihrer Reise passt, und das echte Hotel, das sich in jedem lohnt. Klare Vor- und Nachteile, eine Entscheidungstafel und aktuelle Karten pro Viertel.",
     h1: "Wo übernachten in",
-    shortlistTitle: "Die Shortlist",
+    shortlistTitle: "Direkt zur Antwort",
     shortlistIntro:
-      "Wenn Sie nur die Antwort wollen: vier geprüfte Empfehlungen für {city}, vom Luxus bis zum Budget, jede in einem unten verglichenen Viertel.",
+      "Wenig Zeit? Vier Hotels in {city}, die wir tatsächlich buchen würden, vom Luxus bis zum Budget, jedes in einem der unten verglichenen Viertel.",
     boardTitle: "Die Entscheidungstafel",
     boardNeighborhood: "Viertel",
     boardBookIf: "Buchen Sie für",
@@ -247,21 +247,21 @@ const de: typeof en = {
     boardHotels: "Hotels",
     bookFor: "Buchen Sie es für",
     knowBefore: "Vorher wissen",
-    pickedNext: "Viertel gewählt? Dann den Plan festzurren:",
-    pickedLink: "{city} in {days} Tagen, Stunde für Stunde",
-    answerFirst: "Für einen ersten Citytrip nach {city} übernachten Sie in {hood}: {pro}.",
-    answerFallback: "Bleiben Sie zentral in {city}.",
+    pickedNext: "Viertel gewählt?",
+    pickedLink: "Weitere europäische Städte entdecken",
+    answerFirst: "Zum ersten Mal in {city}? Übernachten Sie in {hood}: {pro}.",
+    answerFallback: "Bleiben Sie in der Nähe des Zentrums von {city}, damit können Sie kaum etwas falsch machen.",
     answerBudget:
-      "Mit knapperem Budget bekommen Sie in {hood} mehr Platz für weniger Geld.",
+      "Achten Sie aufs Budget? {hood} tauscht etwas Trubel gegen mehr Raum pro Euro.",
     answerWalkable:
-      "Das Zentrum ist fußläufig: Jedes der {n} Viertel unten hält Sie in Reichweite der wichtigsten Sehenswürdigkeiten; was sich ändert, ist die Atmosphäre, in die Sie abends zurückkommen.",
+      "Das Zentrum ist klein genug, um es zu Fuß zu erkunden, also liegen die Hauptsehenswürdigkeiten von jedem Viertel unten aus in Reichweite; was sich wirklich ändert, ist die Stimmung der Straße, in die Sie abends zurückkehren.",
     answerSpread:
-      "Hier zählen die Entfernungen: Wählen Sie das Viertel passend zu dem Plan, den Sie wirklich haben.",
+      "Hier zählen die Entfernungen, wählen Sie also das Viertel, das zu Ihrem tatsächlichen Tagesplan passt.",
     faqBestQ: "Welches ist das beste Viertel für eine Übernachtung in {city}?",
-    faqNightQ: "Wo übernachtet man in {city} fürs Nachtleben?",
-    faqNightA: "{hood} ist die Basis fürs Nachtleben. {vibe} Ehrliche Warnung: {con}",
-    faqCheapQ: "Welches gute Viertel in {city} ist am günstigsten?",
-    faqCheapA: "{hood} hat das beste Verhältnis von Preis zu Lage. {vibe}",
+    faqNightQ: "Wo sollte ich in {city} fürs Nachtleben übernachten?",
+    faqNightA: "{hood} ist das Viertel fürs Ausgehen. {vibe} Ein Wermutstropfen: {con}",
+    faqCheapQ: "Welches ist das günstigste gute Viertel für eine Übernachtung in {city}?",
+    faqCheapA: "{hood} bietet die beste Lage für den Preis. {vibe}",
     faqCentralQ: "Wohnt man besser im Zentrum von {city}?",
     faqCentralAWalk:
       "Für die meisten Reisen ja. {city} hat ein kompaktes, fußläufiges Zentrum: Wer hier wohnt, hat die wichtigsten Sehenswürdigkeiten in wenigen Gehminuten und spart sich jede Anfahrt. Die Viertel unten liegen alle zentral oder ein paar Minuten entfernt; entscheide nach Atmosphäre und Preis, nicht nach Entfernung.",
@@ -297,9 +297,9 @@ const de: typeof en = {
     faqCheapAreaQ: "Welches ist das günstigste Viertel für eine Übernachtung in {city}?",
   },
   home: {
-    metaTitle: "Stays in Europe: Citytrip-Pläne, die die Frage beantworten",
+    metaTitle: "Stays in Europe: wo übernachten in Europas besten Städten",
     metaDesc:
-      "Die richtige Dauer, das richtige Viertel, der richtige Monat. Tag-für-Tag-Pläne für Citytrips auf Basis echter Daten, ohne Füllmaterial.",
+      "Welches Viertel Sie in Europas besten Städten buchen sollten, und das echte Hotel, das sich in jedem lohnt. Klare Vor- und Nachteile, aktuelle Karten und ehrliche Empfehlungen, Viertel für Viertel.",
     stamp: "Citytrips, richtig geplant",
     heroParts: [
       { pre: "Die richtige ", word: "Dauer", post: "." },
@@ -351,17 +351,17 @@ const de: typeof en = {
     methodLink: "Die vollständige Methodik lesen",
   },
   dest: {
-    metaTitle: "Citytrip-Ziele: jede Stadt, ehrlich verglichen",
+    metaTitle: "Wo übernachten in Europa: Städte und Viertel im Vergleich",
     metaDesc:
-      "Alle Perfect-City-Break-Ziele mit der Anzahl an Tagen, die jede Stadt wirklich braucht, den besten Monaten und ehrlichen Budgets. Zuerst Europa, dann die Welt.",
+      "Jede Stadt, die wir abdecken, mit dem besten Viertel für eine Übernachtung und einem echten Hotel, das sich in jedem lohnt. Eine kleine, wachsende Auswahl. Zuerst Europa.",
     kicker: "Abflugtafel",
-    h1: "Wählen Sie Ihren nächsten Citytrip",
+    h1: "Wo übernachten in Europa",
     intro:
-      "Heute drei Pilotstädte, jeden Monat kommen neue dazu. Jedes Ziel bekommt die volle Behandlung: Pläne pro Reisedauer, Viertel im Vergleich und eine Seite für jeden Monat des Jahres.",
-    cityBreaksIn: "Citytrips in {country}",
-    countryMetaTitle: "Citytrips in {country}: wohin und für wie lange",
+      "Eine kurze, bewusst kleine Liste europäischer Städte, die im Lauf der Zeit sorgfältig erweitert wird. Jede erhält dieselbe Behandlung: die Viertel im direkten Vergleich, das beste Gebiet für Ihre Art von Reise benannt, und ein echtes Hotel, das sich in jedem lohnt.",
+    cityBreaksIn: "Wo übernachten in {country}",
+    countryMetaTitle: "Wo übernachten in {country}: beste Städte und Viertel",
     countryMetaDesc:
-      "Alle Citytrips in {country} auf Stays in Europe: ideale Dauer, beste Monate und ehrliche Budgets für jede Stadt.",
+      "Jede Stadt in {country}, die wir auf Stays in Europe abdecken: das beste Viertel für eine Übernachtung und ein Hotel, das sich in jedem lohnt.",
   },
 };
 
