@@ -30,7 +30,7 @@ const en = {
   header: { destinations: "Destinations", guides: "Guides", method: "Method" },
   footer: {
     tagline:
-      "The right number of days, the right neighborhood, the right month. City break guides built from structured data and real opening hours, not filler.",
+      "The right neighborhood makes or breaks a city trip. We compare the areas of Europe's best cities and name the hotel worth booking in each.",
     cities: "Cities",
     site: "Site",
     allDestinations: "All destinations",
@@ -234,13 +234,13 @@ const en = {
     rainLittle: "Rain rarely lasts all day, so plans hold up well.",
   },
   wts: {
-    metaTitle: "Where to stay in {city}: best areas compared",
+    metaTitle: "Where to stay in {city}: the right neighborhood, area by area",
     metaDesc:
-      "The best neighborhoods to stay in {city} for first-timers, nightlife, families and budgets. Honest pros and cons plus live hotel maps per area.",
+      "Which {city} neighborhood fits your trip, and the real hotel worth booking in each. Straight pros and cons, a decision board and live maps per area.",
     h1: "Where to stay in",
-    shortlistTitle: "The shortlist",
+    shortlistTitle: "Straight to the answer",
     shortlistIntro:
-      "If you just want the answer: four vetted {city} picks, from splurge to budget, each in a neighborhood compared below.",
+      "Short on time? Four {city} hotels we would actually book, splurge to budget, each sitting in one of the areas broken down below.",
     boardTitle: "The decision board",
     boardNeighborhood: "Neighborhood",
     boardBookIf: "Book if you want",
@@ -248,21 +248,21 @@ const en = {
     boardHotels: "Hotels",
     bookFor: "Book it for",
     knowBefore: "Know before",
-    pickedNext: "Neighborhood picked? Lock the plan next:",
-    pickedLink: "{city} in {days} days, hour by hour",
-    answerFirst: "For a first {city} city break, stay in {hood}: {pro}.",
-    answerFallback: "Stay central in {city}.",
+    pickedNext: "Picked your area?",
+    pickedLink: "Browse more European cities",
+    answerFirst: "First time in {city}? Base yourself in {hood}: {pro}.",
+    answerFallback: "Stay near the center of {city} and you can barely go wrong.",
     answerBudget:
-      "On a tighter budget, {hood} gets you more room for less.",
+      "Watching the spend? {hood} trades a little buzz for more room per euro.",
     answerWalkable:
-      "The center is walkable, so any of the {n} areas below keeps you within reach of the main sights; what changes is the atmosphere you come home to.",
+      "The center is small enough to walk, so every area below puts the main sights within reach; what really changes is the mood of the street you come home to at night.",
     answerSpread:
-      "Distances matter here, so match the area to the plan you actually have.",
-    faqBestQ: "What is the best area to stay in {city}?",
+      "Distances count here, so pick the area that matches how you actually plan to spend your days.",
+    faqBestQ: "Which is the best area to stay in {city}?",
     faqNightQ: "Where should I stay in {city} for nightlife?",
-    faqNightA: "{hood} is the nightlife base. {vibe} Fair warning: {con}",
-    faqCheapQ: "What is the cheapest good area to stay in {city}?",
-    faqCheapA: "{hood} has the best price-to-location ratio. {vibe}",
+    faqNightA: "{hood} is the area to book for going out. {vibe} One caveat: {con}",
+    faqCheapQ: "Where is the cheapest good area to stay in {city}?",
+    faqCheapA: "{hood} gives you the best location for the price. {vibe}",
   },
   bud: {
     metaTitle: "{city} on a budget: the same trip for {price} EUR a day",
@@ -291,9 +291,9 @@ const en = {
     faqCheapAreaQ: "What is the cheapest area to stay in {city}?",
   },
   home: {
-    metaTitle: "Stays in Europe: city break itineraries that answer the question",
+    metaTitle: "Stays in Europe: where to stay in Europe's best cities",
     metaDesc:
-      "The right number of days, the right neighborhood, the right month. Day-by-day city break itineraries built on real data, not filler.",
+      "Which neighborhood to book in Europe's best cities, and the real hotel worth booking in each. Straight pros and cons, live maps and honest picks, area by area.",
     stamp: "City breaks, planned properly",
     heroParts: [
       { pre: "The right ", word: "days", post: "." },
@@ -345,18 +345,19 @@ const en = {
     methodLink: "Read the full methodology",
   },
   dest: {
-    metaTitle: "City break destinations: every city, compared honestly",
+    metaTitle: "Where to stay in Europe: cities and neighborhoods, compared",
     metaDesc:
-      "All Stays in Europe destinations with the number of days each one really needs, the best months and honest budgets. Europe first, the world next.",
+      "Every city we cover, with the best neighborhood to stay in and a real hotel worth booking in each. A small, growing set. Europe first.",
     kicker: "Departures board",
-    h1: "Pick your next city break",
+    h1: "Where to stay in Europe",
     intro:
-      "Three pilot cities today, new ones added every month. Each destination gets the full treatment: itineraries per duration, neighborhoods compared, and a page for every month of the year.",
-    cityBreaksIn: "City breaks in {country}",
-    countryMetaTitle: "City breaks in {country}: where to go and for how long",
+      "A short, deliberately small list of European cities, with more added carefully over time. Each one gets the same treatment: the neighborhoods compared side by side, the best area named for your kind of trip, and a real hotel worth booking in each.",
+    cityBreaksIn: "Where to stay in {country}",
+    countryMetaTitle: "Where to stay in {country}: best cities and areas",
     countryMetaDesc:
-      "Every {country} city break on Stays in Europe: ideal trip length, best months and honest budgets for each city.",
+      "Every {country} city we cover on Stays in Europe: the best neighborhood to stay in and a hotel worth booking in each.",
   },
+
 };
 
 export default en;
