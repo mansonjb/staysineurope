@@ -1,0 +1,304 @@
+#!/usr/bin/env node
+/**
+ * Apify (compass~crawler-google-places) -> real photo per curated hotel.
+ *
+ *   APIFY_TOKEN=... node scripts/sync-hotel-photos.mjs
+ *   FORCE=1 APIFY_TOKEN=... node scripts/sync-hotel-photos.mjs   # refetch all
+ *
+ * Parses data/hotels.en.ts for {slug, citySlug, name}, runs ONE Apify search
+ * over all hotels (one place each, with images), downloads the first image to
+ * public/hotels/<citySlug>/<slug>.jpg and writes data/hotel-photos.json
+ * (slug -> public path). Real places only. Key never shipped.
+ */
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+
+const TOKEN = process.env.APIFY_TOKEN || process.env.APIFY_API_KEY;
+if (!TOKEN) {
+  console.error("[hotels] APIFY_TOKEN missing");
+  process.exit(1);
+}
+const FORCE = Boolean(process.env.FORCE);
+const ROOT = process.cwd();
+const PUBLIC = join(ROOT, "public");
+const MANIFEST = join(ROOT, "data", "hotel-photos.json");
+
+// Per-hotel query overrides where the plain "name + city" search hits the
+// wrong place on Google (generic hotel names, franchises, etc.).
+const QUERY_OVERRIDE = {
+  "the-balmoral": "The Balmoral Hotel Princes Street Edinburgh Rocco Forte",
+  "the-morgan": "The Morgan Hotel Fleet Street Temple Bar Dublin",
+  "reykjavik-city-hostel":
+    "Reykjavik City HI Hostel Sundlaugavegur Laugardalur Iceland",
+  "fabrika-hostel-tallinn": "Fabrika Telliskivi Tallinn",
+  "city-backpacker-zurich": "Youth Hostel Zurich Wollishofen",
+  "athenee-palace-hilton-bucharest":
+    "Grand Hotel Continental Bucharest Calea Victoriei",
+  "hotel-julien-antwerp": "Hotel Julien Korte Nieuwstraat 24 Antwerpen",
+  "pulcinella-hostel-antwerp":
+    "Jeugdherberg Pulcinella Bogaardeplein 1 Antwerpen",
+  "caro-hotel-valencia": "Caro Hotel Valencia Calle Almirante",
+  "palacio-vallier-valencia": "Palacio Vallier Hotel Valencia Plaza Manises",
+  "vincci-lys-valencia": "Vincci Lys Valencia Martinez Cubells",
+  "red-nest-hostel-valencia": "Red Nest Hostel Valencia La Purisima",
+  "the-phoenicia-malta": "The Phoenicia Malta Floriana Valletta",
+  "the-saint-john-valletta": "The Saint John Hotel Valletta",
+  "the-victoria-hotel-sliema": "The Victoria Hotel Sliema AX Hotels",
+  "two-pillows-hostel-sliema": "Two Pillows Boutique Hostel Sliema",
+  "hotel-podewils-gdansk": "Hotel Podewils Old Town Gdansk Szafarnia",
+  "hotel-gdansk-boutique": "Hotel Gdansk Boutique Szafarnia",
+  "hotel-wolne-miasto-gdansk": "Hotel Wolne Miasto Old Town Gdansk",
+  "stay-inn-hostel-gdansk": "Stay Inn Hostel Gdansk Kaletnicza 6",
+  "grand-hotel-majestic-bologna": "Grand Hotel Majestic gia Baglioni Bologna Via Indipendenza",
+  "art-hotel-novecento-bologna": "Art Hotel Novecento Piazza Galilei 4 Bologna",
+  "hotel-touring-bologna": "Hotel Touring Bologna Via de Mattuiani",
+  "dopa-hostel-bologna": "Dopa Hostel Bologna Via Irnerio",
+  "esplanade-zagreb": "Esplanade Zagreb Hotel Mihanoviceva 1 Zagreb",
+  "hotel-jagerhorn-zagreb": "Hotel Jagerhorn Ilica 14 Zagreb",
+  "canopy-hilton-zagreb": "Canopy by Hilton Zagreb City Centre Branimirova",
+  "swanky-mint-hostel-zagreb": "Swanky Mint Hostel Ilica 50 Zagreb",
+  "square-nine-belgrade": "Square Nine Hotel Belgrade Studentski Trg",
+  "hotel-moskva-belgrade": "Hotel Moskva Belgrade Terazije",
+  "mama-shelter-belgrade": "Mama Shelter Belgrade Knez Mihailova",
+  "hostel-bongo-belgrade": "Hostel Bongo Belgrade",
+  "le-place-darmes-luxembourg": "Hotel Le Place d'Armes Luxembourg City Place d'Armes",
+  "hotel-parc-beaux-arts-luxembourg": "Hotel Parc Beaux-Arts Luxembourg City",
+  "grand-hotel-alfa-luxembourg": "Mercure Grand Hotel Alfa Luxembourg Place de la Gare",
+  "youth-hostel-luxembourg": "Luxembourg City Youth Hostel Auberge de Jeunesse Pfaffenthal",
+  "gran-hotel-miramar-malaga": "Gran Hotel Miramar Malaga Paseo de Reding",
+  "molina-lario-malaga": "Hotel Molina Lario Malaga Calle Molina Lario",
+  "hotel-boutique-teatro-romano": "Hotel Boutique Teatro Romano Malaga Alcazabilla",
+  "the-lights-hostel-malaga": "The Lights Hostel Malaga Soho",
+  "park-hyatt-milan": "Park Hyatt Milano Via Tommaso Grossi",
+  "room-mate-giulia-milan": "Room Mate Giulia Milan Via Silvio Pellico",
+  "maison-borella-navigli": "Maison Borella Milano Navigli Alzaia Naviglio Grande",
+  "ostello-bello-milano": "Ostello Bello Milano Via Medici",
+  "cour-des-loges-lyon": "Cour des Loges Lyon Rue du Boeuf Vieux Lyon",
+  "college-hotel-lyon": "College Hotel Lyon Vieux Lyon Place Saint Paul",
+  "hotel-le-royal-lyon": "Hotel Le Royal Lyon MGallery Place Bellecour",
+  "away-hostel-lyon": "Away Hostel Coffee Lyon Rue Edouard Herriot",
+  "hotel-sacher-salzburg": "Hotel Sacher Salzburg Schwarzstrasse",
+  "arthotel-blaue-gans": "Arthotel Blaue Gans Salzburg Getreidegasse",
+  "hotel-am-mirabellplatz": "Hotel am Mirabellplatz Salzburg",
+  "yoho-hostel-salzburg": "YoHo International Youth Hostel Salzburg Paracelsusstrasse",
+  "fairmont-vier-jahreszeiten-hamburg":
+    "Fairmont Hotel Vier Jahreszeiten Hamburg Neuer Jungfernstieg",
+  "25hours-hotel-hamburg-hafencity":
+    "25hours Hotel Hamburg HafenCity Ueberseeallee",
+  "empire-riverside-hotel-hamburg":
+    "Empire Riverside Hotel Hamburg Bernhard-Nocht-Strasse St Pauli",
+  "superbude-st-pauli-hamburg": "Superbude St. Pauli Hamburg Juliusstrasse",
+  "gran-hotel-domine-bilbao": "Gran Hotel Domine Bilbao Alameda Mazarredo",
+  "hotel-carlton-bilbao": "Hotel Carlton Bilbao Plaza Moyua",
+  "hotel-tayko-bilbao": "Tayko Bilbao Calle Ribera",
+  "quartier-bilbao-hostel": "Quartier Bilbao Hostel Bilbao la Vieja",
+  "opus-xvi-bergen": "Opus XVI Bergen Vagsallmenningen",
+  "hotel-park-bergen": "Hotel Park Bergen Harald Harfagres gate",
+  "thon-hotel-bryggen": "Thon Hotel Orion Bergen Bradbenken",
+  "citybox-bergen": "Citybox Bergen City",
+  "nhow-rotterdam": "nhow Rotterdam Hotel Wilhelminakade 137",
+  "hotel-new-york-rotterdam": "Hotel New York Rotterdam Koninginnenhoofd 1",
+  "citizenm-rotterdam": "citizenM Rotterdam Gelderseplein 50",
+  "king-kong-hostel-rotterdam":
+    "King Kong Hostel Rotterdam Witte de Withstraat 74",
+};
+
+// Hotels whose Google Places match is unreliable and always resolves to the
+// wrong property (checked manually). We deliberately keep NO real photo for
+// these so they fall back to the stock px() image; never re-fetch them.
+// la-maison-hotel-munich: Google keeps returning "Vi Vadi Hotel", a different
+// property, so it stays on the stock fallback.
+// art-hotel-novecento-bologna: Google Places keeps returning its sister property
+// "Art Hotel Commercianti" (same Bologna Art Hotels group), so it stays on the
+// stock fallback rather than show the wrong building.
+// hostel-bongo-belgrade: Google's first image is an aerial cityscape of a large
+// building, not the hostel, so it stays on the stock dorm fallback.
+const SKIP = new Set([
+  "la-maison-hotel-munich",
+  "art-hotel-novecento-bologna",
+  "hostel-bongo-belgrade",
+]);
+
+const CITY_NAME = {
+  lisbon: "Lisbon",
+  prague: "Prague",
+  seville: "Seville Spain",
+  porto: "Porto Portugal",
+  budapest: "Budapest",
+  vienna: "Vienna",
+  granada: "Granada Spain",
+  rome: "Rome Italy",
+  amsterdam: "Amsterdam",
+  florence: "Florence Italy",
+  bruges: "Bruges Belgium",
+  barcelona: "Barcelona",
+  berlin: "Berlin",
+  nice: "Nice France",
+  dubrovnik: "Dubrovnik Croatia",
+  reykjavik: "Reykjavik Iceland",
+  munich: "Munich Germany",
+  tallinn: "Tallinn Estonia",
+  oslo: "Oslo Norway",
+  helsinki: "Helsinki Finland",
+  naples: "Naples Italy",
+  split: "Split Croatia",
+  riga: "Riga Latvia",
+  brussels: "Brussels Belgium",
+  vilnius: "Vilnius Lithuania",
+  bratislava: "Bratislava Slovakia",
+  ljubljana: "Ljubljana Slovenia",
+  zurich: "Zurich Switzerland",
+  warsaw: "Warsaw Poland",
+  bucharest: "Bucharest Romania",
+  valencia: "Valencia Spain",
+  valletta: "Valletta Malta",
+  gdansk: "Gdansk Poland",
+  bologna: "Bologna Italy",
+  sofia: "Sofia Bulgaria",
+  belgrade: "Belgrade Serbia",
+  luxembourg: "Luxembourg City",
+  malaga: "Malaga Spain",
+  milan: "Milan Italy",
+  lyon: "Lyon France",
+  salzburg: "Salzburg Austria",
+  hamburg: "Hamburg Germany",
+  bilbao: "Bilbao Spain",
+  bergen: "Bergen Norway",
+  zagreb: "Zagreb Croatia",
+  antwerp: "Antwerp Belgium",
+  rotterdam: "Rotterdam Netherlands",
+};
+
+// --- parse hotels.en.ts for slug / citySlug / name ---
+function parseHotels() {
+  const src = readFileSync(join(ROOT, "data", "hotels.en.ts"), "utf8");
+  const lines = src.split("\n");
+  const out = [];
+  let cur = {};
+  for (const line of lines) {
+    const s = line.match(/^\s{4}slug:\s*"([^"]+)"/);
+    const c = line.match(/^\s{4}citySlug:\s*"([^"]+)"/);
+    const n = line.match(/^\s{4}name:\s*"([^"]+)"/);
+    if (s) cur = { slug: s[1] };
+    else if (c && cur.slug) cur.citySlug = c[1];
+    else if (n && cur.slug && cur.citySlug) {
+      cur.name = n[1];
+      out.push(cur);
+      cur = {};
+    }
+  }
+  return out;
+}
+
+async function runApify(queries) {
+  const url = `https://api.apify.com/v2/acts/compass~crawler-google-places/run-sync-get-dataset-items?token=${encodeURIComponent(
+    TOKEN
+  )}`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      searchStringsArray: queries,
+      maxCrawledPlacesPerSearch: 1,
+      language: "en",
+      includeImages: true,
+      maxImages: 1,
+      scrapeReviewsPersonalData: false,
+      skipClosedPlaces: false,
+    }),
+  });
+  if (!res.ok) {
+    throw new Error(`Apify ${res.status}: ${(await res.text()).slice(0, 300)}`);
+  }
+  return (await res.json());
+}
+
+async function download(url, dest) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`download ${res.status}`);
+  writeFileSync(dest, Buffer.from(await res.arrayBuffer()));
+}
+
+const norm = (s) =>
+  s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+async function main() {
+  const hotels = parseHotels();
+  console.log(`[hotels] ${hotels.length} hotels parsed`);
+
+  const manifest = existsSync(MANIFEST)
+    ? JSON.parse(readFileSync(MANIFEST, "utf8"))
+    : {};
+
+  const candidates = hotels.filter((h) => !SKIP.has(h.slug));
+  const todo = FORCE
+    ? candidates
+    : candidates.filter((h) => {
+        const p = join(PUBLIC, "hotels", h.citySlug, `${h.slug}.jpg`);
+        return !existsSync(p);
+      });
+  if (!todo.length) {
+    console.log("[hotels] nothing to do (all cached)");
+    return;
+  }
+  console.log(`[hotels] fetching ${todo.length}`);
+
+  const queries = todo.map(
+    (h) =>
+      QUERY_OVERRIDE[h.slug] ?? `${h.name} ${CITY_NAME[h.citySlug] ?? ""}`.trim()
+  );
+  // map normalized query -> hotel for result matching
+  const byQuery = new Map(todo.map((h, i) => [norm(queries[i]), h]));
+
+  // Chunk to stay under the sync endpoint time limit.
+  const CHUNK = 10;
+  const items = [];
+  for (let i = 0; i < queries.length; i += CHUNK) {
+    const batch = queries.slice(i, i + CHUNK);
+    console.log(`[hotels] batch ${i / CHUNK + 1} (${batch.length} queries)...`);
+    const part = await runApify(batch);
+    items.push(...part);
+  }
+  console.log(`[hotels] Apify returned ${items.length} places`);
+
+  // index results by searchString and by title for fuzzy fallback
+  const usedSlugs = new Set();
+  for (const it of items) {
+    const imgs = Array.isArray(it.imageUrls) ? it.imageUrls : [];
+    if (!imgs.length) continue;
+    // find the hotel this result belongs to
+    let hotel = it.searchString ? byQuery.get(norm(it.searchString)) : null;
+    if (!hotel && it.title) {
+      const t = norm(it.title);
+      hotel =
+        todo.find(
+          (h) => !usedSlugs.has(h.slug) && (norm(h.name).includes(t) || t.includes(norm(h.name)))
+        ) || null;
+    }
+    if (!hotel || usedSlugs.has(hotel.slug)) continue;
+    usedSlugs.add(hotel.slug);
+    const dir = join(PUBLIC, "hotels", hotel.citySlug);
+    if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+    const dest = join(dir, `${hotel.slug}.jpg`);
+    try {
+      await download(imgs[0], dest);
+      manifest[hotel.slug] = `/hotels/${hotel.citySlug}/${hotel.slug}.jpg`;
+      console.log(`  ${hotel.slug.padEnd(32)} OK (${it.title ?? "?"})`);
+    } catch (err) {
+      console.warn(`  ${hotel.slug.padEnd(32)} ! ${err.message}`);
+    }
+  }
+
+  const missing = todo.filter((h) => !manifest[h.slug]).map((h) => h.slug);
+  if (missing.length) console.log(`[hotels] no photo for: ${missing.join(", ")}`);
+
+  writeFileSync(MANIFEST, `${JSON.stringify(manifest, null, 2)}\n`);
+  console.log(
+    `[hotels] manifest: ${Object.keys(manifest).length}/${hotels.length} hotels have a real photo`
+  );
+}
+
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});
