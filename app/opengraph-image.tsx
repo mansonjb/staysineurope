@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Perfect City Break";
+export const alt = "Stays in Europe";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -29,7 +29,7 @@ export default function OgImage() {
             color: "#1a1a2e",
           }}
         >
-          PERFECTCITYBREAK.COM · CITY BREAK PASS
+          STAYSINEUROPE.COM · CITY BREAK PASS
         </div>
         <div
           style={{

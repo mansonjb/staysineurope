@@ -37,7 +37,7 @@ const fr: typeof en = {
     aboutMethod: "À propos et méthodologie",
     privacy: "Politique de confidentialité",
     disclosure:
-      "Perfect City Break touche une commission sur les liens de réservation (Stay22 et partenaires billetterie). Cela ne change jamais le prix que vous payez ni nos recommandations.",
+      "Stays in Europe touche une commission sur les liens de réservation (Stay22 et partenaires billetterie). Cela ne change jamais le prix que vous payez ni nos recommandations.",
   },
   stay22: {
     loading: "Chargement de la carte des hôtels…",
@@ -296,7 +296,7 @@ const fr: typeof en = {
     faqCheapAreaQ: "Quel est le quartier le moins cher où dormir à {city} ?",
   },
   home: {
-    metaTitle: "Perfect City Break : des itinéraires city break qui répondent à la question",
+    metaTitle: "Stays in Europe : des itinéraires city break qui répondent à la question",
     metaDesc:
       "Le bon nombre de jours, le bon quartier, le bon mois. Des itinéraires city break jour par jour construits sur de vraies données, pas du remplissage.",
     stamp: "Des city breaks bien préparés",
@@ -352,7 +352,7 @@ const fr: typeof en = {
   dest: {
     metaTitle: "Destinations city break : chaque ville, comparée honnêtement",
     metaDesc:
-      "Toutes les destinations Perfect City Break avec le nombre de jours qu'il faut vraiment à chacune, les meilleurs mois et des budgets honnêtes. L'Europe d'abord, le monde ensuite.",
+      "Toutes les destinations Stays in Europe avec le nombre de jours qu'il faut vraiment à chacune, les meilleurs mois et des budgets honnêtes. L'Europe d'abord, le monde ensuite.",
     kicker: "Tableau des départs",
     h1: "Choisissez votre prochain city break",
     intro:
@@ -360,7 +360,7 @@ const fr: typeof en = {
     cityBreaksIn: "City breaks : {country}",
     countryMetaTitle: "City break en {country} : où aller et pour combien de temps",
     countryMetaDesc:
-      "Tous les city breaks {country} sur Perfect City Break : durée idéale, meilleurs mois et budgets honnêtes pour chaque ville.",
+      "Tous les city breaks {country} sur Stays in Europe : durée idéale, meilleurs mois et budgets honnêtes pour chaque ville.",
   },
 };
 

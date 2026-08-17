@@ -37,7 +37,7 @@ const pt: typeof en = {
     aboutMethod: "Sobre nós e metodologia",
     privacy: "Política de privacidade",
     disclosure:
-      "A Perfect City Break recebe comissões pelos links de reserva (Stay22 e parceiros de bilhetes). Isto nunca altera o preço que paga nem as nossas recomendações.",
+      "A Stays in Europe recebe comissões pelos links de reserva (Stay22 e parceiros de bilhetes). Isto nunca altera o preço que paga nem as nossas recomendações.",
   },
   stay22: {
     loading: "A carregar o mapa de hotéis…",
@@ -290,7 +290,7 @@ const pt: typeof en = {
     faqCheapAreaQ: "Qual é o bairro mais barato para ficar em {city}?",
   },
   home: {
-    metaTitle: "Perfect City Break: roteiros de city break que respondem à pergunta",
+    metaTitle: "Stays in Europe: roteiros de city break que respondem à pergunta",
     metaDesc:
       "O número certo de dias, o bairro certo, o mês certo. Roteiros de city break dia a dia construídos com dados reais, sem enchimento.",
     stamp: "City breaks bem planeados",
@@ -346,7 +346,7 @@ const pt: typeof en = {
   dest: {
     metaTitle: "Destinos de city break: cada cidade, comparada com honestidade",
     metaDesc:
-      "Todos os destinos Perfect City Break com o número de dias de que cada um realmente precisa, os melhores meses e orçamentos honestos. Primeiro a Europa, depois o mundo.",
+      "Todos os destinos Stays in Europe com o número de dias de que cada um realmente precisa, os melhores meses e orçamentos honestos. Primeiro a Europa, depois o mundo.",
     kicker: "Painel de partidas",
     h1: "Escolha o seu próximo city break",
     intro:
@@ -354,7 +354,7 @@ const pt: typeof en = {
     cityBreaksIn: "City breaks em {country}",
     countryMetaTitle: "City breaks em {country}: para onde ir e por quanto tempo",
     countryMetaDesc:
-      "Todos os city breaks em {country} na Perfect City Break: duração ideal, melhores meses e orçamentos honestos para cada cidade.",
+      "Todos os city breaks em {country} na Stays in Europe: duração ideal, melhores meses e orçamentos honestos para cada cidade.",
   },
 };
 

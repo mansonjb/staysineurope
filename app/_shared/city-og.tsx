@@ -50,7 +50,7 @@ export async function renderCityOg(slug: string, locale: Locale) {
             color: "#ffffff",
           }}
         >
-          <span>PERFECTCITYBREAK.COM</span>
+          <span>STAYSINEUROPE.COM</span>
           <span>
             {city?.airportCode ?? ""} · {city?.country.toUpperCase() ?? ""}
           </span>

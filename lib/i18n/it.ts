@@ -37,7 +37,7 @@ const it: typeof en = {
     aboutMethod: "Chi siamo e metodologia",
     privacy: "Informativa sulla privacy",
     disclosure:
-      "Perfect City Break riceve commissioni dai link di prenotazione (Stay22 e partner di biglietteria). Questo non cambia mai il prezzo che paghi né le nostre raccomandazioni.",
+      "Stays in Europe riceve commissioni dai link di prenotazione (Stay22 e partner di biglietteria). Questo non cambia mai il prezzo che paghi né le nostre raccomandazioni.",
   },
   stay22: {
     loading: "Caricamento della mappa degli hotel…",
@@ -290,7 +290,7 @@ const it: typeof en = {
     faqCheapAreaQ: "Qual è la zona più economica dove dormire a {city}?",
   },
   home: {
-    metaTitle: "Perfect City Break: itinerari city break che rispondono alla domanda",
+    metaTitle: "Stays in Europe: itinerari city break che rispondono alla domanda",
     metaDesc:
       "I giorni giusti, il quartiere giusto, il mese giusto. Itinerari city break giorno per giorno costruiti su dati veri, senza riempitivi.",
     stamp: "City break pianificati come si deve",
@@ -346,7 +346,7 @@ const it: typeof en = {
   dest: {
     metaTitle: "Destinazioni city break: ogni città, confrontata onestamente",
     metaDesc:
-      "Tutte le destinazioni Perfect City Break con il numero di giorni che servono davvero a ciascuna, i mesi migliori e budget onesti. Prima l'Europa, poi il mondo.",
+      "Tutte le destinazioni Stays in Europe con il numero di giorni che servono davvero a ciascuna, i mesi migliori e budget onesti. Prima l'Europa, poi il mondo.",
     kicker: "Tabellone delle partenze",
     h1: "Scegli il tuo prossimo city break",
     intro:
@@ -354,7 +354,7 @@ const it: typeof en = {
     cityBreaksIn: "City break in {country}",
     countryMetaTitle: "City break in {country}: dove andare e per quanto tempo",
     countryMetaDesc:
-      "Tutti i city break in {country} su Perfect City Break: durata ideale, mesi migliori e budget onesti per ogni città.",
+      "Tutti i city break in {country} su Stays in Europe: durata ideale, mesi migliori e budget onesti per ogni città.",
   },
 };
 

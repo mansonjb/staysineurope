@@ -12,7 +12,7 @@ export const STAY22_LMA_ID =
 export const PLAUSIBLE_DOMAIN = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN ?? "";
 // Google Analytics 4 measurement id. Empty string disables the tag.
 // Blanked for the new site: set NEXT_PUBLIC_GA_ID once a dedicated GA property
-// exists, so we never send hits to Perfect City Break's property.
+// exists, so we never send hits to Stays in Europe's property.
 export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID ?? "";
 // Microsoft Clarity project id. Empty string disables the tag.
 export const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID ?? "";

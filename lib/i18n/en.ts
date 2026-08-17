@@ -38,7 +38,7 @@ const en = {
     aboutMethod: "About and methodology",
     privacy: "Privacy policy",
     disclosure:
-      "Perfect City Break earns commissions from booking links (Stay22 and ticket partners). This never changes the price you pay and never changes our recommendations.",
+      "Stays in Europe earns commissions from booking links (Stay22 and ticket partners). This never changes the price you pay and never changes our recommendations.",
   },
   stay22: {
     loading: "Loading hotel map…",
@@ -291,7 +291,7 @@ const en = {
     faqCheapAreaQ: "What is the cheapest area to stay in {city}?",
   },
   home: {
-    metaTitle: "Perfect City Break: city break itineraries that answer the question",
+    metaTitle: "Stays in Europe: city break itineraries that answer the question",
     metaDesc:
       "The right number of days, the right neighborhood, the right month. Day-by-day city break itineraries built on real data, not filler.",
     stamp: "City breaks, planned properly",
@@ -347,7 +347,7 @@ const en = {
   dest: {
     metaTitle: "City break destinations: every city, compared honestly",
     metaDesc:
-      "All Perfect City Break destinations with the number of days each one really needs, the best months and honest budgets. Europe first, the world next.",
+      "All Stays in Europe destinations with the number of days each one really needs, the best months and honest budgets. Europe first, the world next.",
     kicker: "Departures board",
     h1: "Pick your next city break",
     intro:
@@ -355,7 +355,7 @@ const en = {
     cityBreaksIn: "City breaks in {country}",
     countryMetaTitle: "City breaks in {country}: where to go and for how long",
     countryMetaDesc:
-      "Every {country} city break on Perfect City Break: ideal trip length, best months and honest budgets for each city.",
+      "Every {country} city break on Stays in Europe: ideal trip length, best months and honest budgets for each city.",
   },
 };
 

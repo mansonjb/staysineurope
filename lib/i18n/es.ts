@@ -37,7 +37,7 @@ const es: typeof en = {
     aboutMethod: "Acerca de y metodología",
     privacy: "Política de privacidad",
     disclosure:
-      "Perfect City Break gana comisiones con los enlaces de reserva (Stay22 y socios de entradas). Esto nunca cambia el precio que pagas ni nuestras recomendaciones.",
+      "Stays in Europe gana comisiones con los enlaces de reserva (Stay22 y socios de entradas). Esto nunca cambia el precio que pagas ni nuestras recomendaciones.",
   },
   stay22: {
     loading: "Cargando el mapa de hoteles…",
@@ -291,7 +291,7 @@ const es: typeof en = {
     faqCheapAreaQ: "¿Cuál es la zona más barata donde alojarse en {city}?",
   },
   home: {
-    metaTitle: "Perfect City Break: itinerarios de escapadas urbanas que responden a la pregunta",
+    metaTitle: "Stays in Europe: itinerarios de escapadas urbanas que responden a la pregunta",
     metaDesc:
       "El número justo de días, el barrio adecuado, el mes correcto. Itinerarios de escapadas urbanas día a día construidos con datos reales, sin relleno.",
     stamp: "Escapadas urbanas, bien planeadas",
@@ -347,7 +347,7 @@ const es: typeof en = {
   dest: {
     metaTitle: "Destinos de escapadas urbanas: cada ciudad, comparada con honestidad",
     metaDesc:
-      "Todos los destinos de Perfect City Break con el número de días que cada uno necesita de verdad, los mejores meses y presupuestos honestos. Europa primero, el mundo después.",
+      "Todos los destinos de Stays in Europe con el número de días que cada uno necesita de verdad, los mejores meses y presupuestos honestos. Europa primero, el mundo después.",
     kicker: "Panel de salidas",
     h1: "Elige tu próxima escapada urbana",
     intro:
@@ -355,7 +355,7 @@ const es: typeof en = {
     cityBreaksIn: "Escapadas urbanas en {country}",
     countryMetaTitle: "Escapadas urbanas en {country}: a dónde ir y por cuánto tiempo",
     countryMetaDesc:
-      "Cada escapada urbana de {country} en Perfect City Break: duración ideal, mejores meses y presupuestos honestos para cada ciudad.",
+      "Cada escapada urbana de {country} en Stays in Europe: duración ideal, mejores meses y presupuestos honestos para cada ciudad.",
   },
 };
 

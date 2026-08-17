@@ -38,7 +38,7 @@ export function stay22HotelUrl(opts: {
     .filter(Boolean)
     .join(", ");
   const params = new URLSearchParams({
-    aid: opts.aid || "perfectcitybreak",
+    aid: opts.aid || "staysineurope",
     address,
   });
   if (opts.lat !== undefined && opts.lng !== undefined) {
@@ -55,7 +55,7 @@ export function stay22SearchUrl(opts: {
   checkin?: string;
 }): string {
   const params = new URLSearchParams({
-    aid: opts.aid || "perfectcitybreak",
+    aid: opts.aid || "staysineurope",
     lat: String(opts.lat),
     lng: String(opts.lng),
   });

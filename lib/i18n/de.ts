@@ -37,7 +37,7 @@ const de: typeof en = {
     aboutMethod: "Über uns und Methodik",
     privacy: "Datenschutzerklärung",
     disclosure:
-      "Perfect City Break erhält Provisionen über Buchungslinks (Stay22 und Ticketpartner). Das ändert nie den Preis, den Sie zahlen, und nie unsere Empfehlungen.",
+      "Stays in Europe erhält Provisionen über Buchungslinks (Stay22 und Ticketpartner). Das ändert nie den Preis, den Sie zahlen, und nie unsere Empfehlungen.",
   },
   stay22: {
     loading: "Hotelkarte wird geladen…",
@@ -290,7 +290,7 @@ const de: typeof en = {
     faqCheapAreaQ: "Welches ist das günstigste Viertel für eine Übernachtung in {city}?",
   },
   home: {
-    metaTitle: "Perfect City Break: Citytrip-Pläne, die die Frage beantworten",
+    metaTitle: "Stays in Europe: Citytrip-Pläne, die die Frage beantworten",
     metaDesc:
       "Die richtige Dauer, das richtige Viertel, der richtige Monat. Tag-für-Tag-Pläne für Citytrips auf Basis echter Daten, ohne Füllmaterial.",
     stamp: "Citytrips, richtig geplant",
@@ -354,7 +354,7 @@ const de: typeof en = {
     cityBreaksIn: "Citytrips in {country}",
     countryMetaTitle: "Citytrips in {country}: wohin und für wie lange",
     countryMetaDesc:
-      "Alle Citytrips in {country} auf Perfect City Break: ideale Dauer, beste Monate und ehrliche Budgets für jede Stadt.",
+      "Alle Citytrips in {country} auf Stays in Europe: ideale Dauer, beste Monate und ehrliche Budgets für jede Stadt.",
   },
 };
 
