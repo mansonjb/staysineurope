@@ -75,7 +75,7 @@ const hotelsEn: Hotel[] = [
     style: "Art Nouveau landmark",
     bestFor: "Old-world glamour",
     blurb:
-      "A 1904 Art Nouveau monument next to the Municipal House, kept close to its original state down to the brass fittings. You are two minutes from Republic Square and eight on foot from Old Town Square.",
+      "Hotel Paris Prague dates to 1904 and stands next to the Municipal House, preserved close to its original Art Nouveau state down to the brass fittings. Republic Square is two minutes away, and Old Town Square is roughly an eight-minute walk.",
     image: px(1001965),
     imageAlt: "Ornate historic hotel lobby with arches and plants",
   },
@@ -89,7 +89,7 @@ const hotelsEn: Hotel[] = [
     style: "Castle-side views",
     bestFor: "Couples",
     blurb:
-      "Wedged under the castle walls above the Ledeburg Gardens, with rooftop breakfasts that overlook every spire in Mala Strana. It is a steep walk home, and worth it every single evening.",
+      "The Golden Well sits wedged beneath the castle walls above the Ledeburg Gardens, and breakfast is served on a rooftop that overlooks every spire in Mala Strana below. The walk back up is steep, but it earns its keep every evening.",
     image: px(164595),
     imageAlt: "Upscale hotel bedroom with dark wood panelling and crisp bedding",
   },
@@ -103,7 +103,7 @@ const hotelsEn: Hotel[] = [
     style: "Design classic",
     bestFor: "Design lovers",
     blurb:
-      "Eva Jiřičná's glass-staircase design hotel sits between Old Town Square and the Josefov synagogues. Superior rooms upstairs have castle views; the bakery-style breakfast is one of the best in the center.",
+      "Hotel Josef, designed by architect Eva Jiřičná around a glass staircase, sits between Old Town Square and the Josefov synagogue district. The superior rooms on the upper floors have castle views, and the bakery-style breakfast ranks among the best in the centre.",
     image: px(1267438),
     imageAlt: "Minimalist design hotel room in dark tones with low lighting",
   },
@@ -117,7 +117,7 @@ const hotelsEn: Hotel[] = [
     style: "Quiet B&B",
     bestFor: "Value seekers",
     blurb:
-      "A small guesthouse on a silent lane by St Agnes Convent, ten minutes on foot from Old Town Square. The cooked-to-order breakfast and the staff's restaurant bookings are why it keeps topping review rankings.",
+      "Residence Agnes is a small guesthouse on a quiet lane beside St Agnes Convent, about ten minutes on foot from Old Town Square. Breakfast is cooked to order, and staff will book restaurants for guests, which is why it keeps landing near the top of review rankings.",
     image: px(97083),
     imageAlt: "Classic guesthouse room with wooden headboard and fresh flowers",
   },
@@ -191,7 +191,7 @@ const hotelsEn: Hotel[] = [
     style: "Wine hotel with a view",
     bestFor: "Views",
     blurb:
-      "A wine-themed luxury hotel terraced up the Gaia hillside, with an infinity pool and rooms that stare straight across the Douro at Porto's old town. It is a steep spot, but the funicular and the view from breakfast make up for it.",
+      "The Yeatman is built in terraces up the Vila Nova de Gaia hillside, wine-themed throughout, with an infinity pool and rooms that face directly across the Douro to Porto's old town. The climb up is steep, but the funicular from the riverfront and the breakfast view both make the case for staying anyway.",
     image: px(261102),
     imageAlt: "Hotel infinity pool at dusk overlooking a river and old town",
   },
@@ -205,7 +205,7 @@ const hotelsEn: Hotel[] = [
     style: "Riverfront townhouses",
     bestFor: "First visit",
     blurb:
-      "A row of restored merchant houses right on the Ribeira quay, so you step out of the door into the postcard. Ask for a river-view room; the ones at the back face the lanes and lose the Douro entirely.",
+      "This hotel is made up of a row of restored merchant houses directly on the Ribeira quay, so the door opens straight onto the view everyone photographs. Book a river-facing room specifically, since the ones at the back look onto the lanes and miss the Douro completely.",
     image: px(1001965),
     imageAlt: "Ornate historic hotel lobby with arches and greenery",
   },
@@ -219,7 +219,7 @@ const hotelsEn: Hotel[] = [
     style: "Classic since 1880",
     bestFor: "Central and walkable",
     blurb:
-      "Porto's oldest grand hotel sits on the pedestrian Rua de Santa Catarina, five minutes from Sao Bento station and the Bolhao market. The building is 19th-century; rooms are traditional and quiet, a fair trade for the location.",
+      "Dating back to 1880, this is Porto's oldest grand hotel, set on the pedestrianised Rua de Santa Catarina about five minutes from Sao Bento station and the Bolhao market. Rooms in the 19th-century building are traditional and quiet, a reasonable trade-off for a location this central.",
     image: px(164595),
     imageAlt: "Traditional hotel bedroom with dark wood and crisp bedding",
   },
@@ -233,7 +233,7 @@ const hotelsEn: Hotel[] = [
     style: "Design hostel",
     bestFor: "Budget",
     blurb:
-      "An art-filled hostel on Cedofeita's gallery street, with private rooms as well as dorms and a small back garden. You are among the independent shops and cheap tascas, ten minutes uphill from the river crowds.",
+      "Gallery Hostel fills its rooms and corridors with local art on Cedofeita's gallery street, offering both dorms and private rooms plus a small garden out back. It sits among independent shops and cheap tascas, a ten-minute uphill walk clear of the riverside crowds.",
     image: px(279805),
     imageAlt: "Warm bedside lamp and headboard detail in a guesthouse room",
   },
@@ -307,7 +307,7 @@ const hotelsEn: Hotel[] = [
     style: "Grand dame since 1876",
     bestFor: "Landmark stay",
     blurb:
-      "The address behind the original Sachertorte, right behind the State Opera in the very center. It is old-world formal and priced for it; the cafe downstairs lets you taste the legend without booking a room.",
+      "Hotel Sacher is where the original Sachertorte was created, sitting directly behind the State Opera in the very centre of Vienna. It keeps an old-world formality and prices to match, though the cafe downstairs lets anyone taste the cake without booking a room.",
     image: px(1001965),
     imageAlt: "Ornate historic hotel lobby with arches and plants",
   },
@@ -321,7 +321,7 @@ const hotelsEn: Hotel[] = [
     style: "Art-filled townhouse",
     bestFor: "Design lovers",
     blurb:
-      "A designer boutique hotel in a Neubau townhouse, each room styled differently and hung with real contemporary art. You are in the gallery-and-cafe 7th district, one tram stop from the MuseumsQuartier.",
+      "Altstadt Vienna occupies a townhouse in Neubau, with every room styled individually and hung with genuine contemporary art. It sits in the gallery-and-cafe 7th district, one tram stop from the MuseumsQuartier.",
     image: px(262048),
     imageAlt: "Bright elegant hotel suite with a chandelier and large bed",
   },
@@ -335,7 +335,7 @@ const hotelsEn: Hotel[] = [
     style: "Rooftop bar",
     bestFor: "Sunset drinks",
     blurb:
-      "A playful circus-themed hotel with a rooftop bar that looks straight over the imperial rooftops. It sits between the MuseumsQuartier and the Neubau bars, so you can walk everywhere in the evening.",
+      "This circus-themed hotel leans into its playful decor throughout, and its rooftop bar looks directly over Vienna's imperial rooftops. It sits between the MuseumsQuartier and the Neubau bar strip, close enough to walk to both after dark.",
     image: px(2290753),
     imageAlt: "Rooftop hotel terrace at dusk with tables and a city view",
   },
@@ -349,7 +349,7 @@ const hotelsEn: Hotel[] = [
     style: "Modern hostel",
     bestFor: "Budget",
     blurb:
-      "A well-run hostel steps from the Naschmarkt food stalls, with private rooms as well as dorms and a real bar. Vienna is expensive, and this is one of the few central beds that is not.",
+      "Wombat's is a well-run hostel just steps from the Naschmarkt food stalls, with dorms, private rooms and its own proper bar. Vienna runs expensive overall, and this counts as one of the few central beds that does not.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
@@ -365,7 +365,7 @@ const hotelsEn: Hotel[] = [
     style: "Inside the Alhambra",
     bestFor: "Once in a lifetime",
     blurb:
-      "A former convent set inside the Alhambra grounds themselves, so you are behind the walls after the day crowds leave. It books out months ahead and costs accordingly, but no other hotel in Spain has this address.",
+      "This hotel occupies a former convent inside the Alhambra's own walls, meaning guests are still on the grounds once the day's visitors have been cleared out. Rooms sell out months in advance and cost accordingly, but no other hotel in Spain can claim this address.",
     image: px(1001965),
     imageAlt: "Ornate historic hotel lobby with arches and greenery",
   },
@@ -379,7 +379,7 @@ const hotelsEn: Hotel[] = [
     style: "Albaicin carmen",
     bestFor: "Romantic",
     blurb:
-      "A 16th-century mansion around a frescoed courtyard in the Albaicin, some rooms facing straight across to the floodlit Alhambra. The lanes here are steep and car-free, so pack light and wear real shoes.",
+      "Palacio de Santa Ines is a 16th-century mansion built around a frescoed courtyard in the Albaicin, and a number of its rooms look directly across to the floodlit Alhambra at night. The surrounding lanes are steep, cobbled and closed to cars, so decent shoes and a light bag matter here.",
     image: px(279746),
     imageAlt: "Traditional guesthouse bedroom with wooden furniture",
   },
@@ -393,7 +393,7 @@ const hotelsEn: Hotel[] = [
     style: "Moorish house",
     bestFor: "Atmosphere",
     blurb:
-      "A restored 15th-century Moorish house at the foot of the Albaicin on the Carrera del Darro, brick arches and a fountain courtyard intact. It is a short flat walk to the Alhambra ticket gate, which few Albaicin hotels can claim.",
+      "Hotel Casa Morisca is a restored 15th-century Moorish house on the Carrera del Darro at the foot of the Albaicin, keeping its original brick arches and a fountain courtyard. Unlike most Albaicin hotels, it offers a short, flat walk to the Alhambra ticket gate rather than a climb.",
     image: px(164595),
     imageAlt: "Hotel bedroom with dark wood beams and crisp bedding",
   },
@@ -407,7 +407,7 @@ const hotelsEn: Hotel[] = [
     style: "Central and simple",
     bestFor: "Budget",
     blurb:
-      "A plain but friendly hotel right on the flower-market square of Plaza Bib-Rambla, in the flat center between the Cathedral and the tapas streets. The rooftop terrace is free to guests and looks over the old town.",
+      "Hotel Los Tilos is a simple, friendly hotel directly on Plaza Bib-Rambla, the flower-market square in the flat centre between the Cathedral and the tapas streets. Guests get free access to its rooftop terrace, which looks out over the old town roofs.",
     image: px(279805),
     imageAlt: "Warm bedside lamp and headboard detail in a guesthouse room",
   },
@@ -481,7 +481,7 @@ const hotelsEn: Hotel[] = [
     style: "Twenty-five canal houses",
     bestFor: "Romantic",
     blurb:
-      "A luxury hotel stitched together from twenty-five 17th-century canal houses on the Prinsengracht, so the corridors wander through history. You are between the Jordaan and the Anne Frank House, on the prettiest stretch of water in the city.",
+      "The Pulitzer is built from twenty-five separate 17th-century canal houses joined together on the Prinsengracht, so its corridors twist and change level as they cross between the original buildings. It sits between the Jordaan and the Anne Frank House, on what is arguably the prettiest stretch of canal in Amsterdam.",
     image: px(262048),
     imageAlt: "Elegant hotel suite with a chandelier and large bed",
   },
@@ -495,7 +495,7 @@ const hotelsEn: Hotel[] = [
     style: "Design in the center",
     bestFor: "First visit",
     blurb:
-      "A warm design hotel on a quiet theatre square a few minutes from Dam Square and the flower market. It puts you inside the walkable core, which in bike-first Amsterdam saves you working out the trams.",
+      "Hotel V Nesplein sits on a quiet theatre square just a few minutes' walk from Dam Square and the flower market. That places it inside the walkable core of the city, useful in a place built around bikes, where working out the tram network is otherwise unavoidable.",
     image: px(1267438),
     imageAlt: "Minimalist design hotel room in dark tones with low lighting",
   },
@@ -509,7 +509,7 @@ const hotelsEn: Hotel[] = [
     style: "Eco design",
     bestFor: "Design lovers",
     blurb:
-      "A green, good-value design hotel a block from Vondelpark and the Museum Quarter, so the Rijksmuseum and Van Gogh are a short walk. Oud-West around it is where locals eat, away from the center markup.",
+      "Conscious Hotel Vondelpark is an eco-focused, good-value design hotel a block from Vondelpark and the Museum Quarter, close enough to walk to both the Rijksmuseum and the Van Gogh Museum. Oud-West around it is where locals actually eat, at prices well below the city-centre markup.",
     image: px(2507010),
     imageAlt: "Modern bright hotel lobby with floor-to-ceiling windows",
   },
@@ -523,7 +523,7 @@ const hotelsEn: Hotel[] = [
     style: "Park-side hostel",
     bestFor: "Budget",
     blurb:
-      "A design hostel in a former university building on the Oosterpark, with private rooms as well as dorms and a canal-side bar. Amsterdam beds are pricey, and this is one of the better-value ones a tram ride from the center.",
+      "Generator Amsterdam occupies a former university building on the Oosterpark, with a mix of dorms and private rooms and a bar beside the water. Amsterdam beds run expensive across the board, and this counts among the better-value ones, a tram ride out from the centre.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
@@ -597,7 +597,7 @@ const hotelsEn: Hotel[] = [
     style: "Neo-Gothic palace",
     bestFor: "Landmark stay",
     blurb:
-      "A 15th-century ducal residence turned five-star, with a walled garden and turrets a few minutes from the Markt. It is the grandest address in a town of small hotels, and the quietest once the day-trippers leave.",
+      "This five-star occupies a converted 15th-century ducal palace, complete with turrets and a walled garden, a short walk from the Markt. Bruges runs mostly to small guesthouses, so it stands out as the one properly grand address in town, and it settles into near silence once the coach groups clear out for the day.",
     image: px(1001965),
     imageAlt: "Ornate historic hotel lobby with arches and greenery",
   },
@@ -611,7 +611,7 @@ const hotelsEn: Hotel[] = [
     style: "Mansion classic",
     bestFor: "First visit",
     blurb:
-      "A 19th-century mansion a block off the Markt, so you step out into the postcard center after the coaches have gone. The vaulted-cellar breakfast and the rooftop views over the belfry are the draw.",
+      "Hotel Heritage occupies a 19th-century townhouse just one block from the Markt square, close enough that the postcard centre empties out right outside the door once the tour coaches depart. Breakfast is served in a vaulted stone cellar, and the rooftop terrace gives a direct view of the belfry.",
     image: px(262048),
     imageAlt: "Elegant hotel suite with a chandelier and large bed",
   },
@@ -625,7 +625,7 @@ const hotelsEn: Hotel[] = [
     style: "Canal-view rooms",
     bestFor: "Romantic",
     blurb:
-      "A friendly hotel on a quiet stretch of canal in the old center, with front rooms looking straight onto the water. You are a five-minute walk from the Burg and the Markt but on one of the prettiest corners in town.",
+      "Rooms at the front of this family-run hotel look directly onto a quiet canal in the old centre, one of the prettiest stretches of water in Bruges. The Burg and the Markt are both about five minutes on foot, close enough for the sights but away from their crowds.",
     image: px(279746),
     imageAlt: "Traditional hotel bedroom with wooden furniture",
   },
@@ -639,7 +639,7 @@ const hotelsEn: Hotel[] = [
     style: "Old-town hostel",
     bestFor: "Budget",
     blurb:
-      "A long-running, characterful hostel a short walk from the Markt, with private rooms as well as dorms and its own bar pouring Belgian beers. It is one of the cheapest beds inside the historic ring.",
+      "Snuffel has been running as a hostel for decades, a short walk from the Markt, with a mix of dorms and private rooms plus its own bar serving Belgian beer. It is among the cheapest beds you will find within the old town's ring of canals.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
@@ -655,7 +655,7 @@ const hotelsEn: Hotel[] = [
     style: "Seafront tower",
     bestFor: "Views",
     blurb:
-      "A glass tower right on the Barceloneta beachfront, with a pool deck and high floors looking straight down the coast. You trade the old-town lanes for sea views and a ten-minute walk or tram into the Gothic Quarter.",
+      "Hotel Arts is a glass tower directly on the Barceloneta beachfront, with a pool deck and upper floors that look straight down the coastline. Staying here swaps the old-town lanes for sea views, with the Gothic Quarter reachable by a ten-minute walk or tram ride.",
     image: px(261102),
     imageAlt: "Hotel rooftop pool at dusk overlooking the city",
   },
@@ -669,7 +669,7 @@ const hotelsEn: Hotel[] = [
     style: "Rooftop plunge pool",
     bestFor: "First visit",
     blurb:
-      "A mid-range hotel on the edge of El Born with a small rooftop pool and bar over the rooftops toward the cathedral. You are a few minutes' walk from the Picasso Museum and the Gothic Quarter on foot.",
+      "The Yurbban Trafalgar is a mid-range hotel on the edge of El Born, with a small rooftop pool and bar looking out over the rooftops toward the cathedral. The Picasso Museum and the Gothic Quarter are both a few minutes away on foot.",
     image: px(2290753),
     imageAlt: "Rooftop hotel terrace at dusk with tables and a city view",
   },
@@ -683,7 +683,7 @@ const hotelsEn: Hotel[] = [
     style: "Design classic",
     bestFor: "Design lovers",
     blurb:
-      "A design hotel in an 1869 Eixample building, with hydraulic-tiled floors, a rooftop bar and a good coffee bar on the ground floor. It sits on the grid between the old town and the Sagrada Familia, both a short metro hop away.",
+      "Casa Bonay occupies an 1869 building in the Eixample grid, keeping its original hydraulic-tiled floors and adding a rooftop bar and a proper coffee bar downstairs. It sits between the old town and the Sagrada Familia, both a short metro ride from the door.",
     image: px(1267438),
     imageAlt: "Minimalist design hotel room in dark tones with low lighting",
   },
@@ -697,7 +697,7 @@ const hotelsEn: Hotel[] = [
     style: "Boutique hostel",
     bestFor: "Budget",
     blurb:
-      "A stylish boutique hostel at the top of Passeig de Gracia, with private rooms as well as dorms and a big terrace. It puts you between the Gaudi houses and the Gracia bars at a fraction of hotel prices.",
+      "Casa Gracia is a boutique hostel at the top end of Passeig de Gracia, offering dorms and private rooms along with a large terrace. It sits between Gaudi's houses and the Gracia bar scene, at a fraction of what nearby hotels charge.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
@@ -887,7 +887,7 @@ const hotelsEn: Hotel[] = [
     style: "Palace inside Tivoli",
     bestFor: "Landmark stay",
     blurb:
-      "A tiny luxury hotel inside a Moorish-style palace in the Tivoli Gardens, so the funfair and the lights are on your doorstep. It is one of the most romantic and expensive addresses in the city, steps from the Central Station.",
+      "Nimb is a small luxury hotel set inside a Moorish-style palace within the Tivoli Gardens, putting the funfair and its lights right outside the room. It ranks among the city's most romantic and expensive addresses, just steps from Central Station.",
     image: px(262048),
     imageAlt: "Elegant hotel suite with a chandelier and large bed",
   },
@@ -901,7 +901,7 @@ const hotelsEn: Hotel[] = [
     style: "Design in the Latin Quarter",
     bestFor: "Design lovers",
     blurb:
-      "A warm design hotel on a quiet street in the Latin Quarter, with a rooftop terrace and a free evening wine hour. You are walkable to Stroget, the lakes and the food markets.",
+      "Hotel SP34 sits on a quiet street in the Latin Quarter, with a rooftop terrace and a complimentary wine hour each evening. Stroget, the lakes and the food markets are all within walking distance.",
     image: px(1267438),
     imageAlt: "Minimalist design hotel room in dark tones with low lighting",
   },
@@ -915,7 +915,7 @@ const hotelsEn: Hotel[] = [
     style: "Cosy classic",
     bestFor: "First visit",
     blurb:
-      "A friendly mid-range hotel by Nansensgade and the lakes, a few minutes from Norreport station and the Torvehallerne market. The rooms are small in the Copenhagen way, but the location and the price are hard to beat here.",
+      "Ibsens Hotel is a friendly mid-range option near Nansensgade and the lakes, a few minutes from Norreport station and the Torvehallerne food market. Rooms run small, typical for Copenhagen, but the location and the price are hard to match.",
     image: px(279746),
     imageAlt: "Traditional hotel bedroom with wooden furniture",
   },
@@ -929,7 +929,7 @@ const hotelsEn: Hotel[] = [
     style: "Design hostel",
     bestFor: "Budget",
     blurb:
-      "A slick luxury hostel with a pool, gym and cafe near the lakes and Vesterbro, with private rooms as well as dorms. In one of Europe's priciest cities it is one of the few genuinely affordable central beds.",
+      "Steel House is an upscale hostel with a pool, gym and cafe near the lakes and Vesterbro, offering both dorms and private rooms. In one of Europe's most expensive cities, it is one of the few genuinely affordable beds this close to the centre.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
@@ -1176,7 +1176,7 @@ const hotelsEn: Hotel[] = [
     style: "Landmark grand hotel",
     bestFor: "Special occasions",
     blurb:
-      "Dublin's grande dame since 1824, looking straight onto St Stephen's Green with the shops of Grafton Street a minute away. The Irish constitution was drafted upstairs in room 112 in 1922, and afternoon tea in the Lord Mayor's Lounge is still an institution.",
+      "Open since 1824, The Shelbourne faces directly onto St Stephen's Green with Grafton Street's shops a minute's walk away. The Irish constitution was drafted upstairs in room 112 back in 1922, and afternoon tea in the Lord Mayor's Lounge remains a Dublin institution.",
     image: px(262048),
     imageAlt: "Elegant hotel suite with a chandelier and a large bed",
   },
@@ -1190,7 +1190,7 @@ const hotelsEn: Hotel[] = [
     style: "Design boutique",
     bestFor: "First visit",
     blurb:
-      "A slick boutique on Fleet Street in the middle of Temple Bar, so the trad-music pubs and the Ha'penny Bridge are a two-minute walk from the door. Ask for a room off the street side, as the cobbles stay loud with stag and hen crowds until late at weekends.",
+      "The Morgan is a boutique hotel on Fleet Street right in Temple Bar, putting the trad-music pubs and the Ha'penny Bridge about two minutes from the door. Request a room away from the street, because the cobbles below stay noisy with stag and hen parties late into weekend nights.",
     image: px(1267438),
     imageAlt: "Contemporary boutique hotel room in dark tones with low lighting",
   },
@@ -1204,7 +1204,7 @@ const hotelsEn: Hotel[] = [
     style: "Victorian townhouse",
     bestFor: "Couples",
     blurb:
-      "A red-brick Victorian on Adelaide Road between St Stephen's Green and the Grand Canal, run as an adults-only townhouse with a candlelit gin and tea parlour. It is a ten-minute stroll to the Green yet sits on a quiet leafy street away from the crowds.",
+      "This adults-only townhouse occupies a red-brick Victorian building on Adelaide Road, between St Stephen's Green and the Grand Canal, and runs a candlelit gin and tea parlour downstairs. St Stephen's Green is a ten-minute walk away, yet the street itself stays quiet and leafy, well clear of the crowds.",
     image: px(2507010),
     imageAlt: "Warm period hotel lounge with armchairs and soft lighting",
   },
@@ -1218,7 +1218,7 @@ const hotelsEn: Hotel[] = [
     style: "Modern hostel",
     bestFor: "Budget",
     blurb:
-      "A big, well-run design hostel beside Connolly Station and the Busaras coach station, with private rooms as well as dorms and a busy self-catering kitchen. The airport coaches stop right outside, which makes it the easiest cheap bed for a short break.",
+      "Jacobs Inn is a large, well-organised hostel next to Connolly Station and the Busaras coach terminal, with a mix of dorms and private rooms around a busy self-catering kitchen. Airport coaches stop directly outside, making it about the simplest cheap base for a short trip.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
@@ -1347,7 +1347,7 @@ const hotelsEn: Hotel[] = [
     style: "Clifftop five-star",
     bestFor: "Special occasions",
     blurb:
-      "A polished five-star on the Ploce cliffs just east of the walls, with a spa, a sea-level bathing terrace and full-frontal views back to the old town, best caught from the Prora bar at sunset. It has hosted royals and film stars since 1913, and the old town is a ten-minute walk along the shore.",
+      "Hotel Excelsior sits on the Ploce cliffs just east of the city walls, with a spa, a sea-level bathing terrace and views straight back at the old town, best seen from the Prora bar at sunset. Open since 1913, it has hosted royalty and film stars over the decades, and the old town is a ten-minute walk along the coast.",
     image: px(262048),
     imageAlt: "Elegant hotel suite with a chandelier and a large bed",
   },
@@ -1361,7 +1361,7 @@ const hotelsEn: Hotel[] = [
     style: "Boutique inside the walls",
     bestFor: "Couples",
     blurb:
-      "A tiny stone townhouse hotel inside the walls, a few steps off the Stradun, whose rooftop terrace looks straight over the terracotta roofs to the sea. There is no lift and the lanes are all steps, so pack light, but you wake up in the heart of the old town before the day crowds arrive.",
+      "This small stone townhouse hotel sits just off the Stradun inside the city walls, and its rooftop terrace looks directly over the terracotta roofs to the sea. There is no lift and the surrounding lanes are all steps, so pack light, but you get the old town to yourself each morning before the day crowds arrive.",
     image: px(1267438),
     imageAlt: "Cosy boutique hotel room with a window over old rooftops",
   },
@@ -1375,7 +1375,7 @@ const hotelsEn: Hotel[] = [
     style: "Lapad bay seafront",
     bestFor: "Families",
     blurb:
-      "A big modern four-star on the sheltered Lapad bay, with an indoor and outdoor pool and a promenade of restaurants right outside, and a bus or 30-minute walk to the old town. It is the practical, better-value base for families and swimmers who do not need to sleep inside the walls.",
+      "Hotel Kompas is a large modern four-star on the sheltered Lapad bay, with both indoor and outdoor pools and a restaurant promenade right outside its door, roughly 30 minutes on foot or a short bus ride from the old town. It works well as a practical, better-value base for families or swimmers who do not need to be inside the walls.",
     image: px(2290753),
     imageAlt: "Hotel pool terrace overlooking the sea at dusk",
   },
@@ -1389,7 +1389,7 @@ const hotelsEn: Hotel[] = [
     style: "Backpacker hostel",
     bestFor: "Budget",
     blurb:
-      "A friendly, cheap hostel up the hill near the Gruz ferry port and bus station, with dorms and a couple of private rooms and a terrace. It is a bus ride from the old town, but it is one of the few genuinely affordable beds in an expensive walled city.",
+      "Dubrovnik Backpackers Club is a cheap, friendly hostel up the hill near the Gruz ferry port and bus station, with dorms, a couple of private rooms and a terrace. It takes a bus ride to reach the old town, but it counts as one of the few genuinely affordable beds in an expensive walled city.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
@@ -1575,7 +1575,7 @@ const hotelsEn: Hotel[] = [
     style: "Grand family-run five-star",
     bestFor: "Special occasions",
     blurb:
-      "Oslo's grand hotel since 1900, still run by the same family, facing the National Theatre and steps from Karl Johans gate. The panelled Theatercafeen downstairs is a Viennese-style institution, and the walls hold a private collection of Munch prints.",
+      "Open since 1900 and still owned by the same family, Hotel Continental faces the National Theatre just steps from Karl Johans gate. Its wood-panelled Theatercafeen downstairs operates in the old Viennese coffeehouse style, and the hotel's own walls carry a private collection of Munch prints.",
     image: px(262048),
     imageAlt: "Elegant hotel suite with a chandelier and a large bed",
   },
@@ -1589,7 +1589,7 @@ const hotelsEn: Hotel[] = [
     style: "Jazz-age boutique",
     bestFor: "Couples",
     blurb:
-      "A design hotel in the 1919 headquarters of the Norwegian America Line, right by Oslo Central and the Bjorvika waterfront, with a lively cocktail bar and a listening room downstairs. It is a five-minute walk to the Opera House and the new Munch museum.",
+      "Amerikalinjen occupies the 1919 former headquarters of the Norwegian America Line, right by Oslo Central station and the Bjorvika waterfront, with a busy cocktail bar and a vinyl listening room on the ground floor. The Opera House and the newer Munch museum are both about five minutes away on foot.",
     image: px(1267438),
     imageAlt: "Contemporary boutique hotel room in warm tones",
   },
@@ -1603,7 +1603,7 @@ const hotelsEn: Hotel[] = [
     style: "Eco design at Mathallen",
     bestFor: "First visit",
     blurb:
-      "A modern, environmentally certified hotel in the Vulkan quarter next to the Mathallen food hall, on the edge of buzzing Grunerlokka. It is a tram ride or 20-minute walk from the centre, with the river walk and the district's cafes and bars on the doorstep.",
+      "Scandic Vulkan is an environmentally certified modern hotel in the Vulkan district, right next to the Mathallen food hall on the edge of Grunerlokka. The centre is a tram ride or a 20-minute walk away, while the riverside path and the neighbourhood's cafes and bars sit just outside the door.",
     image: px(2507010),
     imageAlt: "Bright modern hotel room with clean lines",
   },
@@ -1617,7 +1617,7 @@ const hotelsEn: Hotel[] = [
     style: "Classic pensjonat",
     bestFor: "Budget",
     blurb:
-      "A plain, friendly guesthouse behind the Royal Palace park, one of the few genuinely affordable beds in a very expensive city. Rooms are simple and some have kitchenettes, and the Vigeland park and Bogstadveien shops are a short walk away.",
+      "Cochs Pensjonat is a plain, friendly guesthouse tucked behind the Royal Palace park, and one of the few genuinely affordable options in a notoriously expensive city. Rooms are basic, some with kitchenettes, and both Vigeland park and the Bogstadveien shopping street are a short walk off.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
@@ -1803,7 +1803,7 @@ const hotelsEn: Hotel[] = [
     style: "Grand five-star",
     bestFor: "Special occasions",
     blurb:
-      "A polished five-star in a restored 19th-century building on the edge of the old town, facing the Freedom Monument and the canal park, with a spa and a grand ballroom. The old town lanes and the National Opera are a couple of minutes away on foot.",
+      "This five-star sits in a restored 19th-century building on the edge of the old town, looking out over the Freedom Monument and the canal park, and it has a spa and a large ballroom for events. The old town's lanes and the National Opera are both within a couple of minutes on foot.",
     image: px(262048),
     imageAlt: "Elegant hotel suite with a chandelier and a large bed",
   },
@@ -1817,7 +1817,7 @@ const hotelsEn: Hotel[] = [
     style: "Berga Bazars boutique",
     bestFor: "Couples",
     blurb:
-      "A calm design hotel in the Berga Bazars courtyard quarter in the quiet centre, a short walk from the Art Nouveau district and Alberta iela. Rooms are large suites, and the leafy passage of shops and cafes below keeps it feeling residential.",
+      "Hotel Bergs occupies part of the Berga Bazars courtyard complex in the quiet centre, a short walk from the Art Nouveau district on Alberta iela. Every room is a full suite, and the leafy passage of shops and cafes beneath the hotel gives the block a residential, rather than touristy, feel.",
     image: px(1267438),
     imageAlt: "Spacious contemporary hotel suite in warm tones",
   },
@@ -1831,7 +1831,7 @@ const hotelsEn: Hotel[] = [
     style: "Riverside skyline views",
     bestFor: "First visit",
     blurb:
-      "A big modern hotel on the Kipsala bank of the Daugava, with a pool and rooms looking straight across the water to the old town skyline. It is a 15-minute walk over the bridge or a short bus to the centre, and better value than the old town.",
+      "This large modern hotel sits on the Kipsala side of the Daugava river, with an indoor pool and rooms that face straight across the water to the old town skyline. It is about 15 minutes on foot over the bridge, or a short bus ride, and rates undercut the old town hotels.",
     image: px(2507010),
     imageAlt: "Modern hotel room with a river and city view",
   },
@@ -1845,7 +1845,7 @@ const hotelsEn: Hotel[] = [
     style: "Old town hostel",
     bestFor: "Budget",
     blurb:
-      "A lively, colourful backpacker hostel in the heart of the old town, with dorms and a few private rooms, a bar and a busy calendar of tours and pub crawls. It is one of the cheapest and most social beds in a city that is already cheap.",
+      "The Naughty Squirrel is a backpacker hostel right in the old town, mixing dorms with a handful of private rooms and running its own bar plus a regular schedule of tours and pub crawls. Riga is already one of the more affordable capitals, and this ranks among its cheapest, most sociable beds.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
