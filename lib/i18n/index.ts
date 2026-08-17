@@ -4,15 +4,16 @@ import pt from "./pt";
 import it from "./it";
 import de from "./de";
 import es from "./es";
+import ja from "./ja";
 
-export const LOCALES = ["en", "fr", "pt", "it", "de", "es"] as const;
+export const LOCALES = ["en", "fr", "pt", "it", "de", "es", "ja"] as const;
 export type Locale = (typeof LOCALES)[number];
 export const DEFAULT_LOCALE: Locale = "en";
-export const NON_DEFAULT_LOCALES = ["fr", "pt", "it", "de", "es"] as const;
+export const NON_DEFAULT_LOCALES = ["fr", "pt", "it", "de", "es", "ja"] as const;
 
 export type UIStrings = typeof en;
 
-export const STR: Record<Locale, UIStrings> = { en, fr, pt, it, de, es };
+export const STR: Record<Locale, UIStrings> = { en, fr, pt, it, de, es, ja };
 
 // "{city} in {days} days" -> fmt(s, { city: "Lisbon", days: 3 })
 export function fmt(
@@ -59,6 +60,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   it: "IT",
   de: "DE",
   es: "ES",
+  ja: "日本語",
 };
 
 export const HTML_LANG: Record<Locale, string> = {
@@ -68,4 +70,5 @@ export const HTML_LANG: Record<Locale, string> = {
   it: "it",
   de: "de",
   es: "es",
+  ja: "ja",
 };

@@ -1,8 +1,9 @@
-// Canonical UI strings. Every locale file must match this shape exactly.
-// Placeholders in {braces} are filled with fmt() from lib/i18n.
+// Japanese (ja) UI strings. Starts as English placeholder copy, translated in
+// place. Must match the shape of en.ts exactly.
+import type enShape from "./en";
 
-const en = {
-  locale: "en",
+const ja: typeof enShape = {
+  locale: "ja",
   months: [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December",
@@ -367,4 +368,4 @@ const en = {
 
 };
 
-export default en;
+export default ja;

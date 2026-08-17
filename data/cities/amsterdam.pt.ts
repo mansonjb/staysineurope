@@ -3,7 +3,7 @@ import type { CityData } from "../types";
 const amsterdamPt: CityData = {
   city: {
     slug: "amsterdam",
-    name: "Amesterdao",
+    name: "Amesterdão",
     country: "Países Baixos",
     countrySlug: "netherlands",
     lat: 52.3676,

@@ -287,6 +287,18 @@ import luxembourgPt from "./cities/luxembourg.pt";
 import luxembourgIt from "./cities/luxembourg.it";
 import luxembourgDe from "./cities/luxembourg.de";
 import luxembourgEs from "./cities/luxembourg.es";
+import brugesJa from "./cities/bruges.ja";
+import rigaJa from "./cities/riga.ja";
+import portoJa from "./cities/porto.ja";
+import dublinJa from "./cities/dublin.ja";
+import granadaJa from "./cities/granada.ja";
+import osloJa from "./cities/oslo.ja";
+import dubrovnikJa from "./cities/dubrovnik.ja";
+import amsterdamJa from "./cities/amsterdam.ja";
+import barcelonaJa from "./cities/barcelona.ja";
+import pragueJa from "./cities/prague.ja";
+import copenhagenJa from "./cities/copenhagen.ja";
+import viennaJa from "./cities/vienna.ja";
 
 // Register every city bundle per locale. Adding a city = one file per locale
 // + one entry per array below (same order everywhere).
@@ -297,6 +309,8 @@ const bundlesByLocale: Record<Locale, CityData[]> = {
   it: [lisbonIt, pragueIt, sevilleIt, portoIt, budapestIt, viennaIt, granadaIt, romeIt, amsterdamIt, florenceIt, brugesIt, barcelonaIt, berlinIt, madridIt, krakowIt, copenhagenIt, athensIt, edinburghIt, parisIt, veniceIt, dublinIt, stockholmIt, niceIt, dubrovnikIt, reykjavikIt, munichIt, tallinnIt, osloIt, helsinkiIt, naplesIt, splitIt, rigaIt, brusselsIt, vilniusIt, bratislavaIt, ljubljanaIt, zurichIt, warsawIt, bucharestIt, valenciaIt, vallettaIt, gdanskIt, bolognaIt, sofiaIt, belgradeIt, luxembourgIt],
   de: [lisbonDe, pragueDe, sevilleDe, portoDe, budapestDe, viennaDe, granadaDe, romeDe, amsterdamDe, florenceDe, brugesDe, barcelonaDe, berlinDe, madridDe, krakowDe, copenhagenDe, athensDe, edinburghDe, parisDe, veniceDe, dublinDe, stockholmDe, niceDe, dubrovnikDe, reykjavikDe, munichDe, tallinnDe, osloDe, helsinkiDe, naplesDe, splitDe, rigaDe, brusselsDe, vilniusDe, bratislavaDe, ljubljanaDe, zurichDe, warsawDe, bucharestDe, valenciaDe, vallettaDe, gdanskDe, bolognaDe, sofiaDe, belgradeDe, luxembourgDe],
   es: [lisbonEs, pragueEs, sevilleEs, portoEs, budapestEs, viennaEs, granadaEs, romeEs, amsterdamEs, florenceEs, brugesEs, barcelonaEs, berlinEs, madridEs, krakowEs, copenhagenEs, athensEs, edinburghEs, parisEs, veniceEs, dublinEs, stockholmEs, niceEs, dubrovnikEs, reykjavikEs, munichEs, tallinnEs, osloEs, helsinkiEs, naplesEs, splitEs, rigaEs, brusselsEs, vilniusEs, bratislavaEs, ljubljanaEs, zurichEs, warsawEs, bucharestEs, valenciaEs, vallettaEs, gdanskEs, bolognaEs, sofiaEs, belgradeEs, luxembourgEs],
+  // Japanese: launch cities only (the 12 in LAUNCH_CITIES).
+  ja: [brugesJa, rigaJa, portoJa, dublinJa, granadaJa, osloJa, dubrovnikJa, amsterdamJa, barcelonaJa, pragueJa, copenhagenJa, viennaJa],
 };
 
 // Launch scope: only these cities are published. Expand deliberately, one at a

@@ -6,6 +6,7 @@ import extrasPt from "./extras.pt";
 import extrasIt from "./extras.it";
 import extrasDe from "./extras.de";
 import extrasEs from "./extras.es";
+import extrasJa from "./extras.ja";
 
 const byLocale: Record<Locale, Record<string, CityExtras>> = {
   en: extrasEn,
@@ -14,6 +15,7 @@ const byLocale: Record<Locale, Record<string, CityExtras>> = {
   it: extrasIt,
   de: extrasDe,
   es: extrasEs,
+  ja: extrasJa,
 };
 
 // Enriched editorial content (hero photo, history, known-for chips) per city.

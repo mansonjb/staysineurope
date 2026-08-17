@@ -23,11 +23,11 @@ export default function PrivacyPage() {
         </p>
         <h2>Affiliate links</h2>
         <p>
-          Hotel maps and booking links are provided by partners (Stay22,
-          Tiqets, GetYourGuide, Viator). When you click through to a partner,
-          that partner may set cookies on its own domain under its own privacy
-          policy. We receive aggregate commission reports, never your personal
-          booking details.
+          Hotel maps and booking links on this site are provided by Stay22,
+          our affiliate partner. When you click through to Stay22 or to a
+          hotel&apos;s own booking page, that partner may set cookies on its
+          own domain under its own privacy policy. We receive aggregate
+          commission reports, never your personal booking details.
         </p>
         <h2>Data we hold about you</h2>
         <p>

@@ -1,0 +1,11 @@
+import {
+  countryStaticParams,
+  makeCountryMetadata,
+  makeCountryPage,
+} from "@/app/_shared/destinations";
+
+export const revalidate = 86400;
+export const dynamicParams = true;
+export const generateStaticParams = countryStaticParams;
+export const generateMetadata = makeCountryMetadata("ja");
+export default makeCountryPage("ja");

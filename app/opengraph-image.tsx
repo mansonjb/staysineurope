@@ -29,7 +29,7 @@ export default function OgImage() {
             color: "#1a1a2e",
           }}
         >
-          STAYSINEUROPE.COM · CITY BREAK PASS
+          STAYSINEUROPE.COM · WHERE TO STAY
         </div>
         <div
           style={{
@@ -41,9 +41,9 @@ export default function OgImage() {
             lineHeight: 1.1,
           }}
         >
-          <span>The right days.</span>
+          <span>The right city.</span>
           <span style={{ color: "#2743d8" }}>The right neighborhood.</span>
-          <span style={{ color: "#ff5a5f" }}>The right month.</span>
+          <span style={{ color: "#ff5a5f" }}>The right hotel.</span>
         </div>
         <div
           style={{
@@ -56,7 +56,7 @@ export default function OgImage() {
             paddingTop: 24,
           }}
         >
-          <span>LIS · PRG · SVQ</span>
+          <span>BRU · AMS · PRG</span>
           <span>BOARDING NOW</span>
         </div>
       </div>

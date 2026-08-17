@@ -7,7 +7,7 @@ import { Stamp } from "@/components/Stamp";
 export const metadata: Metadata = {
   title: "About Stays in Europe: how these guides are built",
   description:
-    "The methodology behind Stays in Europe: how we decide how many days a city needs, how neighborhoods are compared, and how the site makes money.",
+    "The methodology behind Stays in Europe: how we compare neighborhoods, pick the one real hotel worth booking in each, and how the site makes money.",
   alternates: { canonical: "/about" },
 };
 
@@ -22,46 +22,48 @@ export default function AboutPage() {
       <div className="prose-guide mt-8">
         <h2>One decision per page</h2>
         <p>
-          Every page on this site exists to settle one question: how many days,
-          which neighborhood, which month, what budget. If a sentence does not
-          help you decide, it gets cut. You will not find &quot;hidden
-          gems&quot; here, and no intro paragraphs about cities being a blend
-          of old and new.
+          Stays in Europe answers one question per city: which neighborhood to
+          sleep in, and the real hotel worth booking in each. If a sentence
+          does not help you decide, it gets cut. You will not find
+          &quot;hidden gems&quot; here, and no intro paragraphs about cities
+          being a blend of old and new.
         </p>
-        <h2>How we decide how many days a city needs</h2>
-        <p>
-          We map each city&apos;s sights into geographic clusters and time
-          them: visit duration, queue reality, transit between clusters, and
-          meal stops. A city&apos;s ideal length is the number of days that
-          covers its main clusters at a humane pace, with one unplanned block
-          left over. That number drives everything else on the site, including
-          the day-by-day itineraries.
-        </p>
-        <h2>How neighborhoods are compared</h2>
+        <h2>How we compare neighborhoods</h2>
         <p>
           Each neighborhood is scored on what it is genuinely best for
           (first visit, nightlife, family, budget, romance, local life), and we
           state the cons as plainly as the pros. Noise at 2am is mentioned. So
-          are cruise crowds and stag parties.
+          are cruise crowds and stag parties. Distance to the main sights on
+          foot, safety, and what a decent room actually costs there all factor
+          in.
         </p>
-        <h2>Every tip must be actionable</h2>
+        <h2>How we pick the hotel</h2>
         <p>
-          A tip earns its place if you can act on it: a booking window, a time
-          of day, a free entry slot, a price, a mistake to skip. &quot;Worth a
-          visit&quot; is banned by our own style guide.
+          Each neighborhood gets one real hotel we would book ourselves, not a
+          list of ten to sift through. The pick is chosen for location first:
+          it has to sit inside the area we are recommending, not just near it.
+          Prices shown are indicative starting rates; check the live map on
+          each city page for your actual dates.
+        </p>
+        <h2>A small, growing set of cities</h2>
+        <p>
+          We cover a deliberately small number of European cities at a time,
+          and add new ones carefully rather than rushing to cover everywhere
+          at once. A city only ships once its page has real, specific value:
+          neighborhoods that genuinely differ, and hotels we can stand behind.
         </p>
         <h2>How the site makes money</h2>
         <p>
-          Hotel maps and booking links are affiliate links (Stay22 and ticket
-          partners like Tiqets and GetYourGuide). If you book through them, we
-          earn a commission at no extra cost to you. Recommendations are never
-          reordered for commission: the same neighborhood advice would stand if
-          the links paid nothing.
+          Hotel booking links go through Stay22, an affiliate partner. If you
+          book through them, we earn a commission at no extra cost to you.
+          Recommendations are never reordered for commission: the same
+          neighborhood advice would stand if the links paid nothing.
         </p>
         <h2>Freshness</h2>
         <p>
-          Month pages are reviewed yearly, prices are indicative and rounded,
-          and every page shows its last update. Found something outdated?{" "}
+          Pages are reviewed periodically, prices are indicative and rounded,
+          and hotel picks are checked to make sure they are still open and
+          still worth booking. Found something outdated?{" "}
           <Link href="/destinations">Tell us via the city page</Link> and we
           will fix it.
         </p>

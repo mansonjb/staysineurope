@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { Fraunces, Inter, JetBrains_Mono } from "next/font/google";
+import { Fraunces, Inter, JetBrains_Mono, Noto_Sans_JP } from "next/font/google";
 import Script from "next/script";
 import { HTML_LANG, type Locale } from "@/lib/i18n";
 import {
@@ -33,6 +33,16 @@ const jetbrains = JetBrains_Mono({
   display: "swap",
 });
 
+// CJK font for the Japanese locale. preload:false because the file is large and
+// only ja pages use it; globals.css applies it via html[lang="ja"].
+const notoSansJP = Noto_Sans_JP({
+  subsets: ["latin"],
+  variable: "--font-noto-jp",
+  weight: ["400", "500", "700"],
+  display: "swap",
+  preload: false,
+});
+
 // Shared metadata for every per-locale root layout. `metadataBase` +
 // title template live here so each locale root exports the same base.
 export const baseMetadata: Metadata = {
@@ -42,7 +52,7 @@ export const baseMetadata: Metadata = {
   // brand only pushed them past the SERP truncation limit. Pages that set their
   // own title use it verbatim; the home keeps the brand via title.absolute; and
   // the brand still ships in openGraph.siteName and the domain shown in results.
-  title: `${SITE_NAME}: city break itineraries that answer the question`,
+  title: `${SITE_NAME}: where to stay in Europe's best cities`,
   description: SITE_DESCRIPTION,
   openGraph: {
     siteName: SITE_NAME,
@@ -67,7 +77,7 @@ export function RootDocument({
   return (
     <html lang={HTML_LANG[locale]}>
       <body
-        className={`${fraunces.variable} ${inter.variable} ${jetbrains.variable} min-h-screen flex flex-col`}
+        className={`${fraunces.variable} ${inter.variable} ${jetbrains.variable} ${notoSansJP.variable} min-h-screen flex flex-col`}
       >
         {children}
         {PLAUSIBLE_DOMAIN ? (

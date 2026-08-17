@@ -6,6 +6,7 @@ import hotelsPt from "./hotels.pt";
 import hotelsIt from "./hotels.it";
 import hotelsDe from "./hotels.de";
 import hotelsEs from "./hotels.es";
+import hotelsJa from "./hotels.ja";
 
 const byLocale: Record<Locale, Hotel[]> = {
   en: hotelsEnData,
@@ -14,6 +15,7 @@ const byLocale: Record<Locale, Hotel[]> = {
   it: hotelsIt,
   de: hotelsDe,
   es: hotelsEs,
+  ja: hotelsJa,
 };
 
 export function getHotels(citySlug: string, locale: Locale = "en"): Hotel[] {
