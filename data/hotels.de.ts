@@ -17,7 +17,7 @@ const hotelsDe: Hotel[] = [
     style: "Dachterrassen-Refugium",
     bestFor: "Paare",
     blurb:
-      "Auf Erwachsene ausgerichtetes Boutiquehotel, versteckt in den Gassen der Alfama, mit einer rot gefliesten Weinbar-Terrasse und einem kleinen Dachpool mit direktem Blick auf den Tejo. Die Zimmer sind kompakt; Sie zahlen für die Aussicht und die Stille.",
+      "Dieses Boutiquehotel nur für Erwachsene liegt versteckt an einer Treppe in der Alfama, sein Dachpool und die Weinterrasse rahmen einen ungehinderten Blick hinunter zum Tejo. Die Zimmer sind bewusst klein gehalten, der Tausch hier ist Quadratmeter gegen eine der besten Aussichten der Stadt.",
     image: px(2290753),
     imageAlt: "Dachterrasse eines Hotels in der Abenddämmerung mit gedeckten Tischen",
   },
@@ -31,7 +31,7 @@ const hotelsDe: Hotel[] = [
     style: "Apartment-Suiten",
     bestFor: "Längere Aufenthalte",
     blurb:
-      "Vollwertige Apartments mit Küche in einem umgebauten Palast am ruhigeren oberen Rand des Bairro Alto, dazu eine Rooftop-Bar, die auch Einheimische wirklich nutzen. Fragen Sie nach einer Suite zur Rückseite, wenn Sie an Wochenenden vor 2 Uhr schlafen.",
+      "Untergebracht in einem ehemaligen Palast aus dem 18. Jahrhundert in den ruhigeren oberen Straßen des Bairro Alto, ist hier jedes Zimmer eine eigenständige Suite mit eigener Küche, gemacht für Aufenthalte länger als ein Wochenende. Die Rooftop-Bar zieht eher Einheimische als Touristen an, dennoch lohnt es sich, eine Suite zur Rückseite zu erfragen, wenn Ihnen der Freitagnachtlärm von unten wichtig ist.",
     image: px(262048),
     imageAlt: "Helle, elegante Hotelsuite mit Kronleuchter und großem Bett",
   },
@@ -45,7 +45,7 @@ const hotelsDe: Hotel[] = [
     style: "Zentral und praktisch",
     bestFor: "Erster Besuch",
     blurb:
-      "Direkt am Rossio-Platz, womit Tram 28, der Santa-Justa-Aufzug und beide Hügel des Zentrums in fünf Gehminuten liegen. Die Zimmer zum Platz sind die fotogenen; die Zimmer nach hinten sind die ruhigen.",
+      "Dieses Hotel öffnet sich direkt zum Rossio-Platz, wodurch die Haltestelle der Tram 28, der Santa-Justa-Aufzug und die Aufstiege sowohl nach Alfama als auch ins Bairro Alto in fünf Gehminuten liegen. Die Zimmer zur Vorderseite blicken direkt auf den gepflasterten Platz; die Zimmer zur Rückseite tauschen diese Aussicht gegen einen ruhigen Schlaf.",
     image: px(2507010),
     imageAlt: "Moderne, helle Hotellobby mit raumhohen Fenstern",
   },
@@ -59,7 +59,7 @@ const hotelsDe: Hotel[] = [
     style: "Hostel mit Suiten",
     bestFor: "Budget",
     blurb:
-      "Ein großes altes Stadthaus am Aussichtspunkt São Pedro de Alcântara, aufgeteilt in Schlafsäle und überraschend gute private Suiten. Sie bekommen eine Fünf-Sterne-Lage zu Hostelpreisen, wenige Schritte von den Cafés des Príncipe Real.",
+      "Untergebracht in einem umgebauten Stadthaus aus dem 19. Jahrhundert direkt am Aussichtspunkt São Pedro de Alcântara, mischt dieses Hostel Schlafsäle mit privaten Suiten, die weit über ihrem Preis liegen. Es bringt eine Fünf-Sterne-Aussicht und die Café-Meile des Príncipe Real in wenige Schritte Entfernung, zu Preisen, an die die Boutiquehotels des Viertels nicht annähernd herankommen.",
     image: px(279805),
     imageAlt: "Warme Nachttischlampe und Kopfteil-Detail in einem Pensionszimmer",
   },

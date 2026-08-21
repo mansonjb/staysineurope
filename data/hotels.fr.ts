@@ -17,7 +17,7 @@ const hotelsFr: Hotel[] = [
     style: "Refuge avec rooftop",
     bestFor: "Couples",
     blurb:
-      "Hôtel boutique orienté adultes, enfoui dans les ruelles de l'Alfama, avec une terrasse bar à vin aux tuiles rouges et une petite piscine sur le toit qui plonge droit sur le Tage. Les chambres sont compactes ; vous payez pour la vue et le silence.",
+      "Cet hôtel boutique réservé aux adultes se niche dans un escalier de l'Alfama, sa piscine sur le toit et sa terrasse à vin encadrant une vue ininterrompue sur le Tage. Les chambres sont volontairement petites : ici, on échange des mètres carrés contre l'une des plus belles perspectives de la ville.",
     image: px(2290753),
     imageAlt: "Terrasse sur le toit d'un hôtel au crépuscule avec tables dressées pour le dîner",
   },
@@ -31,7 +31,7 @@ const hotelsFr: Hotel[] = [
     style: "Suites-appartements",
     bestFor: "Longs séjours",
     blurb:
-      "De vrais appartements avec cuisine dans un palais reconverti, sur la lisière haute et plus calme du Bairro Alto, plus un bar sur le toit que les locaux fréquentent vraiment. Demandez une suite côté arrière si vous dormez avant 2h du matin le week-end.",
+      "Installé dans un ancien palais du XVIIIe siècle sur les rues hautes et plus tranquilles du Bairro Alto, chaque chambre ici est une suite autonome avec sa propre cuisine, pensée pour des séjours plus longs qu'un week-end. Le bar sur le toit attire une clientèle locale plutôt que touristique, mais mieux vaut demander une suite côté arrière si le bruit du vendredi soir en bas vous préoccupe.",
     image: px(262048),
     imageAlt: "Suite d'hôtel lumineuse et élégante avec lustre et grand lit",
   },
@@ -45,7 +45,7 @@ const hotelsFr: Hotel[] = [
     style: "Central et pratique",
     bestFor: "Première visite",
     blurb:
-      "En plein sur la place du Rossio, ce qui met le tram 28, l'ascenseur de Santa Justa et les deux collines du centre à cinq minutes à pied. Les chambres sur la place sont les plus photogéniques ; celles à l'arrière sont les plus calmes.",
+      "Cet hôtel donne directement sur la place du Rossio, ce qui met l'arrêt du tram 28, l'ascenseur de Santa Justa et les montées vers l'Alfama comme le Bairro Alto à cinq minutes à pied. Les chambres côté façade donnent directement sur la place pavée ; celles à l'arrière échangent cette vue contre une vraie nuit de sommeil.",
     image: px(2507010),
     imageAlt: "Hall d'hôtel moderne et lumineux avec baies vitrées du sol au plafond",
   },
@@ -59,7 +59,7 @@ const hotelsFr: Hotel[] = [
     style: "Auberge avec suites",
     bestFor: "Petit budget",
     blurb:
-      "Une grande maison de ville ancienne au belvédère de São Pedro de Alcântara, partagée entre dortoirs et suites privées étonnamment réussies. Vous obtenez un emplacement cinq étoiles à prix d'auberge, à deux pas des cafés du Príncipe Real.",
+      "Installée dans une maison de ville du XIXe siècle reconvertie, juste au belvédère de São Pedro de Alcântara, cette auberge mêle dortoirs partagés et suites privées qui dépassent largement leur prix. Elle offre une vue cinq étoiles et l'accès à quelques pas des cafés du Príncipe Real, à des tarifs que les hôtels boutique du quartier ne peuvent égaler.",
     image: px(279805),
     imageAlt: "Lampe de chevet chaleureuse et détail de tête de lit dans une chambre de pension",
   },

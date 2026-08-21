@@ -17,7 +17,7 @@ const hotelsEn: Hotel[] = [
     style: "Rooftop hideaway",
     bestFor: "Couples",
     blurb:
-      "Adults-oriented boutique hotel buried in the Alfama lanes, with a red-tiled wine bar terrace and a small rooftop pool looking straight down the Tagus. Rooms are compact; you pay for the view and the silence.",
+      "This adults-only boutique hotel is tucked into an Alfama stairway, its rooftop pool and wine terrace framing an uninterrupted view down to the Tagus. Rooms run small by design, so the trade here is square footage for one of the best sightlines in the city.",
     image: px(2290753),
     imageAlt: "Rooftop terrace of a hotel at dusk with tables set for dinner",
   },
@@ -31,7 +31,7 @@ const hotelsEn: Hotel[] = [
     style: "Apartment suites",
     bestFor: "Longer stays",
     blurb:
-      "Full apartments with kitchens inside a converted palace on Bairro Alto's calmer upper edge, plus a rooftop bar locals actually use. Ask for a back-facing suite if you sleep before 2am on weekends.",
+      "Set inside a former 18th-century palace on Bairro Alto's quieter upper streets, every room here is a self-contained suite with its own kitchen, built for stays longer than a weekend. The rooftop bar draws a local crowd rather than a tourist one, though a back-facing suite is worth requesting if Friday-night noise below matters to you.",
     image: px(262048),
     imageAlt: "Bright elegant hotel suite with a chandelier and large bed",
   },
@@ -45,7 +45,7 @@ const hotelsEn: Hotel[] = [
     style: "Central and practical",
     bestFor: "First visit",
     blurb:
-      "Right on Rossio square, which puts tram 28, the Santa Justa lift and both center hills within a five-minute walk. Rooms over the square are the photogenic ones; rooms at the back are the quiet ones.",
+      "This hotel opens directly onto Rossio square, putting the tram 28 stop, the Santa Justa lift and the climbs up to both Alfama and Bairro Alto within five minutes on foot. Front rooms look straight over the cobbled square; back rooms trade that view for a proper night's sleep.",
     image: px(2507010),
     imageAlt: "Modern bright hotel lobby with floor-to-ceiling windows",
   },
@@ -59,7 +59,7 @@ const hotelsEn: Hotel[] = [
     style: "Hostel with suites",
     bestFor: "Budget",
     blurb:
-      "A grand old townhouse at the São Pedro de Alcântara viewpoint, split between dorms and surprisingly good private suites. You get a five-star location at hostel prices, steps from the Príncipe Real cafes.",
+      "Housed in a converted 19th-century townhouse right at the São Pedro de Alcântara viewpoint, this hostel mixes shared dorms with private suites that punch well above the price. It puts a five-star outlook and the Príncipe Real cafe strip within steps, at rates the neighborhood's boutique hotels don't come close to matching.",
     image: px(279805),
     imageAlt: "Warm bedside lamp and headboard detail in a guesthouse room",
   },

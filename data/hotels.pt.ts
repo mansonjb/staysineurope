@@ -15,7 +15,7 @@ const hotelsPt: Hotel[] = [
     style: "Refúgio com rooftop",
     bestFor: "Casais",
     blurb:
-      "Hotel boutique orientado para adultos, escondido nas vielas de Alfama, com um wine bar de terraço em azulejo vermelho e uma pequena piscina no rooftop virada para o Tejo. Os quartos são compactos; paga-se pela vista e pelo silêncio.",
+      "Este hotel boutique só para adultos está encaixado numa escadinha de Alfama, com a piscina de rooftop e o terraço de vinhos a emoldurar uma vista desimpedida sobre o Tejo. Os quartos são pequenos por opção de design, por isso a troca aqui é metros quadrados por uma das melhores vistas da cidade.",
     image: px(2290753),
     imageAlt: "Terraço de hotel ao entardecer com mesas postas para jantar",
   },
@@ -29,7 +29,7 @@ const hotelsPt: Hotel[] = [
     style: "Suites-apartamento",
     bestFor: "Estadias longas",
     blurb:
-      "Apartamentos completos com cozinha num palácio convertido, na zona alta e mais calma do Bairro Alto, com um rooftop bar que os lisboetas usam de verdade. Peça uma suite virada para as traseiras se quiser dormir antes das 2h ao fim de semana.",
+      "Instalado num antigo palácio do século XVIII, nas ruas altas e mais calmas do Bairro Alto, cada quarto aqui é uma suite autónoma com cozinha própria, pensada para estadias mais longas do que um fim de semana. O rooftop bar atrai sobretudo lisboetas em vez de turistas, mas vale a pena pedir uma suite virada para as traseiras se o barulho de sexta-feira à noite lá em baixo lhe importar.",
     image: px(262048),
     imageAlt: "Suite de hotel clara e elegante com lustre e cama ampla",
   },
@@ -43,7 +43,7 @@ const hotelsPt: Hotel[] = [
     style: "Central e prático",
     bestFor: "Primeira visita",
     blurb:
-      "Mesmo na praça do Rossio, o que deixa o elétrico 28, o elevador de Santa Justa e as duas colinas do centro a cinco minutos a pé. Os quartos sobre a praça são os fotogénicos; os das traseiras são os silenciosos.",
+      "Este hotel abre diretamente para a Praça do Rossio, o que deixa a paragem do elétrico 28, o Elevador de Santa Justa e as subidas para Alfama e para o Bairro Alto a cinco minutos a pé. Os quartos da frente olham diretamente para a praça de calçada; os das traseiras trocam essa vista por uma noite de sono a sério.",
     image: px(2507010),
     imageAlt: "Lobby de hotel moderno e luminoso com janelas do chão ao teto",
   },
@@ -57,7 +57,7 @@ const hotelsPt: Hotel[] = [
     style: "Hostel com suites",
     bestFor: "Orçamento apertado",
     blurb:
-      "Um palacete junto ao miradouro de São Pedro de Alcântara, dividido entre dormitórios e suites privadas surpreendentemente boas. Localização de cinco estrelas a preço de hostel, a dois passos dos cafés do Príncipe Real.",
+      "Instalado num palacete do século XIX convertido, mesmo junto ao miradouro de São Pedro de Alcântara, este hostel combina dormitórios partilhados com suites privadas muito acima do que o preço faz prever. Coloca uma vista de cinco estrelas e a faixa de cafés do Príncipe Real a poucos passos, a preços que os hotéis boutique do bairro nem de longe conseguem igualar.",
     image: px(279805),
     imageAlt: "Candeeiro de cabeceira e detalhe da cama num quarto de guesthouse",
   },

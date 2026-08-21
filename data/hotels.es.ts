@@ -17,7 +17,7 @@ const hotelsEs: Hotel[] = [
     style: "Refugio con azotea",
     bestFor: "Parejas",
     blurb:
-      "Hotel boutique orientado a adultos, escondido entre las callejuelas de Alfama, con una terraza bar de vinos de tejas rojas y una pequeña piscina en la azotea que se asoma directamente al Tajo. Las habitaciones son compactas; pagas por las vistas y el silencio.",
+      "Este hotel boutique solo para adultos se esconde en una escalera de Alfama, con una piscina en la azotea y una terraza de vinos que enmarcan una vista ininterrumpida hasta el Tajo. Las habitaciones son pequeñas por diseño, así que aquí el cambio es metros cuadrados por una de las mejores vistas de la ciudad.",
     image: px(2290753),
     imageAlt: "Terraza en la azotea de un hotel al atardecer con mesas puestas para la cena",
   },
@@ -31,7 +31,7 @@ const hotelsEs: Hotel[] = [
     style: "Suites tipo apartamento",
     bestFor: "Estancias largas",
     blurb:
-      "Apartamentos completos con cocina dentro de un palacio reconvertido, en el borde alto y más tranquilo del Bairro Alto, más un bar en la azotea que los locales usan de verdad. Pide una suite orientada a la parte trasera si duermes antes de las 2 de la madrugada los fines de semana.",
+      "Instalado en un antiguo palacio del siglo XVIII, en las calles más tranquilas de la parte alta del Bairro Alto, aquí cada habitación es una suite independiente con su propia cocina, pensada para estancias más largas que un fin de semana. El bar de la azotea atrae a un público local más que turista, aunque merece la pena pedir una suite orientada a la parte trasera si el ruido de los viernes por la noche te preocupa.",
     image: px(262048),
     imageAlt: "Suite de hotel luminosa y elegante con lámpara de araña y cama grande",
   },
@@ -45,7 +45,7 @@ const hotelsEs: Hotel[] = [
     style: "Céntrico y práctico",
     bestFor: "Primera visita",
     blurb:
-      "Justo en la plaza del Rossio, lo que deja el tranvía 28, el elevador de Santa Justa y las dos colinas del centro a cinco minutos a pie. Las habitaciones sobre la plaza son las más fotogénicas; las de la parte trasera son las más tranquilas.",
+      "Este hotel se abre directamente a la plaza del Rossio, lo que deja la parada del tranvía 28, el ascensor de Santa Justa y las subidas hacia Alfama y el Bairro Alto a cinco minutos a pie. Las habitaciones delanteras dan directamente a la plaza empedrada; las traseras cambian esa vista por una noche de sueño de verdad.",
     image: px(2507010),
     imageAlt: "Recepción de hotel moderna y luminosa con ventanales del suelo al techo",
   },
@@ -59,7 +59,7 @@ const hotelsEs: Hotel[] = [
     style: "Albergue con suites",
     bestFor: "Presupuesto ajustado",
     blurb:
-      "Una gran casa señorial antigua en el mirador de São Pedro de Alcântara, repartida entre dormitorios compartidos y suites privadas sorprendentemente buenas. Consigues una ubicación de cinco estrellas a precio de albergue, a unos pasos de los cafés de Príncipe Real.",
+      "Instalado en un palacete del siglo XIX reconvertido, justo en el mirador de São Pedro de Alcântara, este albergue combina dormitorios compartidos con suites privadas que superan con creces lo que cuestan. Ofrece unas vistas de cinco estrellas y los cafés de Príncipe Real a un paso, a precios que los hoteles boutique del barrio ni de lejos igualan.",
     image: px(279805),
     imageAlt: "Cálida lámpara de mesilla y detalle del cabecero en una habitación de pensión",
   },

@@ -17,7 +17,7 @@ const hotelsIt: Hotel[] = [
     style: "Rifugio con rooftop",
     bestFor: "Coppie",
     blurb:
-      "Boutique hotel per adulti nascosto tra i vicoli dell'Alfama, con una terrazza wine bar dai tetti rossi e una piccola piscina sul rooftop che guarda dritto sul Tago. Le camere sono compatte; paghi per la vista e per il silenzio.",
+      "Boutique hotel solo per adulti incastonato in una scalinata dell'Alfama, con piscina sul rooftop e terrazza per il vino che inquadrano una vista ininterrotta fino al Tago. Le camere sono piccole per scelta di design, quindi qui si rinuncia ai metri quadrati in cambio di uno dei migliori scorci della città.",
     image: px(2290753),
     imageAlt: "Terrazza sul tetto di un hotel al crepuscolo con tavoli apparecchiati per cena",
   },
@@ -31,7 +31,7 @@ const hotelsIt: Hotel[] = [
     style: "Suite con cucina",
     bestFor: "Soggiorni lunghi",
     blurb:
-      "Veri appartamenti con cucina dentro un palazzo ristrutturato sul bordo più tranquillo del Bairro Alto, più un rooftop bar frequentato davvero dai lisbonesi. Chiedi una suite sul retro se nei weekend vai a dormire prima delle 2.",
+      "Dentro un antico palazzo settecentesco nelle vie più tranquille della parte alta del Bairro Alto, ogni camera qui è una suite indipendente con cucina propria, pensata per soggiorni più lunghi di un weekend. Il rooftop bar attira una clientela locale più che turistica, ma vale la pena chiedere una suite sul retro se il rumore del venerdì sera qui sotto vi preoccupa.",
     image: px(262048),
     imageAlt: "Suite d'albergo luminosa ed elegante con lampadario e letto grande",
   },
@@ -45,7 +45,7 @@ const hotelsIt: Hotel[] = [
     style: "Centrale e pratico",
     bestFor: "Prima visita",
     blurb:
-      "Proprio sulla piazza del Rossio, che mette il tram 28, l'ascensore di Santa Justa ed entrambe le colline del centro a cinque minuti a piedi. Le camere sulla piazza sono quelle fotogeniche; quelle sul retro sono le silenziose.",
+      "Questo hotel si affaccia direttamente su piazza Rossio, con la fermata del tram 28, l'ascensore di Santa Justa e le salite verso Alfama e Bairro Alto a cinque minuti a piedi. Le camere sul fronte guardano dritto sulla piazza acciottolata; quelle sul retro rinunciano alla vista in cambio di una notte di sonno vero.",
     image: px(2507010),
     imageAlt: "Lobby d'albergo moderna e luminosa con vetrate a tutta altezza",
   },
@@ -59,7 +59,7 @@ const hotelsIt: Hotel[] = [
     style: "Ostello con suite",
     bestFor: "Budget",
     blurb:
-      "Una grande casa d'epoca al belvedere di São Pedro de Alcântara, divisa tra dormitori e suite private sorprendentemente buone. Ottieni una posizione a cinque stelle a prezzi da ostello, a due passi dai caffè del Príncipe Real.",
+      "Ricavato in una casa d'epoca ottocentesca proprio al belvedere di São Pedro de Alcântara, questo ostello unisce dormitori condivisi a suite private che valgono molto più del loro prezzo. Offre una vista da cinque stelle e i caffè del Príncipe Real a due passi, a tariffe che gli hotel boutique del quartiere non riescono nemmeno ad avvicinare.",
     image: px(279805),
     imageAlt: "Dettaglio di abat-jour caldo e testiera in una camera di guesthouse",
   },
