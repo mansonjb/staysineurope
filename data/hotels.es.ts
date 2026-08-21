@@ -423,7 +423,7 @@ const hotelsEs: Hotel[] = [
     style: "En lo alto de la Escalinata Española",
     bestFor: "Estancia de prestigio",
     blurb:
-      "Una gran dama de gestión familiar situada justo en lo alto de la Escalinata Española, con un restaurante en la azotea que domina todo el centro. Es una de las direcciones más caras de Roma; la ubicación y las vistas son la razón por la que la gente la paga.",
+      "Este hotel de gestión familiar se alza justo en lo alto de la Escalinata Española, con un restaurante en la azotea que mira directamente sobre el centro histórico. Las tarifas están entre las más altas de Roma, pero los huéspedes pagan sobre todo por esa vista y esa dirección.",
     image: px(2290753),
     imageAlt: "Terraza en la azotea de un hotel al atardecer con mesas puestas para la cena",
   },
@@ -437,7 +437,7 @@ const hotelsEs: Hotel[] = [
     style: "Pulido y céntrico",
     bestFor: "Primera visita",
     blurb:
-      "Un cuatro estrellas fiable en la Via Nazionale entre Termini y Monti, a pie del Coliseo y de todas las líneas de metro. Las habitaciones son tranquilas y amplias para lo que es Roma, y el aperitivo en la azotea se incluye en algunas temporadas.",
+      "Un cuatro estrellas pulido en la Via Nazionale, situado entre Termini y Monti, con el Coliseo y todas las líneas de metro a un paseo. Las habitaciones son más grandes que la media romana, y algunas temporadas incluyen en la tarifa una hora de aperitivo en la azotea.",
     image: px(262048),
     imageAlt: "Suite de hotel luminosa y elegante con una lámpara de araña y una cama grande",
   },
@@ -451,7 +451,7 @@ const hotelsEs: Hotel[] = [
     style: "Claustro en el Trastevere",
     bestFor: "Vida local",
     blurb:
-      "Un antiguo convento de baja altura construido en torno a un patio de naranjos en pleno Trastevere, para dormir en el barrio de la vida nocturna sin el ruido de la calle. Sus habitaciones en planta baja lo hacen raro en Roma para quien quiere evitar escaleras.",
+      "Instalado en un antiguo convento en torno a un patio de naranjos, este hotel de baja altura deja la vida nocturna del Trastevere fuera de la ventana en lugar de justo debajo. Varias habitaciones dan directamente al patio en planta baja, algo poco habitual en Roma y útil si las escaleras son un problema.",
     image: px(164595),
     imageAlt: "Habitación de hotel con vigas de madera oscura y ropa de cama impecable",
   },
@@ -465,7 +465,7 @@ const hotelsEs: Hotel[] = [
     style: "Albergue de diseño",
     bestFor: "Presupuesto ajustado",
     blurb:
-      "Un albergue luminoso y social entre Termini y la Fontana de Trevi, con habitaciones privadas además de dormitorios compartidos y un gran patio ajardinado. Está a pie del núcleo antiguo y a una fracción de los precios de los hoteles del centro de Roma.",
+      "Un albergue sociable a medio camino entre Termini y la Fontana di Trevi, que combina dormitorios compartidos con habitaciones privadas en torno a un gran patio ajardinado. El núcleo antiguo queda a un paseo, con tarifas muy por debajo de cualquier hotel del centro de Roma.",
     image: px(279805),
     imageAlt: "Cálida lámpara de mesilla y detalle del cabecero en una habitación de casa de huéspedes",
   },

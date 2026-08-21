@@ -421,7 +421,7 @@ const hotelsPt: Hotel[] = [
     style: "No topo da Escadaria de Espanha",
     bestFor: "Estadia emblemática",
     blurb:
-      "Uma grande dame de gestão familiar mesmo no cimo da Escadaria de Espanha, com um restaurante na cobertura sobre todo o centro. É uma das moradas mais caras de Roma; a localização e a vista são a razão por que as pessoas pagam.",
+      "Este hotel de gestão familiar fica mesmo no cimo da Escadaria de Espanha, com o restaurante na cobertura a olhar a direito sobre o centro histórico. Os preços estão entre os mais altos de Roma, mas os hóspedes pagam por essa vista e essa morada, e pouco mais.",
     image: px(2290753),
     imageAlt: "Terraço de hotel ao entardecer com mesas postas para jantar",
   },
@@ -435,7 +435,7 @@ const hotelsPt: Hotel[] = [
     style: "Requintado e central",
     bestFor: "Primeira visita",
     blurb:
-      "Um fiável quatro estrelas na Via Nazionale entre Termini e Monti, a pé do Coliseu e de todas as linhas de metro. Os quartos são tranquilos e generosos para Roma, e o aperitivo na cobertura está incluído em algumas épocas.",
+      "Um requintado quatro estrelas na Via Nazionale, posicionado entre Termini e Monti, com o Coliseu e todas as linhas de metro a uma curta caminhada. Os quartos são maiores do que a média de Roma, e em algumas épocas o preço inclui uma hora de aperitivo na cobertura.",
     image: px(262048),
     imageAlt: "Suíte de hotel luminosa e elegante com candelabro e cama grande",
   },
@@ -449,7 +449,7 @@ const hotelsPt: Hotel[] = [
     style: "Claustro de Trastevere",
     bestFor: "Vida local",
     blurb:
-      "Um antigo convento de baixa altura construído à volta de um pátio de laranjeiras no meio de Trastevere, por isso dorme no bairro da vida noturna sem o barulho da rua. Os quartos ao nível do rés do chão tornam-no raro em Roma para quem evita escadas.",
+      "Instalado num antigo convento à volta de um pátio de laranjeiras, este hotel baixo mantém a vida noturna de Trastevere do lado de fora da janela, e não mesmo por baixo dela. Vários quartos abrem diretamente para o pátio ao nível do rés do chão, algo raro em Roma e útil para quem tem dificuldade com escadas.",
     image: px(164595),
     imageAlt: "Quarto de hotel com vigas de madeira escura e roupa de cama impecável",
   },
@@ -463,7 +463,7 @@ const hotelsPt: Hotel[] = [
     style: "Hostel de design",
     bestFor: "Orçamento apertado",
     blurb:
-      "Um hostel social e luminoso entre Termini e a Fontana di Trevi, com quartos privativos além dos dormitórios e um grande pátio ajardinado. Fica a pé do núcleo antigo e por uma fração dos preços dos hotéis do centro de Roma.",
+      "Um hostel sociável a meio caminho entre Termini e a Fontana di Trevi, que combina dormitórios com quartos privativos à volta de um grande pátio ajardinado. O núcleo antigo fica a uma curta caminhada, a preços muito abaixo de qualquer hotel central em Roma.",
     image: px(279805),
     imageAlt: "Candeeiro de cabeceira acolhedor e detalhe da cabeceira num quarto de casa de hóspedes",
   },

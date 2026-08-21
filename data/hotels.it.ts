@@ -423,7 +423,7 @@ const hotelsIt: Hotel[] = [
     style: "In cima a Piazza di Spagna",
     bestFor: "Soggiorno da cartolina",
     blurb:
-      "Una grande dame a conduzione familiare proprio in cima alla scalinata di Piazza di Spagna, con un ristorante sul tetto affacciato su tutto il centro. È uno degli indirizzi più cari di Roma; la posizione e la vista sono il motivo per cui la gente li paga.",
+      "Questo hotel a conduzione familiare si trova proprio in cima a Piazza di Spagna, con il ristorante sul tetto affacciato direttamente sul centro storico. Le tariffe sono tra le più alte di Roma, ma qui si paga per la vista e l'indirizzo, non per altro.",
     image: px(2290753),
     imageAlt: "Terrazza sul tetto di un hotel al crepuscolo con tavoli apparecchiati per cena",
   },
@@ -437,7 +437,7 @@ const hotelsIt: Hotel[] = [
     style: "Curato e centrale",
     bestFor: "Prima visita",
     blurb:
-      "Un affidabile quattro stelle su Via Nazionale tra Termini e Monti, raggiungibile a piedi dal Colosseo e da ogni linea della metro. Le camere sono silenziose e ampie per gli standard di Roma, e l'aperitivo sul tetto è incluso in alcune stagioni.",
+      "Un quattro stelle curato su Via Nazionale, tra Termini e Monti, con il Colosseo e ogni linea della metro a portata di mano. Le camere sono più ampie della media romana, e in alcune stagioni la tariffa include l'ora dell'aperitivo sul tetto.",
     image: px(262048),
     imageAlt: "Elegante suite d'albergo luminosa con lampadario e letto grande",
   },
@@ -451,7 +451,7 @@ const hotelsIt: Hotel[] = [
     style: "Chiostro di Trastevere",
     bestFor: "Vita locale",
     blurb:
-      "Un ex convento a pochi piani costruito attorno a un cortile con aranci nel cuore di Trastevere, così dormite nel quartiere della vita notturna senza il rumore della strada. Le camere al piano terra lo rendono raro a Roma per chiunque voglia evitare le scale.",
+      "Ricavato in un ex convento intorno a un cortile con aranci, questo hotel a pochi piani tiene la vita notturna di Trastevere fuori dalla finestra invece che sotto casa. Diverse camere si affacciano direttamente sul cortile al piano terra, una rarità a Roma e utile per chi ha problemi con le scale.",
     image: px(164595),
     imageAlt: "Camera d'albergo con travi in legno scuro e biancheria impeccabile",
   },
@@ -465,7 +465,7 @@ const hotelsIt: Hotel[] = [
     style: "Ostello di design",
     bestFor: "Budget",
     blurb:
-      "Un ostello luminoso e sociale tra Termini e la Fontana di Trevi, con camere private oltre ai dormitori e un grande cortile giardino. È raggiungibile a piedi dal cuore antico e a una frazione dei prezzi degli hotel del centro di Roma.",
+      "Un ostello socievole a metà strada tra Termini e la Fontana di Trevi, con dormitori e camere private intorno a un grande cortile giardino. Il cuore antico è raggiungibile a piedi, a tariffe ben inferiori a qualsiasi hotel del centro di Roma.",
     image: px(279805),
     imageAlt: "Dettaglio di abat-jour caldo e testiera in una camera di guesthouse",
   },

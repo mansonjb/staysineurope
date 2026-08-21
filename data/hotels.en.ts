@@ -423,7 +423,7 @@ const hotelsEn: Hotel[] = [
     style: "Top of the Spanish Steps",
     bestFor: "Landmark stay",
     blurb:
-      "A family-run grande dame sitting right at the head of the Spanish Steps, with a rooftop restaurant over the whole centro. It is one of the most expensive addresses in Rome; the location and the view are the reason people pay it.",
+      "This family-run hotel sits directly at the top of the Spanish Steps, its rooftop restaurant looking straight down over the historic centre. Rates run among the highest in Rome, but guests are paying for that view and address rather than anything else.",
     image: px(2290753),
     imageAlt: "Rooftop terrace of a hotel at dusk with tables set for dinner",
   },
@@ -437,7 +437,7 @@ const hotelsEn: Hotel[] = [
     style: "Polished and central",
     bestFor: "First visit",
     blurb:
-      "A reliable four-star on Via Nazionale between Termini and Monti, walkable to the Colosseum and every metro line. Rooms are quiet and generous for Rome, and the rooftop aperitivo is included some seasons.",
+      "A polished four-star on Via Nazionale, positioned between Termini and Monti with the Colosseum and every metro line within walking distance. Rooms run larger than the Rome average, and some seasons add a rooftop aperitivo hour into the rate.",
     image: px(262048),
     imageAlt: "Bright elegant hotel suite with a chandelier and large bed",
   },
@@ -451,7 +451,7 @@ const hotelsEn: Hotel[] = [
     style: "Trastevere cloister",
     bestFor: "Local life",
     blurb:
-      "A low-rise former convent built around an orange-tree courtyard in the middle of Trastevere, so you sleep in the nightlife district without the street noise. Ground-floor rooms make it rare in Rome for anyone avoiding stairs.",
+      "Set inside a former convent around an orange-tree courtyard, this low-rise hotel keeps Trastevere's nightlife outside the window rather than under it. Several rooms open straight onto the courtyard at ground level, unusual for Rome and useful if stairs are a problem.",
     image: px(164595),
     imageAlt: "Hotel bedroom with dark wood beams and crisp bedding",
   },
@@ -465,7 +465,7 @@ const hotelsEn: Hotel[] = [
     style: "Design hostel",
     bestFor: "Budget",
     blurb:
-      "A bright social hostel between Termini and the Trevi Fountain, with private rooms as well as dorms and a big garden courtyard. It is walkable to the ancient core and a fraction of central-Rome hotel prices.",
+      "A sociable hostel midway between Termini and the Trevi Fountain, mixing dorms with private rooms around a large garden courtyard. The ancient core is within walking distance, at rates well under any central Rome hotel.",
     image: px(279805),
     imageAlt: "Warm bedside lamp and headboard detail in a guesthouse room",
   },

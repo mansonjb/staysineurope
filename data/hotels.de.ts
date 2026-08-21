@@ -423,7 +423,7 @@ const hotelsDe: Hotel[] = [
     style: "Ganz oben an der Spanischen Treppe",
     bestFor: "Wahrzeichen-Aufenthalt",
     blurb:
-      "Eine familiengeführte Grande Dame direkt am Kopf der Spanischen Treppe, mit einem Dachrestaurant über dem ganzen Centro. Es ist eine der teuersten Adressen Roms; die Lage und die Aussicht sind der Grund, warum die Leute sie zahlen.",
+      "Dieses familiengeführte Hotel liegt direkt am Kopf der Spanischen Treppe, sein Dachrestaurant blickt direkt hinab über das historische Zentrum. Die Preise zählen zu den höchsten Roms, doch Gäste zahlen vor allem für diese Aussicht und Adresse.",
     image: px(2290753),
     imageAlt: "Dachterrasse eines Hotels in der Abenddämmerung mit gedeckten Tischen",
   },
@@ -437,7 +437,7 @@ const hotelsDe: Hotel[] = [
     style: "Gepflegt und zentral",
     bestFor: "Erster Besuch",
     blurb:
-      "Ein verlässliches Vier-Sterne-Haus an der Via Nazionale zwischen Termini und Monti, zu Fuß zum Kolosseum und zu jeder Metrolinie. Die Zimmer sind für Rom ruhig und großzügig, und der Dachaperitivo ist in manchen Saisons inbegriffen.",
+      "Ein gepflegtes Vier-Sterne-Hotel an der Via Nazionale, zwischen Termini und Monti gelegen, mit dem Kolosseum und jeder Metrolinie in Gehweite. Die Zimmer fallen größer aus als der Rom-Durchschnitt, und in manchen Saisons ist eine Dachaperitivo-Stunde im Preis inbegriffen.",
     image: px(262048),
     imageAlt: "Helle, elegante Hotelsuite mit Kronleuchter und großem Bett",
   },
@@ -451,7 +451,7 @@ const hotelsDe: Hotel[] = [
     style: "Trastevere-Kreuzgang",
     bestFor: "Lokales Leben",
     blurb:
-      "Ein niedriges ehemaliges Kloster rund um einen Innenhof mit Orangenbäumen mitten in Trastevere, sodass Sie im Ausgehviertel schlafen, ohne den Straßenlärm. Zimmer im Erdgeschoss machen es in Rom selten für alle, die Treppen meiden.",
+      "In einem ehemaligen Kloster rund um einen Innenhof mit Orangenbäumen gelegen, hält dieses niedrige Hotel Trasteveres Nachtleben vor dem Fenster statt darunter. Mehrere Zimmer öffnen sich ebenerdig direkt zum Innenhof, ungewöhnlich für Rom und praktisch, wenn Treppen ein Problem sind.",
     image: px(164595),
     imageAlt: "Hotelschlafzimmer mit dunklen Holzbalken und frischer Bettwäsche",
   },
@@ -465,7 +465,7 @@ const hotelsDe: Hotel[] = [
     style: "Design-Hostel",
     bestFor: "Budget",
     blurb:
-      "Ein helles, geselliges Hostel zwischen Termini und dem Trevi-Brunnen, mit Privatzimmern ebenso wie Schlafsälen und einem großen Gartenhof. Es ist zu Fuß zum antiken Kern und ein Bruchteil der Hotelpreise im Zentrum von Rom.",
+      "Ein geselliges Hostel auf halbem Weg zwischen Termini und dem Trevi-Brunnen, das Schlafsäle mit Privatzimmern rund um einen großen Gartenhof verbindet. Der antike Kern liegt in Gehweite, zu Preisen weit unter jedem zentralen Hotel Roms.",
     image: px(279805),
     imageAlt: "Warme Nachttischlampe und Kopfteil-Detail in einem Pensionszimmer",
   },

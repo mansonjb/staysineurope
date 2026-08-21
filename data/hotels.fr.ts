@@ -423,7 +423,7 @@ const hotelsFr: Hotel[] = [
     style: "En haut de la place d'Espagne",
     bestFor: "Séjour de prestige",
     blurb:
-      "Une grande dame familiale posée pile en haut de l'escalier de la place d'Espagne, avec un restaurant sur le toit qui domine tout le centro. C'est l'une des adresses les plus chères de Rome ; l'emplacement et la vue sont la raison pour laquelle on la paie.",
+      "Cet hôtel familial se dresse pile en haut de la place d'Espagne, son restaurant sur le toit plongeant droit sur le centre historique. Les tarifs comptent parmi les plus élevés de Rome, mais les clients paient avant tout pour cette vue et cette adresse.",
     image: px(2290753),
     imageAlt: "Terrasse sur le toit d'un hôtel au crépuscule avec tables dressées pour le dîner",
   },
@@ -437,7 +437,7 @@ const hotelsFr: Hotel[] = [
     style: "Soigné et central",
     bestFor: "Première visite",
     blurb:
-      "Un quatre-étoiles fiable sur la Via Nazionale entre Termini et Monti, à pied du Colisée et de toutes les lignes de métro. Les chambres sont calmes et généreuses pour Rome, et l'apéritif sur le toit est inclus certaines saisons.",
+      "Un quatre-étoiles soigné sur la Via Nazionale, entre Termini et Monti, avec le Colisée et toutes les lignes de métro à distance de marche. Les chambres sont plus vastes que la moyenne romaine, et certaines saisons ajoutent une heure d'apéritif sur le toit dans le tarif.",
     image: px(262048),
     imageAlt: "Suite d'hôtel lumineuse et élégante avec un lustre et un grand lit",
   },
@@ -451,7 +451,7 @@ const hotelsFr: Hotel[] = [
     style: "Cloître au Trastevere",
     bestFor: "Vie locale",
     blurb:
-      "Un ancien couvent de plain-pied bâti autour d'une cour plantée d'orangers en plein Trastevere, pour dormir dans le quartier de la vie nocturne sans le bruit de la rue. Ses chambres au rez-de-chaussée en font une rareté à Rome pour qui veut éviter les escaliers.",
+      "Installé dans un ancien couvent autour d'une cour plantée d'orangers, cet hôtel de plain-pied garde la vie nocturne du Trastevere hors de la fenêtre plutôt que juste en dessous. Plusieurs chambres s'ouvrent directement sur la cour au rez-de-chaussée, une rareté à Rome et un atout si les escaliers posent problème.",
     image: px(164595),
     imageAlt: "Chambre d'hôtel aux poutres de bois sombre et à la literie impeccable",
   },
@@ -465,7 +465,7 @@ const hotelsFr: Hotel[] = [
     style: "Auberge design",
     bestFor: "Petit budget",
     blurb:
-      "Une auberge conviviale et lumineuse entre Termini et la fontaine de Trevi, avec des chambres privées comme des dortoirs et une grande cour-jardin. Elle est à pied du coeur antique et à une fraction des prix des hôtels du centre de Rome.",
+      "Une auberge conviviale à mi-chemin entre Termini et la fontaine de Trevi, mêlant dortoirs et chambres privées autour d'une grande cour-jardin. Le coeur antique est à distance de marche, à des tarifs bien inférieurs à ceux de n'importe quel hôtel du centre de Rome.",
     image: px(279805),
     imageAlt: "Lampe de chevet chaleureuse et détail de tête de lit dans une chambre de maison d'hôtes",
   },

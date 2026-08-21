@@ -300,6 +300,7 @@ import pragueJa from "./cities/prague.ja";
 import copenhagenJa from "./cities/copenhagen.ja";
 import viennaJa from "./cities/vienna.ja";
 import parisJa from "./cities/paris.ja";
+import romeJa from "./cities/rome.ja";
 
 // Register every city bundle per locale. Adding a city = one file per locale
 // + one entry per array below (same order everywhere).
@@ -311,7 +312,7 @@ const bundlesByLocale: Record<Locale, CityData[]> = {
   de: [lisbonDe, pragueDe, sevilleDe, portoDe, budapestDe, viennaDe, granadaDe, romeDe, amsterdamDe, florenceDe, brugesDe, barcelonaDe, berlinDe, madridDe, krakowDe, copenhagenDe, athensDe, edinburghDe, parisDe, veniceDe, dublinDe, stockholmDe, niceDe, dubrovnikDe, reykjavikDe, munichDe, tallinnDe, osloDe, helsinkiDe, naplesDe, splitDe, rigaDe, brusselsDe, vilniusDe, bratislavaDe, ljubljanaDe, zurichDe, warsawDe, bucharestDe, valenciaDe, vallettaDe, gdanskDe, bolognaDe, sofiaDe, belgradeDe, luxembourgDe],
   es: [lisbonEs, pragueEs, sevilleEs, portoEs, budapestEs, viennaEs, granadaEs, romeEs, amsterdamEs, florenceEs, brugesEs, barcelonaEs, berlinEs, madridEs, krakowEs, copenhagenEs, athensEs, edinburghEs, parisEs, veniceEs, dublinEs, stockholmEs, niceEs, dubrovnikEs, reykjavikEs, munichEs, tallinnEs, osloEs, helsinkiEs, naplesEs, splitEs, rigaEs, brusselsEs, vilniusEs, bratislavaEs, ljubljanaEs, zurichEs, warsawEs, bucharestEs, valenciaEs, vallettaEs, gdanskEs, bolognaEs, sofiaEs, belgradeEs, luxembourgEs],
   // Japanese: launch cities only (the 12 in LAUNCH_CITIES).
-  ja: [brugesJa, rigaJa, portoJa, dublinJa, granadaJa, osloJa, dubrovnikJa, amsterdamJa, barcelonaJa, pragueJa, copenhagenJa, viennaJa, parisJa],
+  ja: [brugesJa, rigaJa, portoJa, dublinJa, granadaJa, osloJa, dubrovnikJa, amsterdamJa, barcelonaJa, pragueJa, copenhagenJa, viennaJa, parisJa, romeJa],
 };
 
 // Launch scope: only these cities are published. Expand deliberately, one at a
@@ -333,6 +334,7 @@ export const LAUNCH_CITIES = new Set<string>([
   "copenhagen",
   "vienna",
   "paris",
+  "rome",
 ]);
 
 export function cityBundles(locale: Locale = "en"): CityData[] {
