@@ -76,7 +76,7 @@ export function makeWtsPage(locale: Locale) {
         ? fmt(t.wts.answerFirst, {
             city: city.name,
             hood: firstTimer.name,
-            pro: firstTimer.pros[0].charAt(0).toLowerCase() + firstTimer.pros[0].slice(1),
+            pro: firstTimer.pros[0],
           })
         : fmt(t.wts.answerFallback, { city: city.name }),
       budget && budget.slug !== firstTimer?.slug
@@ -104,9 +104,7 @@ export function makeWtsPage(locale: Locale) {
               a: fmt(t.wts.faqNightA, {
                 hood: nightlife.name,
                 vibe: nightlife.vibe,
-                con:
-                  nightlife.cons[0].charAt(0).toLowerCase() +
-                  nightlife.cons[0].slice(1),
+                con: nightlife.cons[0],
               }),
             },
           ]
