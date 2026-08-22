@@ -771,7 +771,7 @@ const hotelsFr: Hotel[] = [
     style: "Rooftop sur la Gran Via",
     bestFor: "Vues",
     blurb:
-      "Un hôtel raffiné en haut de la Gran Via, avec une terrasse et un restaurant sur le toit dominant les toits de la ville jusqu'aux montagnes. Vous êtes à quelques minutes à pied des musées d'art et de la vie nocturne de Chueca et Malasana.",
+      "Perché en haut de la Gran Via, la terrasse et le restaurant sur le toit de cet hôtel dominent les toits de la ville et laissent voir, par temps clair, la Sierra de Guadarrama au loin. Les musées d'art sont à courte marche vers le sud, et les bars de Chueca et Malasana tout aussi proches de l'autre côté.",
     image: px(261102),
     imageAlt: "Terrasse d'hôtel sur le toit au crépuscule surplombant la ville",
   },
@@ -785,7 +785,7 @@ const hotelsFr: Hotel[] = [
     style: "Effervescence boutique",
     bestFor: "Amateurs de design",
     blurb:
-      "Un hôtel design élégant dans une demeure restaurée de Chueca, avec un bar de hall animé que les locaux utilisent pour le brunch et les cocktails. Il vous place dans le barrio central le plus animé, à courte marche du Prado et de la Gran Via.",
+      "Installé dans une demeure du XIXe siècle reconvertie à Chueca, le bar du rez-de-chaussée attire autant d'habitués locaux pour le brunch et les cocktails que de clients de l'hôtel. Vous atterrissez dans le barrio central le plus animé de Madrid, à courte marche du Prado comme de la Gran Via.",
     image: px(1267438),
     imageAlt: "Chambre d'hôtel design minimaliste aux tons sombres et à l'éclairage tamisé",
   },
@@ -799,7 +799,7 @@ const hotelsFr: Hotel[] = [
     style: "Vieille auberge sur Cava Baja",
     bestFor: "Vie locale",
     blurb:
-      "Un relais de poste du XIXe siècle restauré, en plein sur Cava Baja, la meilleure rue à tapas de La Latina, si bien que le dîner est en bas. Les chambres s'organisent autour d'une cour couverte de verre au-dessus de l'ancienne muraille de la ville.",
+      "Cet ancien relais de poste du XIXe siècle se trouve en plein sur Cava Baja, si bien que la meilleure tournée des tapas de La Latina commence à la porte de l'hôtel. Les chambres s'organisent autour d'une cour couverte de verre, bâtie sur un tronçon de l'ancienne muraille médiévale de Madrid.",
     image: px(279746),
     imageAlt: "Chambre d'hôtel traditionnelle avec mobilier en bois",
   },
@@ -813,7 +813,7 @@ const hotelsFr: Hotel[] = [
     style: "Auberge avec rooftop",
     bestFor: "Petit budget",
     blurb:
-      "Un hôtel et une auberge économiques et soignés à deux pas de la Plaza Mayor, avec des chambres privées comme des dortoirs et un bar sur le toit. C'est l'un des lits au meilleur rapport qualité-prix en plein coeur du vieux Madrid.",
+      "À quelques pas de la Plaza Mayor, cet hôtel-auberge économique mélange chambres privées et dortoirs, avec un bar sur le toit ouvert le soir pour la vue sur la vieille ville. C'est l'un des lits les moins chers à si courte distance du coeur historique.",
     image: px(271624),
     imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
   },
@@ -1119,7 +1119,7 @@ const hotelsFr: Hotel[] = [
     style: "Palais sur le Grand Canal",
     bestFor: "Séjour dans un monument",
     blurb:
-      "Un palazzo du XVe siècle en bordure directe du Grand Canal, près de la place Saint-Marc, avec une terrasse où les taxis d'eau accostent jusqu'à la porte. C'est l'une des adresses les plus célèbres et les plus chères de Venise, et ce sont les chambres avec vue sur le canal qui l'expliquent.",
+      "Ce palazzo du XVe siècle se trouve en bordure directe du Grand Canal, à courte marche de la place Saint-Marc, avec son propre embarcadère pour taxis d'eau à la porte de la terrasse. Les chambres donnant sur le canal affichent parmi les tarifs les plus élevés de Venise, et la vue en est la raison.",
     image: px(262048),
     imageAlt: "Suite d'hôtel grandiose et élégante avec un lustre et un grand lit",
   },
@@ -1133,7 +1133,7 @@ const hotelsFr: Hotel[] = [
     style: "Classique avec vue sur le canal",
     bestFor: "Première visite",
     blurb:
-      "Un hôtel vénitien traditionnel dans un palazzo restauré face au Grand Canal, juste en face de la gare Santa Lucia. Arriver et repartir est facile, et les chambres sur le canal regardent passer les vaporetti.",
+      "Installé dans un palazzo restauré sur le Grand Canal, juste en face de la gare Santa Lucia, cet hôtel rend l'arrivée en train aussi simple que Venise le permet. Les chambres côté canal donnent directement sur le va-et-vient des vaporetti en contrebas.",
     image: px(279746),
     imageAlt: "Chambre d'hôtel traditionnelle avec du mobilier en bois",
   },
@@ -1147,7 +1147,7 @@ const hotelsFr: Hotel[] = [
     style: "Art déco à Dorsoduro",
     bestFor: "Amateurs de design",
     blurb:
-      "Un hôtel design dans un immeuble du XIVe siècle derrière l'Accademia, dans le calme de Dorsoduro, décoré dans le style italien des années 1930 et 1940. Vous êtes parmi les galeries et les bars étudiants, à l'écart de la cohue de San Marco.",
+      "Logé dans un bâtiment du XIVe siècle juste derrière la galerie de l'Accademia, cet hôtel de Dorsoduro est aménagé dans un style italien des années 1930 et 1940 plutôt que dans le style vénitien d'époque. Il vous rapproche des galeries et des bars étudiants plutôt que de la foule de San Marco.",
     image: px(1267438),
     imageAlt: "Chambre d'hôtel design minimaliste aux tons sombres et à l'éclairage tamisé",
   },
@@ -1161,7 +1161,7 @@ const hotelsFr: Hotel[] = [
     style: "Auberge dans un couvent",
     bestFor: "Petit budget",
     blurb:
-      "Une auberge design et maison d'hôtes dans un couvent du XVIe siècle restauré à Cannaregio, avec chambres privées comme dortoirs autour d'un cloître de pierre. C'est un lit abordable rare dans la moitié vraie et habitée de Venise.",
+      "Cette auberge de Cannaregio occupe un couvent du XVIe siècle restauré, avec dortoirs et chambres privées organisés autour d'un cloître de pierre. Les lits ici comptent parmi les moins chers de Venise, dans le sestiere où les habitants vivent vraiment.",
     image: px(271624),
     imageAlt: "Chambre simple et lumineuse avec un bureau et un lit double",
   },

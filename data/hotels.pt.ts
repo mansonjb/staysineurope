@@ -769,7 +769,7 @@ const hotelsPt: Hotel[] = [
     style: "Rooftop sobre a Gran Via",
     bestFor: "Vistas",
     blurb:
-      "Um hotel requintado no topo da Gran Via, com um terraço e um restaurante no rooftop a olhar sobre os telhados da cidade até às montanhas. Fica a poucos minutos a pé dos museus de arte e da vida noturna de Chueca e Malasana.",
+      "Empoleirado no topo da Gran Via, o terraço e o restaurante no rooftop deste hotel olham para lá dos telhados até à Sierra de Guadarrama num dia limpo. Os museus de arte ficam a uma curta caminhada a sul, e os bares de Chueca e Malasana ficam igualmente perto do outro lado.",
     image: px(261102),
     imageAlt: "Terraço de hotel no rooftop ao entardecer sobre a cidade",
   },
@@ -783,7 +783,7 @@ const hotelsPt: Hotel[] = [
     style: "Vibração boutique",
     bestFor: "Amantes de design",
     blurb:
-      "Um hotel de design com estilo numa casa senhorial restaurada de Chueca, com um bar de lobby movimentado que os locais usam para brunch e cocktails. Coloca-o no barrio central mais animado, a uma curta caminhada do Museu do Prado e da Gran Via.",
+      "Instalado numa casa senhorial do século XIX reconvertida em Chueca, o bar do rés-do-chão atrai tantos habituais locais para o brunch e os cocktails como hóspedes do hotel. Fica no barrio central mais animado de Madrid, a uma caminhada fácil tanto do Prado como da Gran Via.",
     image: px(1267438),
     imageAlt: "Quarto de hotel de design minimalista em tons escuros com luz baixa",
   },
@@ -797,7 +797,7 @@ const hotelsPt: Hotel[] = [
     style: "Antiga estalagem na Cava Baja",
     bestFor: "Vida local",
     blurb:
-      "Uma estalagem de posta do século XIX restaurada mesmo na Cava Baja, a melhor rua de tapas de La Latina, por isso o jantar é lá em baixo. Os quartos estão dispostos à volta de um pátio coberto de vidro sobre a antiga muralha da cidade.",
+      "Esta antiga estalagem de posta do século XIX fica mesmo na Cava Baja, por isso o melhor roteiro de tapas de La Latina começa à porta. Os quartos envolvem um pátio com cobertura de vidro construído sobre um troço da antiga muralha medieval de Madrid.",
     image: px(279746),
     imageAlt: "Quarto de hotel tradicional com mobiliário de madeira",
   },
@@ -811,7 +811,7 @@ const hotelsPt: Hotel[] = [
     style: "Hostel com rooftop",
     bestFor: "Orçamento apertado",
     blurb:
-      "Um hotel e hostel económico com estilo a dois passos da Plaza Mayor, com quartos privados além dos dormitórios e um bar de terraço no rooftop. É uma das camas com melhor relação qualidade-preço em pleno centro da Madrid antiga.",
+      "A poucos passos da Plaza Mayor, este hotel-hostel económico combina quartos privados com dormitórios e mantém um bar no rooftop aberto para vistas noturnas sobre a cidade velha. Está entre as camas mais baratas tão perto do núcleo histórico.",
     image: px(271624),
     imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
   },
@@ -1117,7 +1117,7 @@ const hotelsPt: Hotel[] = [
     style: "Palácio no Grande Canal",
     bestFor: "Estadia num marco",
     blurb:
-      "Um palazzo do século XV mesmo no Grande Canal, junto à Praça de São Marcos, com um terraço onde os táxis aquáticos encostam à porta. É um dos endereços mais famosos e caros de Veneza, e os quartos com vista para o canal são a razão.",
+      "Este palazzo do século XV fica mesmo no Grande Canal, a uma curta caminhada da Praça de São Marcos, com o seu próprio cais de táxi aquático à porta do terraço. Os quartos virados para o canal cobram das tarifas mais altas de Veneza, e a vista é a razão.",
     image: px(262048),
     imageAlt: "Suíte de hotel grandiosa e elegante com um lustre e uma cama grande",
   },
@@ -1131,7 +1131,7 @@ const hotelsPt: Hotel[] = [
     style: "Clássico com vista de canal",
     bestFor: "Primeira visita",
     blurb:
-      "Um hotel veneziano tradicional num palazzo restaurado virado para o Grande Canal, mesmo em frente à estação de comboios de Santa Lucia. Chegar e partir é fácil, e os quartos da frente para o canal veem os vaporettos passar.",
+      "Instalado num palazzo restaurado no Grande Canal, mesmo em frente à estação de Santa Lucia, este hotel torna a chegada de comboio tão simples quanto Veneza permite. Os quartos virados para o canal olham diretamente para o trânsito de vaporetti lá em baixo.",
     image: px(279746),
     imageAlt: "Quarto de hotel tradicional com mobiliário de madeira",
   },
@@ -1145,7 +1145,7 @@ const hotelsPt: Hotel[] = [
     style: "Art Deco em Dorsoduro",
     bestFor: "Amantes de design",
     blurb:
-      "Um hotel de design num edifício do século XIV por trás da Accademia, no sossegado Dorsoduro, decorado ao estilo do design italiano dos anos 30 e 40. Fica entre as galerias e os bares de estudantes, longe da confusão de São Marcos.",
+      "Instalado num edifício do século XIV mesmo atrás da galeria da Accademia, este hotel de Dorsoduro está decorado ao estilo do design italiano dos anos 30 e 40 em vez do estilo veneziano de época. Coloca-o mais perto das galerias e dos bares de estudantes do que das multidões de São Marcos.",
     image: px(1267438),
     imageAlt: "Quarto de hotel de design minimalista em tons escuros com luz baixa",
   },
@@ -1159,7 +1159,7 @@ const hotelsPt: Hotel[] = [
     style: "Hostel num convento",
     bestFor: "Orçamento apertado",
     blurb:
-      "Um hostel e guesthouse de design num convento do século XVI restaurado em Cannaregio, com quartos privados além dos dormitórios em torno de um claustro de pedra. É uma cama acessível rara na metade real e vivida de Veneza.",
+      "Este hostel de Cannaregio ocupa um convento do século XVI restaurado, com dormitórios e quartos privados dispostos à volta de um claustro de pedra. As camas aqui estão entre as mais baratas de Veneza, no sestiere onde os venezianos de facto vivem.",
     image: px(271624),
     imageAlt: "Quarto simples e luminoso com secretária e cama de casal",
   },

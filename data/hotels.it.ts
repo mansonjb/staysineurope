@@ -771,7 +771,7 @@ const hotelsIt: Hotel[] = [
     style: "Rooftop sulla Gran Via",
     bestFor: "Panorami",
     blurb:
-      "Un hotel raffinato in cima alla Gran Via con una terrazza sul tetto e un ristorante affacciati sui tetti della città fino alle montagne. Sei a pochi minuti a piedi dai musei d'arte e dalla vita notturna di Chueca e Malasana.",
+      "Arroccato in cima alla Gran Via, la terrazza panoramica e il ristorante di questo hotel guardano oltre i tetti fino alla Sierra de Guadarrama nelle giornate limpide. I musei d'arte sono a breve distanza a piedi verso sud, e i bar di Chueca e Malasana sono altrettanto vicini dall'altro lato.",
     image: px(261102),
     imageAlt: "Terrazza sul tetto di un hotel al crepuscolo affacciata sulla città",
   },
@@ -785,7 +785,7 @@ const hotelsIt: Hotel[] = [
     style: "Fermento boutique",
     bestFor: "Amanti del design",
     blurb:
-      "Un elegante hotel di design in una dimora restaurata di Chueca, con un lobby bar animato che i locali usano per brunch e cocktail. Ti mette nel barrio centrale più vivace, a breve distanza a piedi dal Prado e dalla Gran Via.",
+      "Ricavato in una dimora ottocentesca di Chueca, il bar al piano terra dell'hotel attira tanti habitué del quartiere per brunch e cocktail quanti ospiti. Si atterra nel barrio centrale più vivace di Madrid, a breve distanza a piedi sia dal Prado sia dalla Gran Via.",
     image: px(1267438),
     imageAlt: "Camera d'albergo minimalista dai toni scuri con luci soffuse",
   },
@@ -799,7 +799,7 @@ const hotelsIt: Hotel[] = [
     style: "Vecchia locanda sulla Cava Baja",
     bestFor: "Vita locale",
     blurb:
-      "Una locanda di posta ottocentesca restaurata proprio sulla Cava Baja, la migliore strada di tapas di La Latina, così la cena è al piano di sotto. Le camere sono costruite attorno a un cortile coperto in vetro sopra le antiche mura cittadine.",
+      "Questa ex locanda di posta ottocentesca sorge proprio sulla Cava Baja, così il miglior giro di tapas di La Latina comincia sulla porta di casa. Le camere si affacciano su un cortile con tetto in vetro costruito sopra un tratto dell'antica cinta muraria medievale di Madrid.",
     image: px(279746),
     imageAlt: "Camera d'albergo tradizionale con mobili in legno",
   },
@@ -813,7 +813,7 @@ const hotelsIt: Hotel[] = [
     style: "Ostello con rooftop",
     bestFor: "Budget",
     blurb:
-      "Un hotel e ostello economico curato a pochi passi dalla Plaza Mayor, con camere private oltre ai dormitori e un bar con terrazza sul tetto. È uno dei letti dal miglior rapporto qualità-prezzo nel cuore della vecchia Madrid.",
+      "A pochi passi da Plaza Mayor, questo hotel-ostello economico affianca camere private a dormitori e tiene aperto un bar sul tetto per le viste serali sulla città vecchia. È tra i letti più economici così vicini al nucleo storico.",
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },
@@ -1119,7 +1119,7 @@ const hotelsIt: Hotel[] = [
     style: "Palazzo sul Canal Grande",
     bestFor: "Soggiorno iconico",
     blurb:
-      "Un palazzo del XV secolo proprio sul Canal Grande vicino a Piazza San Marco, con una terrazza dove i taxi acquei accostano alla porta. È uno degli indirizzi più famosi e cari di Venezia, e le camere con vista sul canale ne sono il motivo.",
+      "Questo palazzo del XV secolo sorge proprio sul Canal Grande a breve distanza a piedi da Piazza San Marco, con un proprio approdo per taxi acquei alla porta della terrazza. Le camere affacciate sul canale hanno tra le tariffe più alte di Venezia, e la vista ne è il motivo.",
     image: px(262048),
     imageAlt: "Suite d'albergo maestosa ed elegante con lampadario e letto grande",
   },
@@ -1133,7 +1133,7 @@ const hotelsIt: Hotel[] = [
     style: "Classico con vista sul canale",
     bestFor: "Prima visita",
     blurb:
-      "Un tradizionale hotel veneziano in un palazzo restaurato affacciato sul Canal Grande, proprio di fronte alla stazione ferroviaria di Santa Lucia. Arrivare e ripartire è facile, e le camere sul canale guardano i vaporetti che passano.",
+      "Ricavato in un palazzo restaurato sul Canal Grande proprio di fronte alla stazione di Santa Lucia, questo hotel rende l'arrivo in treno il più semplice possibile a Venezia. Le camere sul canale guardano dritto sul viavai dei vaporetti sottostante.",
     image: px(279746),
     imageAlt: "Camera d'albergo tradizionale con mobili in legno",
   },
@@ -1147,7 +1147,7 @@ const hotelsIt: Hotel[] = [
     style: "Art Déco a Dorsoduro",
     bestFor: "Amanti del design",
     blurb:
-      "Un hotel di design in un edificio del XIV secolo dietro l'Accademia nella tranquilla Dorsoduro, arredato secondo il design italiano degli anni Trenta e Quaranta. Sei tra le gallerie e i bar degli studenti, lontano dalla ressa di San Marco.",
+      "Ospitato in un edificio del XIV secolo appena dietro la galleria dell'Accademia, questo hotel di Dorsoduro è arredato secondo il design italiano degli anni Trenta e Quaranta anziché in stile veneziano d'epoca. Ti mette più vicino alle gallerie e ai bar degli studenti che alla folla di San Marco.",
     image: px(1267438),
     imageAlt: "Camera d'albergo minimalista dai toni scuri con luci soffuse",
   },
@@ -1161,7 +1161,7 @@ const hotelsIt: Hotel[] = [
     style: "Ostello in un convento",
     bestFor: "Budget",
     blurb:
-      "Un ostello di design e guesthouse in un convento del XVI secolo restaurato a Cannaregio, con camere private oltre ai dormitori attorno a un chiostro in pietra. È un raro letto abbordabile nella metà vera e vissuta di Venezia.",
+      "Questo ostello di Cannaregio occupa un convento del XVI secolo restaurato, con dormitori e camere private disposti attorno a un chiostro in pietra. I letti qui sono tra i più economici di Venezia, nel sestiere dove i veneziani vivono davvero.",
     image: px(271624),
     imageAlt: "Camera semplice e luminosa con scrivania e letto matrimoniale",
   },

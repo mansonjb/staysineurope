@@ -771,7 +771,7 @@ const hotelsEn: Hotel[] = [
     style: "Rooftop over Gran Via",
     bestFor: "Views",
     blurb:
-      "A refined hotel at the top of Gran Via with a rooftop terrace and restaurant looking over the city's rooftops to the mountains. You are minutes on foot from the art museums and the Chueca and Malasana nightlife.",
+      "Perched at the top end of Gran Via, this hotel's rooftop terrace and restaurant look out past the rooftops toward the Sierra de Guadarrama on a clear day. The art museums are a short walk south, and Chueca and Malasana's bars sit just as close on the other side.",
     image: px(261102),
     imageAlt: "Hotel rooftop terrace at dusk overlooking the city",
   },
@@ -785,7 +785,7 @@ const hotelsEn: Hotel[] = [
     style: "Boutique buzz",
     bestFor: "Design lovers",
     blurb:
-      "A stylish design hotel in a restored Chueca mansion, with a busy lobby bar that locals use for brunch and cocktails. It puts you in the liveliest central barrio, a short walk from the Prado and Gran Via.",
+      "Set inside a converted 19th-century Chueca townhouse, the hotel's ground-floor bar draws as many local regulars for brunch and cocktails as it does guests. You land in Madrid's liveliest central barrio, an easy walk from both the Prado and Gran Via.",
     image: px(1267438),
     imageAlt: "Minimalist design hotel room in dark tones with low lighting",
   },
@@ -799,7 +799,7 @@ const hotelsEn: Hotel[] = [
     style: "Old inn on Cava Baja",
     bestFor: "Local life",
     blurb:
-      "A restored 19th-century coaching inn right on Cava Baja, the best tapas street in La Latina, so dinner is downstairs. The rooms are built around a glass-covered courtyard over the old city wall.",
+      "This former 19th-century coaching inn sits directly on Cava Baja, so La Latina's best tapas crawl starts at the front door. Rooms wrap a glass-roofed courtyard built over a stretch of Madrid's old medieval wall.",
     image: px(279746),
     imageAlt: "Traditional hotel bedroom with wooden furniture",
   },
@@ -813,7 +813,7 @@ const hotelsEn: Hotel[] = [
     style: "Rooftop hostel",
     bestFor: "Budget",
     blurb:
-      "A smart budget hotel and hostel steps from Plaza Mayor, with private rooms as well as dorms and a rooftop terrace bar. It is one of the best-value beds in the very center of old Madrid.",
+      "A few steps off Plaza Mayor, this budget hotel-hostel mixes private rooms with dorms and keeps a rooftop bar open for evening views over the old town. It is among the cheapest beds this close to the historic core.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },
@@ -1119,7 +1119,7 @@ const hotelsEn: Hotel[] = [
     style: "Palace on the Grand Canal",
     bestFor: "Landmark stay",
     blurb:
-      "A 15th-century palazzo right on the Grand Canal near Piazza San Marco, with a terrace where the water taxis pull up to the door. It is one of the most famous and expensive addresses in Venice, and the canal-view rooms are why.",
+      "This 15th-century palazzo sits directly on the Grand Canal a short walk from Piazza San Marco, with its own water-taxi landing at the terrace door. Rooms facing the canal command some of the highest rates in Venice, and the view is the reason.",
     image: px(262048),
     imageAlt: "Grand elegant hotel suite with a chandelier and large bed",
   },
@@ -1133,7 +1133,7 @@ const hotelsEn: Hotel[] = [
     style: "Canal-view classic",
     bestFor: "First visit",
     blurb:
-      "A traditional Venetian hotel in a restored palazzo facing the Grand Canal, right across from the Santa Lucia train station. Arriving and leaving is easy, and the canal-front rooms watch the vaporetti go by.",
+      "Set in a restored palazzo on the Grand Canal directly opposite Santa Lucia station, this hotel makes arrival by train about as simple as Venice allows. Canal-facing rooms look straight out onto the vaporetto traffic below.",
     image: px(279746),
     imageAlt: "Traditional hotel bedroom with wooden furniture",
   },
@@ -1147,7 +1147,7 @@ const hotelsEn: Hotel[] = [
     style: "Art Deco in Dorsoduro",
     bestFor: "Design lovers",
     blurb:
-      "A design hotel in a 14th-century building behind the Accademia in quiet Dorsoduro, styled in 1930s and 40s Italian design. You are among the galleries and the student bars, away from the San Marco crush.",
+      "Housed in a 14th-century building just behind the Accademia gallery, this Dorsoduro hotel is fitted out in 1930s and 40s Italian design rather than period Venetian style. It puts you closer to the galleries and the student bars than to the San Marco crowds.",
     image: px(1267438),
     imageAlt: "Minimalist design hotel room in dark tones with low lighting",
   },
@@ -1161,7 +1161,7 @@ const hotelsEn: Hotel[] = [
     style: "Convent hostel",
     bestFor: "Budget",
     blurb:
-      "A design hostel and guesthouse in a restored 16th-century convent in Cannaregio, with private rooms as well as dorms around a stone cloister. It is a rare affordable bed in the real, lived-in half of Venice.",
+      "This Cannaregio hostel occupies a restored 16th-century convent, with dorms and private rooms arranged around a stone cloister. Beds here are among the cheapest in Venice, in the sestiere where locals actually live.",
     image: px(271624),
     imageAlt: "Simple bright room with a desk and double bed",
   },

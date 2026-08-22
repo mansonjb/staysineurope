@@ -771,7 +771,7 @@ const hotelsEs: Hotel[] = [
     style: "Azotea sobre la Gran Vía",
     bestFor: "Vistas",
     blurb:
-      "Un hotel refinado en lo alto de la Gran Vía, con una terraza y un restaurante en la azotea que dominan los tejados de la ciudad hasta las montañas. Estás a unos minutos a pie de los museos de arte y de la vida nocturna de Chueca y Malasaña.",
+      "Encaramado en lo alto de la Gran Vía, la terraza y el restaurante de la azotea de este hotel miran más allá de los tejados hacia la Sierra de Guadarrama en un día despejado. Los museos de arte quedan a un corto paseo al sur, y los bares de Chueca y Malasaña están igual de cerca al otro lado.",
     image: px(261102),
     imageAlt: "Terraza de hotel en la azotea al anochecer con vistas a la ciudad",
   },
@@ -785,7 +785,7 @@ const hotelsEs: Hotel[] = [
     style: "Efervescencia boutique",
     bestFor: "Amantes del diseño",
     blurb:
-      "Un elegante hotel de diseño en una mansión restaurada de Chueca, con un animado bar en el vestíbulo que los locales usan para el brunch y los cócteles. Te coloca en el barrio céntrico más animado, a una corta caminata del Prado y de la Gran Vía.",
+      "Instalado en un palacete del siglo XIX reconvertido en Chueca, el bar de la planta baja del hotel atrae tantos vecinos habituales para el brunch y los cócteles como huéspedes. Aterrizas en el barrio céntrico más animado de Madrid, a un paseo fácil tanto del Prado como de la Gran Vía.",
     image: px(1267438),
     imageAlt: "Habitación de hotel de diseño minimalista en tonos oscuros con iluminación tenue",
   },
@@ -799,7 +799,7 @@ const hotelsEs: Hotel[] = [
     style: "Vieja posada en Cava Baja",
     bestFor: "Vida local",
     blurb:
-      "Una posada de postas del siglo XIX restaurada, justo en Cava Baja, la mejor calle de tapas de La Latina, de modo que la cena está abajo. Las habitaciones se organizan en torno a un patio cubierto de cristal sobre la antigua muralla de la ciudad.",
+      "Esta antigua posada de postas del siglo XIX se asienta justo en la Cava Baja, así que la mejor ruta de tapas de La Latina empieza en la misma puerta. Las habitaciones rodean un patio con techo de cristal construido sobre un tramo de la antigua muralla medieval de Madrid.",
     image: px(279746),
     imageAlt: "Habitación de hotel tradicional con mobiliario de madera",
   },
@@ -813,7 +813,7 @@ const hotelsEs: Hotel[] = [
     style: "Albergue con azotea",
     bestFor: "Presupuesto ajustado",
     blurb:
-      "Un hotel y albergue económico y cuidado a unos pasos de la Plaza Mayor, con habitaciones privadas además de dormitorios compartidos y un bar en la azotea. Es una de las camas con mejor relación calidad-precio en pleno corazón del viejo Madrid.",
+      "A unos pasos de la Plaza Mayor, este hotel-albergue económico combina habitaciones privadas con dormitorios compartidos y mantiene un bar en la azotea abierto para las vistas nocturnas sobre el casco antiguo. Está entre las camas más baratas tan cerca del núcleo histórico.",
     image: px(271624),
     imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
   },
@@ -1119,7 +1119,7 @@ const hotelsEs: Hotel[] = [
     style: "Palacio sobre el Gran Canal",
     bestFor: "Estancia en un monumento",
     blurb:
-      "Un palazzo del siglo XV al borde mismo del Gran Canal, cerca de la Plaza de San Marcos, con una terraza donde los taxis acuáticos atracan hasta la puerta. Es una de las direcciones más famosas y caras de Venecia, y las habitaciones con vistas al canal son la razón.",
+      "Este palazzo del siglo XV se asienta justo en el Gran Canal, a un corto paseo de la Piazza San Marco, con su propio embarcadero de taxi acuático en la puerta de la terraza. Las habitaciones que dan al canal tienen algunas de las tarifas más altas de Venecia, y la vista es la razón.",
     image: px(262048),
     imageAlt: "Suite de hotel grandiosa y elegante con una lámpara de araña y una cama grande",
   },
@@ -1133,7 +1133,7 @@ const hotelsEs: Hotel[] = [
     style: "Clásico con vistas al canal",
     bestFor: "Primera visita",
     blurb:
-      "Un hotel veneciano tradicional en un palazzo restaurado frente al Gran Canal, justo enfrente de la estación de tren de Santa Lucia. Llegar y marcharse es fácil, y las habitaciones que dan al canal ven pasar los vaporetti.",
+      "Instalado en un palazzo restaurado en el Gran Canal, justo enfrente de la estación de Santa Lucía, este hotel hace que llegar en tren sea tan sencillo como Venecia permite. Las habitaciones que dan al canal miran directamente al tráfico de vaporetti de abajo.",
     image: px(279746),
     imageAlt: "Habitación de hotel tradicional con mobiliario de madera",
   },
@@ -1147,7 +1147,7 @@ const hotelsEs: Hotel[] = [
     style: "Art déco en Dorsoduro",
     bestFor: "Amantes del diseño",
     blurb:
-      "Un hotel de diseño en un edificio del siglo XIV detrás de la Accademia, en el tranquilo Dorsoduro, decorado al estilo italiano de los años 1930 y 1940. Estás entre las galerías y los bares de estudiantes, lejos del gentío de San Marcos.",
+      "Alojado en un edificio del siglo XIV justo detrás de la galería de la Accademia, este hotel de Dorsoduro está decorado con diseño italiano de los años treinta y cuarenta en vez del estilo veneciano de época. Te sitúa más cerca de las galerías y de los bares de estudiantes que del gentío de San Marco.",
     image: px(1267438),
     imageAlt: "Habitación de hotel de diseño minimalista en tonos oscuros con iluminación tenue",
   },
@@ -1161,7 +1161,7 @@ const hotelsEs: Hotel[] = [
     style: "Albergue en un convento",
     bestFor: "Presupuesto ajustado",
     blurb:
-      "Un albergue de diseño y casa de huéspedes en un convento del siglo XVI restaurado en Cannaregio, con habitaciones privadas además de dormitorios compartidos en torno a un claustro de piedra. Es una cama asequible poco frecuente en la mitad real y habitada de Venecia.",
+      "Este albergue de Cannaregio ocupa un convento restaurado del siglo XVI, con dormitorios compartidos y habitaciones privadas dispuestos en torno a un claustro de piedra. Las camas aquí están entre las más baratas de Venecia, en el sestiere donde de verdad vive la gente local.",
     image: px(271624),
     imageAlt: "Habitación sencilla y luminosa con un escritorio y una cama doble",
   },

@@ -771,7 +771,7 @@ const hotelsDe: Hotel[] = [
     style: "Dachterrasse über der Gran Via",
     bestFor: "Aussicht",
     blurb:
-      "Ein raffiniertes Hotel am oberen Ende der Gran Via mit einer Dachterrasse und einem Restaurant, die über die Dächer der Stadt bis zu den Bergen blicken. Sie sind wenige Gehminuten von den Kunstmuseen und dem Nachtleben von Chueca und Malasana entfernt.",
+      "Am oberen Ende der Gran Via gelegen, blicken die Dachterrasse und das Restaurant dieses Hotels über die Dächer hinweg an klaren Tagen bis zur Sierra de Guadarrama. Die Kunstmuseen liegen einen kurzen Fußweg südlich, und die Bars von Chueca und Malasana liegen auf der anderen Seite ebenso nah.",
     image: px(261102),
     imageAlt: "Hotel-Dachterrasse in der Abenddämmerung mit Blick über die Stadt",
   },
@@ -785,7 +785,7 @@ const hotelsDe: Hotel[] = [
     style: "Boutique-Trubel",
     bestFor: "Designliebhaber",
     blurb:
-      "Ein stilvolles Designhotel in einem restaurierten Herrenhaus in Chueca, mit einer belebten Lobbybar, die Einheimische für Brunch und Cocktails nutzen. Es setzt Sie in das lebhafteste zentrale Barrio, einen kurzen Weg vom Prado und der Gran Via.",
+      "Untergebracht in einem umgebauten Stadthaus aus dem 19. Jahrhundert in Chueca, zieht die Bar im Erdgeschoss ebenso viele Stammgäste aus der Nachbarschaft zu Brunch und Cocktails an wie Hotelgäste. Sie landen im lebhaftesten zentralen Barrio Madrids, mit einem bequemen Fußweg sowohl zum Prado als auch zur Gran Via.",
     image: px(1267438),
     imageAlt: "Minimalistisches Designhotelzimmer in dunklen Tönen mit gedämpftem Licht",
   },
@@ -799,7 +799,7 @@ const hotelsDe: Hotel[] = [
     style: "Alter Gasthof an der Cava Baja",
     bestFor: "Lokales Leben",
     blurb:
-      "Ein restaurierter Kutschgasthof aus dem 19. Jahrhundert direkt an der Cava Baja, der besten Tapas-Straße in La Latina, sodass das Abendessen unten wartet. Die Zimmer sind rund um einen glasüberdachten Innenhof über der alten Stadtmauer angeordnet.",
+      "Dieser ehemalige Postkutschengasthof aus dem 19. Jahrhundert liegt direkt an der Cava Baja, sodass der beste Tapas-Bummel von La Latina vor der Haustür beginnt. Die Zimmer umgeben einen glasüberdachten Innenhof, der über einem Abschnitt von Madrids alter mittelalterlicher Stadtmauer errichtet wurde.",
     image: px(279746),
     imageAlt: "Traditionelles Hotelzimmer mit Holzmöbeln",
   },
@@ -813,7 +813,7 @@ const hotelsDe: Hotel[] = [
     style: "Hostel mit Dachterrasse",
     bestFor: "Budget",
     blurb:
-      "Ein schickes Budget-Hotel und Hostel wenige Schritte von der Plaza Mayor, mit Privatzimmern ebenso wie Schlafsälen und einer Dachterrassenbar. Es ist eines der preiswertesten Betten im ganz zentralen alten Madrid.",
+      "Wenige Schritte von der Plaza Mayor entfernt, mischt dieses Budget-Hotel-Hostel Privatzimmer mit Schlafsälen und hält eine Dachterrassenbar für Abendblicke über die Altstadt offen. Es zählt zu den günstigsten Betten in dieser Nähe zum historischen Kern.",
     image: px(271624),
     imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
   },
@@ -1119,7 +1119,7 @@ const hotelsDe: Hotel[] = [
     style: "Palazzo am Canal Grande",
     bestFor: "Aufenthalt am Wahrzeichen",
     blurb:
-      "Ein Palazzo aus dem 15. Jahrhundert direkt am Canal Grande nahe dem Markusplatz, mit einer Terrasse, an der die Wassertaxis bis zur Tür vorfahren. Es ist eine der berühmtesten und teuersten Adressen Venedigs, und die Zimmer mit Kanalblick sind der Grund dafür.",
+      "Dieser Palazzo aus dem 15. Jahrhundert liegt direkt am Canal Grande, einen kurzen Fußweg von der Piazza San Marco entfernt, mit einem eigenen Wassertaxi-Anleger an der Terrassentür. Zimmer mit Kanalblick gehören zu den teuersten Venedigs, und die Aussicht ist der Grund dafür.",
     image: px(262048),
     imageAlt: "Prächtige, elegante Hotelsuite mit Kronleuchter und großem Bett",
   },
@@ -1133,7 +1133,7 @@ const hotelsDe: Hotel[] = [
     style: "Klassiker mit Kanalblick",
     bestFor: "Erster Besuch",
     blurb:
-      "Ein traditionelles venezianisches Hotel in einem restaurierten Palazzo gegenüber dem Canal Grande, direkt gegenüber dem Bahnhof Santa Lucia. Ankommen und Abreisen sind einfach, und die Zimmer zur Kanalfront schauen den Vaporetti beim Vorbeifahren zu.",
+      "Untergebracht in einem restaurierten Palazzo am Canal Grande direkt gegenüber dem Bahnhof Santa Lucia, macht dieses Hotel die Ankunft mit dem Zug so einfach, wie es Venedig eben zulässt. Zimmer zur Kanalseite blicken direkt auf den Vaporetto-Verkehr darunter.",
     image: px(279746),
     imageAlt: "Traditionelles Hotelschlafzimmer mit Holzmöbeln",
   },
@@ -1147,7 +1147,7 @@ const hotelsDe: Hotel[] = [
     style: "Art déco in Dorsoduro",
     bestFor: "Designliebhaber",
     blurb:
-      "Ein Designhotel in einem Gebäude aus dem 14. Jahrhundert hinter der Accademia im ruhigen Dorsoduro, gestaltet im italienischen Design der 1930er und 40er Jahre. Sie sind zwischen den Galerien und den Studentenbars, abseits des Gedränges von San Marco.",
+      "Untergebracht in einem Gebäude aus dem 14. Jahrhundert direkt hinter der Accademia-Galerie, ist dieses Hotel in Dorsoduro im italienischen Design der 1930er und 40er Jahre eingerichtet statt im historischen venezianischen Stil. Es bringt Sie näher an die Galerien und die Studentenbars als an das Gedränge von San Marco.",
     image: px(1267438),
     imageAlt: "Minimalistisches Designhotelzimmer in dunklen Tönen mit gedämpftem Licht",
   },
@@ -1161,7 +1161,7 @@ const hotelsDe: Hotel[] = [
     style: "Hostel im Kloster",
     bestFor: "Budget",
     blurb:
-      "Ein Design-Hostel und Gästehaus in einem restaurierten Kloster aus dem 16. Jahrhundert in Cannaregio, mit Privatzimmern ebenso wie Schlafsälen rund um einen steinernen Kreuzgang. Es ist ein seltenes erschwingliches Bett in der echten, bewohnten Hälfte Venedigs.",
+      "Dieses Hostel in Cannaregio belegt ein restauriertes Kloster aus dem 16. Jahrhundert, mit Schlafsälen und Privatzimmern rund um einen steinernen Kreuzgang. Die Betten hier zählen zu den günstigsten Venedigs, in dem Sestiere, in dem die Einheimischen tatsächlich leben.",
     image: px(271624),
     imageAlt: "Schlichtes, helles Zimmer mit Schreibtisch und Doppelbett",
   },
